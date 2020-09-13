@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;swap_numbers/src/switch_case.c&apos; to &apos;swap_numbers.c&apos;" description="Rename resource &apos;switch_case.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/switch_case.c" name="swap_numbers.c" stamp="1599938707447" updateReferences="true"/>
+</session>

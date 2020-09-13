@@ -1,0 +1,27 @@
+
+public class Student {
+
+	private Student name;
+	private int grade;
+
+	public Student(Student name, int grade) {
+		
+		this.name = name;
+		this.grade = grade;
+		
+	}
+	
+	public Student getName() {
+		
+		return name;
+		
+	}
+	
+	public int getGrade() {
+		
+		return grade;
+		
+	}
+	
+
+}

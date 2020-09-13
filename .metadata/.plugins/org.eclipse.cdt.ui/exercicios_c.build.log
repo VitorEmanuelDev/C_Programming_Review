@@ -1,0 +1,10 @@
+12:30:56 **** Incremental Build of configuration Debug for project exercicios_c ****
+make all 
+Building target: exercicios_c
+Invoking: GCC C Linker
+gcc  -o "exercicios_c"  ./src/areaQuadrada.o   
+Finished building target: exercicios_c
+ 
+
+12:30:56 Build Finished. 0 errors, 0 warnings. (took 669ms)
+

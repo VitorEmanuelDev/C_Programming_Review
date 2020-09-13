@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : swap_numbers.c
+ Author      : vitor emanuel
+ Version     :
+ Copyright   : 
+ Description : swap numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int num1;
+	int num2;
+	int temp = 0;
+
+
+
+
+
+}

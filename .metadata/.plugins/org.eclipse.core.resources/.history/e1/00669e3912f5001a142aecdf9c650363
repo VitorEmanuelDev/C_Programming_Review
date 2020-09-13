@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : ASCII_value.c
+ Author      : vitor emanuel
+ Version     :
+ Copyright   : 
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int value = 0;
+	char ch;
+	scanf("%c", &ch);
+
+	value = ch;
+	printf("%d", value);
+
+}

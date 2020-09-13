@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+ Name        : factorial.c
+ Author      : vitor emanuel
+ Version     :
+ Copyright   : 
+ Description : factorial
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+
+
+}

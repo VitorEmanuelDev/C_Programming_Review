@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+ Name        : swap_numbers.c
+ Author      : vitor emanuel
+ Version     :
+ Copyright   : 
+ Description : cswap numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+
+
+}

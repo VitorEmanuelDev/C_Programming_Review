@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : factorial.c
+ Author      : vitor emanuel
+ Version     :
+ Copyright   : 
+ Description : factorial
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	long number;
+	long factorial;
+
+	printf("Type a number:");
+
+	if(number < 0){
+
+		printf("Invalid number.");
+
+	}else{
+
+		for(int current = 0; current <= number; current++){
+
+			factorial *= current;
+
+		}
+
+		printf("Factorial of %.2f = %.2f", number, factorial);
+
+	}
+
+}

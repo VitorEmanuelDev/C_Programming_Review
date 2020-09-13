@@ -1,0 +1,53 @@
+//class related to the Item class
+
+public class MergeSortGrades {
+	
+	public static void main(String[] args) {
+				
+		Student students[] = {
+				new Student("Mario", 92),
+				new Student("Luigi", 91),
+				new Student("Ron", 78),
+				new Student("Hermione", 97),
+				new Student("Harry", 79),
+				null,//test
+				null
+		};
+		
+		
+		mergeSort(students);//Insertion sort
+		
+		for(Student student : students) {
+			
+			if(student != null) {
+			
+				System.out.println(student.getName() + " -------- " + student.getGrade());
+			
+			}
+			
+		}
+		
+	}
+	
+	private static void mergeSort(Student[] students) {
+		
+		for(int currentGrade = 1; currentGrade < students.length && students[currentGrade] != null; currentGrade++) {
+			
+			int comparedStudent = currentGrade;
+		
+			while(comparedStudent > 0 && students[comparedStudent].getGrade() < students[comparedStudent - 1].getGrade()) {
+		
+				Student currentStudent = students[comparedStudent];
+				Student lowerGradeStudent = students[comparedStudent - 1];
+				students[comparedStudent] = lowerGradeStudent;
+				students[comparedStudent - 1] = currentStudent;
+			
+				comparedStudent--;
+			
+			}
+		
+		}
+		
+	}
+
+}

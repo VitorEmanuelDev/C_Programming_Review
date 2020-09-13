@@ -1,0 +1,15 @@
+21:19:59 **** Incremental Build of configuration Debug for project factorial ****
+make all 
+Building file: ../src/factorial.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factorial.d" -MT"src/factorial.o" -o "src/factorial.o" "../src/factorial.c"
+Finished building: ../src/factorial.c
+ 
+Building target: factorial
+Invoking: GCC C Linker
+gcc  -o "factorial"  ./src/factorial.o   
+Finished building target: factorial
+ 
+
+21:20:01 Build Finished. 0 errors, 0 warnings. (took 1s.296ms)
+

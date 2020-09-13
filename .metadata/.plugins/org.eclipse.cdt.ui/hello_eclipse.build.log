@@ -1,0 +1,15 @@
+11:32:02 **** Incremental Build of configuration Debug for project hello_eclipse ****
+make all 
+Building file: ../src/teste_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/teste_2.d" -MT"src/teste_2.o" -o "src/teste_2.o" "../src/teste_2.c"
+Finished building: ../src/teste_2.c
+ 
+Building target: hello_eclipse
+Invoking: GCC C Linker
+gcc  -o "hello_eclipse"  ./src/teste_2.o   
+Finished building target: hello_eclipse
+ 
+
+11:32:03 Build Finished. 0 errors, 0 warnings. (took 851ms)
+

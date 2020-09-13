@@ -1,0 +1,6 @@
+16:15:17 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:15:17 Build Finished. 0 errors, 0 warnings. (took 681ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fgets_function/src/gets_function.c&apos; to &apos;fgets_function.c&apos;" description="Rename resource &apos;gets_function.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/gets_function.c" name="fgets_function.c" stamp="1599928212521" updateReferences="true"/>
+</session>

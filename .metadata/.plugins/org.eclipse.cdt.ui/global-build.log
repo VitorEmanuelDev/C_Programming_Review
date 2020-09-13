@@ -1,0 +1,122 @@
+23:14:06 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:14:45 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+make: Nothing to be done for 'all'.
+23:16:51 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:16:56 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+make: Nothing to be done for 'all'.
+23:19:48 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+../src/fibonacci_series.c: In function ‘main’:
+../src/fibonacci_series.c:26:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   26 |   printf("%d ", a);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+../src/fibonacci_series.c:27:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   27 |   printf("%d ", b);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+../src/fibonacci_series.c:32:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   32 |   printf("%d ", c);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:20:04 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+../src/fibonacci_series.c: In function ‘main’:
+../src/fibonacci_series.c:26:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   26 |   printf("%d ", a);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+../src/fibonacci_series.c:27:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   27 |   printf("%d ", b);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+../src/fibonacci_series.c:32:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   32 |   printf("%d ", c);
+      |           ~^    ~
+      |            |    |
+      |            int  double
+      |           %f
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:20:42 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:21:28 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:24:39 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:47 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+make: Nothing to be done for 'all'.

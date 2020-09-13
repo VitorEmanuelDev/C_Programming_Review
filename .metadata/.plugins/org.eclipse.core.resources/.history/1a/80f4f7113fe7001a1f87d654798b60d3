@@ -1,0 +1,60 @@
+//class related to the Item class. the merge sort assumes that the lists are already ordered
+
+public class MergeSortGrades {
+	
+	public static void main(String[] args) {
+				
+		Student studentsA[] = {
+				new Student("Renae", 70),
+				new Student("Leonardo", 73),
+				new Student("Akash", 79),
+				new Student("Sophia", 84),
+				new Student("Park", 90)
+				
+		};
+		
+		Student studentsB[] = {
+				new Student("Pogba", 71),
+				new Student("Ahmed", 79),
+				new Student("Cheikh", 82),
+				new Student("Waleed", 86),
+				new Student("Luna", 89),
+				new Student("Gabriela", 92)
+			
+		};
+		
+		Student mergedStudents[] = {
+				
+		};
+		
+		int size = studentsB.length + studentsA.length;
+		
+		for(int currentGrade = 0; currentGrade < size; currentGrade++) {
+			
+			if(studentsA[currentGrade].getGrade() > studentsB[currentGrade].getGrade()) {
+				
+				Student currentStudent = studentsA[currentGrade];
+				Student lowerGradeStudent = studentsB[currentGrade];
+				mergedStudents[currentGrade] = lowerGradeStudent;
+				mergedStudents[currentGrade + 1] = currentStudent;
+				
+			}
+			
+			
+			
+		}
+		
+		
+		for(Student student : mergedStudents) {
+			
+			if(student != null) {
+			
+				System.out.println(student.getName() + " -------- " + student.getGrade());
+			
+			}
+			
+		}
+		
+	}
+
+}
