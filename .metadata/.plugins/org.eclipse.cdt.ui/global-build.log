@@ -1,122 +1,83 @@
-23:14:06 **** Incremental Build of configuration Debug for project fibonacci_series ****
+02:59:07 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+../src/reverse_string.c: In function ‘main’:
+../src/reverse_string.c:18:7: warning: unused variable ‘string2’ [-Wunused-variable]
+   18 |  char string2[SIZE];
+      |       ^~~~~~~
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:14:45 **** Incremental Build of configuration Debug for project fibonacci_series ****
+02:59:20 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
 make: Nothing to be done for 'all'.
-23:16:51 **** Incremental Build of configuration Debug for project fibonacci_series ****
+03:04:11 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:16:56 **** Incremental Build of configuration Debug for project fibonacci_series ****
+03:05:10 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-make: Nothing to be done for 'all'.
-23:19:48 **** Incremental Build of configuration Debug for project fibonacci_series ****
-make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-../src/fibonacci_series.c: In function ‘main’:
-../src/fibonacci_series.c:26:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   26 |   printf("%d ", a);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-../src/fibonacci_series.c:27:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   27 |   printf("%d ", b);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-../src/fibonacci_series.c:32:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   32 |   printf("%d ", c);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:20:04 **** Incremental Build of configuration Debug for project fibonacci_series ****
+03:09:08 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-../src/fibonacci_series.c: In function ‘main’:
-../src/fibonacci_series.c:26:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   26 |   printf("%d ", a);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-../src/fibonacci_series.c:27:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   27 |   printf("%d ", b);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-../src/fibonacci_series.c:32:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
-   32 |   printf("%d ", c);
-      |           ~^    ~
-      |            |    |
-      |            int  double
-      |           %f
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+../src/reverse_string.c: In function ‘main’:
+../src/reverse_string.c:18:7: warning: variable ‘string2’ set but not used [-Wunused-but-set-variable]
+   18 |  char string2[SIZE];
+      |       ^~~~~~~
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:20:42 **** Incremental Build of configuration Debug for project fibonacci_series ****
+03:09:52 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:21:28 **** Incremental Build of configuration Debug for project fibonacci_series ****
+03:10:07 **** Incremental Build of configuration Debug for project reverse_string ****
 make all 
-Building file: ../src/fibonacci_series.c
+Building file: ../src/reverse_string.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-Finished building: ../src/fibonacci_series.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+Finished building: ../src/reverse_string.c
  
-Building target: fibonacci_series
+Building target: reverse_string
 Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
  
-23:24:39 **** Incremental Build of configuration Debug for project fibonacci_series ****
-make all 
-make: Nothing to be done for 'all'.
-23:24:47 **** Incremental Build of configuration Debug for project fibonacci_series ****
-make all 
-make: Nothing to be done for 'all'.
