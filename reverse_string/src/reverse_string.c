@@ -42,6 +42,6 @@ int main(void) {
 
 			printf("%c", string2[currentY]);
 
-		}
+	}
 
 }

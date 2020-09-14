@@ -1768,3 +1768,19 @@ Command-line arguments:  -data file:/home/vitor/Desktop/C_WorkSpace/ -os linux -
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-09-13 02:46:21.390
 !MESSAGE Indexed 'reverse_string' (1 sources, 55 headers) in 0,777 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2020-09-14 01:50:32.668 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-09-14 09:02:25.071
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-09-14 09:02:36.292
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.launchbar.ui.controls/org.eclipse.launchbar.ui.controls.internal.LaunchBarControl
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-14 09:09:44.318
+!MESSAGE Indexed 'find_average' (1 sources, 55 headers) in 1,63 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

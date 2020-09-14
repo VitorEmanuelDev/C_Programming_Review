@@ -1,83 +1,131 @@
-02:59:07 **** Incremental Build of configuration Debug for project reverse_string ****
+09:25:26 **** Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
+Building file: ../src/find_average.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-../src/reverse_string.c: In function ‘main’:
-../src/reverse_string.c:18:7: warning: unused variable ‘string2’ [-Wunused-variable]
-   18 |  char string2[SIZE];
-      |       ^~~~~~~
-Finished building: ../src/reverse_string.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+../src/find_average.c: In function ‘main’:
+../src/find_average.c:22:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Wformat=]
+   22 |  scanf("%d", &divisor);
+      |         ~^   ~~~~~~~~
+      |          |   |
+      |          |   float *
+      |          int *
+      |         %e
+../src/find_average.c:27:11: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘int *’ [-Wformat=]
+   27 |   scanf("%f", &number);
+      |          ~^   ~~~~~~~
+      |           |   |
+      |           |   int *
+      |           float *
+      |          %d
+Finished building: ../src/find_average.c
  
-Building target: reverse_string
+Building target: find_average
 Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
  
-02:59:20 **** Incremental Build of configuration Debug for project reverse_string ****
+09:26:05 **** Incremental Build of configuration Debug for project find_average ****
 make all 
 make: Nothing to be done for 'all'.
-03:04:11 **** Incremental Build of configuration Debug for project reverse_string ****
+09:26:20 **** Incremental Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
+Building file: ../src/find_average.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-Finished building: ../src/reverse_string.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+Finished building: ../src/find_average.c
  
-Building target: reverse_string
+Building target: find_average
 Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
  
-03:05:10 **** Incremental Build of configuration Debug for project reverse_string ****
+09:26:31 **** Incremental Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
+Building file: ../src/find_average.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-Finished building: ../src/reverse_string.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+Finished building: ../src/find_average.c
  
-Building target: reverse_string
+Building target: find_average
 Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
  
-03:09:08 **** Incremental Build of configuration Debug for project reverse_string ****
+09:33:22 **** Incremental Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
+Building file: ../src/find_average.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-../src/reverse_string.c: In function ‘main’:
-../src/reverse_string.c:18:7: warning: variable ‘string2’ set but not used [-Wunused-but-set-variable]
-   18 |  char string2[SIZE];
-      |       ^~~~~~~
-Finished building: ../src/reverse_string.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+../src/find_average.c: In function ‘main’:
+../src/find_average.c:29:17: warning: ‘average’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   29 |   if(number < 0 || average > 10){
+      |      ~~~~~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../src/find_average.c
  
-Building target: reverse_string
+Building target: find_average
 Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
  
-03:09:52 **** Incremental Build of configuration Debug for project reverse_string ****
+09:33:26 **** Incremental Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-Finished building: ../src/reverse_string.c
- 
-Building target: reverse_string
-Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
- 
-03:10:07 **** Incremental Build of configuration Debug for project reverse_string ****
+make: Nothing to be done for 'all'.
+09:33:32 **** Incremental Build of configuration Debug for project find_average ****
 make all 
-Building file: ../src/reverse_string.c
+make: Nothing to be done for 'all'.
+09:34:16 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+09:36:31 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+09:40:09 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+Building file: ../src/find_average.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
-Finished building: ../src/reverse_string.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+../src/find_average.c: In function ‘main’:
+../src/find_average.c:44:17: warning: ‘average’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   44 |   if(number < 0 || average > 10){
+      |      ~~~~~~~~~~~^~~~~~~~~~~~~~~
+Finished building: ../src/find_average.c
  
-Building target: reverse_string
+Building target: find_average
 Invoking: GCC C Linker
-gcc  -o "reverse_string"  ./src/reverse_string.o   
-Finished building target: reverse_string
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
  
+09:40:47 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+Building file: ../src/find_average.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+Finished building: ../src/find_average.c
+ 
+Building target: find_average
+Invoking: GCC C Linker
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
+ 
+09:40:52 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+09:41:56 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:47 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+Building file: ../src/find_average.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+Finished building: ../src/find_average.c
+ 
+Building target: find_average
+Invoking: GCC C Linker
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
+ 
+09:45:45 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.

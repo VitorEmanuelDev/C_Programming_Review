@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(void) {
 
     int number;
     unsigned long long factorial = 1;

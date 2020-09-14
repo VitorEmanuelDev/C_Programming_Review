@@ -1,6 +1,6 @@
-01:55:12 **** Incremental Build of configuration Debug for project fibonacci_series ****
+09:05:42 **** Incremental Build of configuration Debug for project fibonacci_series ****
 make all 
 make: Nothing to be done for 'all'.
 
-01:55:13 Build Finished. 0 errors, 0 warnings. (took 730ms)
+09:05:43 Build Finished. 0 errors, 0 warnings. (took 768ms)
 

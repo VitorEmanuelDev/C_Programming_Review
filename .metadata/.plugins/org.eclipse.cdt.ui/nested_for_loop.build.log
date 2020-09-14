@@ -1,4 +1,4 @@
-18:01:11 **** Incremental Build of configuration Debug for project nested_for_loop ****
+09:05:48 **** Incremental Build of configuration Debug for project nested_for_loop ****
 make all 
 Building file: ../src/nested_for_loop.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "nested_for_loop"  ./src/nested_for_loop.o
 Finished building target: nested_for_loop
  
 
-18:01:11 Build Finished. 0 errors, 0 warnings. (took 773ms)
+09:05:50 Build Finished. 0 errors, 0 warnings. (took 2s.376ms)
 

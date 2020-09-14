@@ -20,7 +20,7 @@ int main(void) {
 	printf("Type a number:\n");
 	scanf("%d", &number);
 
-	while(number != 0){
+	while(number > 0){
 
 		remainder = number % 10;
 		sum += remainder;

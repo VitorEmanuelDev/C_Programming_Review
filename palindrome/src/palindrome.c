@@ -17,7 +17,8 @@ int main(void) {
 	int thousands;
 	int hundreds;
 	int dozens;
-	int digit;
+	int unit;
+	int digits;
 
 	printf("Type a number:");
 	scanf("%d", &number);
@@ -28,14 +29,14 @@ int main(void) {
 
 	}else{
 
-			thousands = number / 1000;
-			hundreds = (number / 100 ) % 10;
-			dozens = (number / 10) % 10;
-			digit = number % 10;
+		thousands = number / 1000;
+		hundreds = (number / 100 ) % 10;
+		dozens = (number / 10) % 10;
+		unit = number % 10;
 
 	}
 
-	if (thousands == digit && hundreds == dozens){
+	if (thousands == unit && hundreds == dozens){
 
 		printf("Is a palindrome");
 
