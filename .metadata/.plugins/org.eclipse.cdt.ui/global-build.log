@@ -783,3 +783,89 @@ Invoking: GCC C Linker
 gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
 Finished building target: hexadecimal_to_decimal
  
+10:34:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:35:09 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:35:22 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:35:26 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:35:43 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:36:46 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:37:53 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 

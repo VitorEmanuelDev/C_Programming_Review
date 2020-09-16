@@ -18,7 +18,7 @@ int main(){
 	char hexadecimal[SIZE];
 	char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
 
-	printf("Type a hexadecimal number:\n");
+	printf("Type a hexadecimal number:");
 	fgets(hexadecimal, SIZE, stdin);
 
 		//make sure the characters are all uppercase
@@ -37,13 +37,16 @@ int main(){
 
 		}
 
-		// find exponent value
-		for(int exponent = 0; hexadecimal[exponent] != 0; exponent++){
+		// find the exponent's value
+		int exponent = 0;//gathering this value to use it on the pow function
+
+		for(int current = 0; hexadecimal[current] != 0; current++, exponent++){
 
 			printf("%c", hexadecimal[current]);
-			printf("%d", exponent);
 
 		}
+
+		exponent -= 1;
 
 
 
