@@ -129,3 +129,249 @@ Finished building target: find_average
 09:45:45 **** Incremental Build of configuration Debug for project find_average ****
 make all 
 make: Nothing to be done for 'all'.
+10:44:01 **** Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+../src/armstrong_number.c: In function ‘main’:
+../src/armstrong_number.c:37:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   37 |   printf("%d is an armstrong number.");
+      |           ~^
+      |            |
+      |            int
+../src/armstrong_number.c:41:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   41 |   printf("%d is not an armstrong number.");
+      |           ~^
+      |            |
+      |            int
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:53:36 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:54:19 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+Finished building target: armstrong_number
+ 
+10:55:14 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+make: Nothing to be done for 'all'.
+10:55:49 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+Finished building target: armstrong_number
+ 
+10:56:39 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+Finished building target: armstrong_number
+ 
+11:02:32 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:02:53 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:03:03 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:03:59 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+Finished building target: armstrong_number
+ 
+11:04:03 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+make: Nothing to be done for 'all'.
+11:04:39 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building file: ../src/armstrong_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
+Finished building: ../src/armstrong_number.c
+ 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+Finished building target: armstrong_number
+ 
+01:48:05 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:48:16 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:48:27 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:48:42 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:48:48 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:48:59 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:49:08 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:49:16 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:49:21 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:49:28 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+01:52:58 **** Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                      ^~~~
+../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+01:53:17 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+02:03:48 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
+ 
+02:09:59 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+02:10:06 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+02:17:11 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+../src/upper_lower_case.c: In function ‘main’:
+../src/upper_lower_case.c:44:6: error: redefinition of ‘current’
+   44 |  int current = 0;
+      |      ^~~~~~~
+../src/upper_lower_case.c:22:6: note: previous definition of ‘current’ was here
+   22 |  int current = 0;
+      |      ^~~~~~~
+make: *** [src/subdir.mk:20: src/upper_lower_case.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:19:33 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
+ 
+02:19:42 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+make: Nothing to be done for 'all'.

@@ -4,28 +4,64 @@
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : swap numbers
+ Description :
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
+#define SIZE 50
 
 int main(void) {
 
-	int num1;
-	int num2;
-	int temp = 0;
+	char string[SIZE];
 
-	printf("Type two numbers:");
-	scanf("%d%d", &num1, &num2);
+	printf("Type a string:");
+	fgets(string, SIZE, stdin);
 
-	printf("Before swap: %d %d", num1, num2);
+	int current = 0;
 
-	temp = num1;
-	num1 = num2;
-	temp = num2;
+	while(string[current] != '\0'){
 
-	printf("After swap: %d %d", num1, num2);
+		if(string[current] >= 'A' && string[current] <= 'Z'){
+
+			string[current] += 32;
+
+		}
+
+		current++;
+
+	}
+
+	printf("Upper to lowercase:");
+
+	for(int current = 0; string[current] != '\0'; current++){
+
+		printf("%c", string[current]);
+
+	}
+
+	current = 0;
+
+	while(string[current] != '\0'){
+
+		if(string[current] >= 'a' && string[current] <= 'z'){
+
+			string[current] -= 32;
+
+		}
+
+		current++;
+
+	}
+
+	printf("Lower to uppercase:");
+
+	for(int current = 0; string[current] != '\0'; current++){
+
+		printf("%c", string[current]);
+
+	}
+
 
 }

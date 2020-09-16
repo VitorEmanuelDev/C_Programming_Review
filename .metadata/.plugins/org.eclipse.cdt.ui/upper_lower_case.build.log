@@ -1,19 +1,6 @@
-09:05:56 **** Incremental Build of configuration Debug for project upper_lower_case ****
+02:19:42 **** Incremental Build of configuration Debug for project upper_lower_case ****
 make all 
-Building file: ../src/upper_lower_case.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-../src/upper_lower_case.c: In function ‘main’:
-../src/upper_lower_case.c:18:6: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
-   18 |  int temp = 0;
-      |      ^~~~
-Finished building: ../src/upper_lower_case.c
- 
-Building target: upper_lower_case
-Invoking: GCC C Linker
-gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
-Finished building target: upper_lower_case
- 
+make: Nothing to be done for 'all'.
 
-09:05:57 Build Finished. 0 errors, 1 warnings. (took 972ms)
+02:19:42 Build Finished. 0 errors, 0 warnings. (took 673ms)
 

@@ -1,6 +1,6 @@
-09:05:37 **** Incremental Build of configuration Debug for project ASCII_value ****
+02:10:06 **** Incremental Build of configuration Debug for project ASCII_value ****
 make all 
 make: Nothing to be done for 'all'.
 
-09:05:38 Build Finished. 0 errors, 0 warnings. (took 1s.5ms)
+02:10:06 Build Finished. 0 errors, 0 warnings. (took 673ms)
 
