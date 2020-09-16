@@ -375,3 +375,411 @@ Finished building target: upper_lower_case
 02:19:42 **** Incremental Build of configuration Debug for project upper_lower_case ****
 make all 
 make: Nothing to be done for 'all'.
+09:17:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                      ^~~~
+../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:19:30 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
+ 
+09:19:36 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
+ 
+09:21:35 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                      ^~~~
+../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:35:27 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                           ^~~~
+../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                          ^~~
+../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:35:56 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+09:36:29 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                           ^~~~
+../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                          ^~~
+../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:36:56 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                           ^~~~
+../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
+../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                     ^~~
+../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |                                                                                                          ^~~
+../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
+../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
+   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+      |       ^~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:49:57 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
+   23 |  scanf("%f", &decimal);
+      |         ~^   ~~~~~~~~
+      |          |   |
+      |          |   double *
+      |          float *
+      |         %lf
+../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   32 |  remainder = quotient % 16;
+      |                       ^
+../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
+   52 |  printf("%c", hexanumber[i]);
+      |                          ^
+../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
+   20 |  char hexanumber[100];
+      |       ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:51:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
+   23 |  scanf("%f", &decimal);
+      |         ~^   ~~~~~~~~
+      |          |   |
+      |          |   double *
+      |          float *
+      |         %lf
+../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   32 |  remainder = quotient % 16;
+      |                       ^
+../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
+   52 |  printf("%c", hexanumber[i]);
+      |                          ^
+../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
+   20 |  char hexanumber[100];
+      |       ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:51:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
+   23 |  scanf("%f", &decimal);
+      |         ~^   ~~~~~~~~
+      |          |   |
+      |          |   double *
+      |          float *
+      |         %lf
+../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
+   32 |  remainder = quotient % 16;
+      |                       ^
+../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
+   52 |  printf("%c", hexanumber[i]);
+      |                          ^
+../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
+   20 |  char hexanumber[100];
+      |       ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:53:40 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘float’ and ‘int’)
+   32 |  remainder = quotient % 16;
+      |                       ^
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:55:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:48:58: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+   48 |  printf("Equivalent hexadecimal value of decimal number %f:", decimal);
+      |                                                         ~^    ~~~~~~~
+      |                                                          |    |
+      |                                                          |    int
+      |                                                          double
+      |                                                         %d
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:55:15 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+09:55:31 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+09:55:42 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:09:30 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:10:15 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:10:19 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:12:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:12:32 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:15:14 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:18:13 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:18:16 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+10:18:43 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:20:24 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+10:24:59 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:21:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘printf’
+   21 |  printf("Type a hexadecimal number:");
+      |  ^~~~~~
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:25:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:21:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘printf’
+   21 |  printf("Type a hexadecimal number:");
+      |  ^~~~~~
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:31:41 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 

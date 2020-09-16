@@ -4,32 +4,47 @@
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : hexadecimal to decimalk conversion
+ Description : hexadecimal to decimal conversion ex: 7DE = (7 * 16²) + (13 * 16¹) + (14 * 16⁰)
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX 256
+#include <math.h>
+#define SIZE 50
 
-int main(void) {
+int main(){
 
-	char hexaNumber[MAX];
-	char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
+	char hexadecimal[SIZE];
+	char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
 
-	printf("Type a hexadecimal number:");
-	scanf("%s", hexaNumber);
+	printf("Type a hexadecimal number:\n");
+	fgets(hexadecimal, SIZE, stdin);
 
-	for(int current = 0; current != '\0'; current++){
+		//make sure the characters are all uppercase
 
-		if(hexaNumber[current] > 90){
+		int current = 0;
 
-		p
+		while(hexadecimal[current] != '\0'){
 
+			if(hexadecimal[current] >= 'a' && hexadecimal[current] <= 'z'){
+
+				hexadecimal[current] -= 32;
+
+			}
+
+			current++;
 
 		}
 
-	}
+		// find exponent value
+		for(int exponent = 0; hexadecimal[exponent] != 0; exponent++){
+
+			printf("%c", hexadecimal[current]);
+			printf("%d", exponent);
+
+		}
+
 
 
 }

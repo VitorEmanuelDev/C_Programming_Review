@@ -19,6 +19,8 @@ int main(void) {
 	printf("Type a string:");
 	fgets(string, SIZE, stdin);
 
+	printf("Upper to lowercase:");
+
 	int current = 0;
 
 	while(string[current] != '\0'){
@@ -33,13 +35,13 @@ int main(void) {
 
 	}
 
-	printf("Upper to lowercase:");
-
 	for(int current = 0; string[current] != '\0'; current++){
 
 		printf("%c", string[current]);
 
 	}
+
+	printf("Lower to uppercase:");
 
 	current = 0;
 
@@ -54,8 +56,6 @@ int main(void) {
 		current++;
 
 	}
-
-	printf("Lower to uppercase:");
 
 	for(int current = 0; string[current] != '\0'; current++){
 
