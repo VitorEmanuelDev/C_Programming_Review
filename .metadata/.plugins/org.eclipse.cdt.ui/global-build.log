@@ -869,3 +869,163 @@ Invoking: GCC C Linker
 gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
 Finished building target: hexadecimal_to_decimal
  
+12:58:57 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+12:59:42 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+13:00:32 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+13:01:36 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
+   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
+      |       ^~~~~~~~~~~~
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+Finished building target: hexadecimal_to_decimal
+ 
+13:02:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+13:38:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:60: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:44:58 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+../src/hexadecimal_to_decimal.c: In function ‘main’:
+../src/hexadecimal_to_decimal.c:20:2: error: unknown type name ‘Link’
+   20 |  Link with -lm
+      |  ^~~~
+../src/hexadecimal_to_decimal.c:20:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘-’ token
+   20 |  Link with -lm
+      |            ^
+../src/hexadecimal_to_decimal.c:26:8: error: ‘hexadecimal’ undeclared (first use in this function)
+   26 |  fgets(hexadecimal, SIZE, stdin);
+      |        ^~~~~~~~~~~
+../src/hexadecimal_to_decimal.c:26:8: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:45:11 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:45:23 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:56:12 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:06:01 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:64: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:06:11 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
+/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:64: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: hexadecimal_to_decimal] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

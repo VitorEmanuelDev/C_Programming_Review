@@ -59,7 +59,7 @@
                                 							
                             </tool>
                             							
-                            <tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.904685223" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+                            <tool command="gcc -lm" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.904685223" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.863372592" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
                                     									
@@ -118,5 +118,9 @@
     </storageModule>
     	
     <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
     
 </cproject>
