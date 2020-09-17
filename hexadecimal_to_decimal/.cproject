@@ -59,7 +59,13 @@
                                 							
                             </tool>
                             							
-                            <tool command="gcc -lm" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.904685223" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+                            <tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.904685223" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.267916602" name="Libraries (-l)" superClass="gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" value="m"/>
+                                    								
+                                </option>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.c.linker.input.863372592" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
                                     									

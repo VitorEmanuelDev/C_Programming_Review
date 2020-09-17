@@ -6,7 +6,7 @@
  Copyright   : 
  Description : hexadecimal to decimal conversion ex: 7DE = (7 * 16²) + (13 * 16¹) + (14 * 16⁰)
  solution to an IDE problem using pow():
- https://www.eclipse.org/forums/index.php?t=msg&th=68204/
+ https://community.cypress.com/thread/56908
  ============================================================================
  */
 
@@ -23,8 +23,7 @@ int main(){
 	printf("Type a hexadecimal number:");
 	fgets(hexadecimal, SIZE, stdin);
 
-	//make sure the characters are all uppercase
-
+	//make sure the characters are all uppercase by manipulating ascii table values
 	int current = 0;
 
 	while(hexadecimal[current] != '\0'){
@@ -52,22 +51,23 @@ int main(){
 
 	//loop to attribute an integer value to the char elements
 	int decimal = 0;
-
+	//for each element in the hexadecimal number
     for(int current = 0; hexadecimal[current] != 0; current++){
 
         //printf("%c", hexadecimal[current]);
+    	//make a comparison to each element on the extractValue array
         for(int value = 0; value < 16; value++){
 
             //printf("%c", extractValue[value]);
+        	// if the values compared match proceed with the conversion
             if(extractValue[value] == hexadecimal[current]){
 
 	            decimal += value * pow(16, exponent);
-	            exponent--;
+	            exponent--;// take one out for the iterations to be like this => (value * 16²) + (value * 16¹) + (value * 16⁰)
 
 	        }
 
          }
-
 
     }
 
