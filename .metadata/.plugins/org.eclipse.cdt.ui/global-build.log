@@ -1078,3 +1078,554 @@ Finished building target: hexadecimal_to_decimal
 01:25:21 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
 make all 
 make: Nothing to be done for 'all'.
+02:50:34 **** Build of configuration Debug for project odd_or_even ****
+make all 
+Building file: ../src/odd_or_even.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/odd_or_even.d" -MT"src/odd_or_even.o" -o "src/odd_or_even.o" "../src/odd_or_even.c"
+../src/odd_or_even.c: In function ‘main’:
+../src/odd_or_even.c:23:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   23 |   printf("%d is an even number.");
+      |           ~^
+      |            |
+      |            int
+../src/odd_or_even.c:27:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   27 |   printf("%d is an odd number.");
+      |           ~^
+      |            |
+      |            int
+Finished building: ../src/odd_or_even.c
+ 
+Building target: odd_or_even
+Invoking: GCC C Linker
+gcc  -o "odd_or_even"  ./src/odd_or_even.o   
+Finished building target: odd_or_even
+ 
+02:50:57 **** Incremental Build of configuration Debug for project odd_or_even ****
+make all 
+Building file: ../src/odd_or_even.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/odd_or_even.d" -MT"src/odd_or_even.o" -o "src/odd_or_even.o" "../src/odd_or_even.c"
+Finished building: ../src/odd_or_even.c
+ 
+Building target: odd_or_even
+Invoking: GCC C Linker
+gcc  -o "odd_or_even"  ./src/odd_or_even.o   
+Finished building target: odd_or_even
+ 
+02:51:08 **** Incremental Build of configuration Debug for project odd_or_even ****
+make all 
+make: Nothing to be done for 'all'.
+19:16:12 **** Build of configuration Debug for project factors ****
+make all 
+Building file: ../src/factors.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
+../src/factors.c: In function ‘main’:
+../src/factors.c:20:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   20 |  scanf("%d", number);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+../src/factors.c:17:6: warning: unused variable ‘factor’ [-Wunused-variable]
+   17 |  int factor;
+      |      ^~~~~~
+../src/factors.c:20:2: warning: ‘number’ is used uninitialized in this function [-Wuninitialized]
+   20 |  scanf("%d", number);
+      |  ^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/factors.c
+ 
+Building target: factors
+Invoking: GCC C Linker
+gcc  -o "factors"  ./src/factors.o   
+Finished building target: factors
+ 
+19:16:26 **** Incremental Build of configuration Debug for project factors ****
+make all 
+Building file: ../src/factors.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
+../src/factors.c: In function ‘main’:
+../src/factors.c:19:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   19 |  scanf("%d", number);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+../src/factors.c:19:2: warning: ‘number’ is used uninitialized in this function [-Wuninitialized]
+   19 |  scanf("%d", number);
+      |  ^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/factors.c
+ 
+Building target: factors
+Invoking: GCC C Linker
+gcc  -o "factors"  ./src/factors.o   
+Finished building target: factors
+ 
+19:16:58 **** Incremental Build of configuration Debug for project factors ****
+make all 
+Building file: ../src/factors.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
+Finished building: ../src/factors.c
+ 
+Building target: factors
+Invoking: GCC C Linker
+gcc  -o "factors"  ./src/factors.o   
+Finished building target: factors
+ 
+19:17:05 **** Incremental Build of configuration Debug for project factors ****
+make all 
+make: Nothing to be done for 'all'.
+19:17:14 **** Incremental Build of configuration Debug for project factors ****
+make all 
+make: Nothing to be done for 'all'.
+19:17:55 **** Incremental Build of configuration Debug for project factors ****
+make all 
+make: Nothing to be done for 'all'.
+19:18:22 **** Incremental Build of configuration Debug for project factors ****
+make all 
+Building file: ../src/factors.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
+Finished building: ../src/factors.c
+ 
+Building target: factors
+Invoking: GCC C Linker
+gcc  -o "factors"  ./src/factors.o   
+Finished building target: factors
+ 
+19:22:42 **** Build of configuration Debug for project sum_n_numbers ****
+make all 
+Building file: ../src/sum_n_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_n_numbers.d" -MT"src/sum_n_numbers.o" -o "src/sum_n_numbers.o" "../src/sum_n_numbers.c"
+Finished building: ../src/sum_n_numbers.c
+ 
+Building target: sum_n_numbers
+Invoking: GCC C Linker
+gcc  -o "sum_n_numbers"  ./src/sum_n_numbers.o   
+Finished building target: sum_n_numbers
+ 
+19:22:51 **** Incremental Build of configuration Debug for project sum_n_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:08 **** Incremental Build of configuration Debug for project sum_n_numbers ****
+make all 
+Building file: ../src/sum_n_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_n_numbers.d" -MT"src/sum_n_numbers.o" -o "src/sum_n_numbers.o" "../src/sum_n_numbers.c"
+Finished building: ../src/sum_n_numbers.c
+ 
+Building target: sum_n_numbers
+Invoking: GCC C Linker
+gcc  -o "sum_n_numbers"  ./src/sum_n_numbers.o   
+Finished building target: sum_n_numbers
+ 
+20:04:58 **** Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:06:54 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:42 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:11:37 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+../src/prime_numbers.c: In function ‘main’:
+../src/prime_numbers.c:35:35: error: expected expression before ‘)’ token
+   35 |     } else if (current == test && ){
+      |                                   ^
+make: *** [src/subdir.mk:20: src/prime_numbers.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:11:48 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:12:03 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:12:30 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:51 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:07 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:25 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:48:17 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:50:34 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+20:56:49 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+Building file: ../src/prime_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
+ 
+Building target: prime_numbers
+Invoking: GCC C Linker
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
+ 
+22:22:00 **** Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+../src/find_largest_number.c: In function ‘main’:
+../src/find_largest_number.c:21:6: warning: unused variable ‘numbers’ [-Wunused-variable]
+   21 |  int numbers[limit];
+      |      ^~~~~~~
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:22:22 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+../src/find_largest_number.c: In function ‘main’:
+../src/find_largest_number.c:21:6: warning: unused variable ‘numbers’ [-Wunused-variable]
+   21 |  int numbers[limit];
+      |      ^~~~~~~
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:23:34 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+../src/find_largest_number.c: In function ‘main’:
+../src/find_largest_number.c:21:6: warning: variable ‘numbers’ set but not used [-Wunused-but-set-variable]
+   21 |  int numbers[limit];
+      |      ^~~~~~~
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:26:34 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:49:55 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:50:10 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+22:50:35 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+22:51:37 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:52:40 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:54:40 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+22:55:02 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:08 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+22:55:28 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:12 **** Build of configuration Debug for project exponential_without_pow ****
+make all 
+Building file: ../src/exponential_without_pow.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
+ 
+Building target: exponential_without_pow
+Invoking: GCC C Linker
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
+ 
+23:26:16 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+23:27:41 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+Building file: ../src/exponential_without_pow.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
+ 
+Building target: exponential_without_pow
+Invoking: GCC C Linker
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
+ 
+23:28:28 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+Building file: ../src/exponential_without_pow.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
+ 
+Building target: exponential_without_pow
+Invoking: GCC C Linker
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
+ 
+23:28:52 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+Building file: ../src/exponential_without_pow.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
+ 
+Building target: exponential_without_pow
+Invoking: GCC C Linker
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
+ 
+23:29:23 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+Building file: ../src/exponential_without_pow.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
+ 
+Building target: exponential_without_pow
+Invoking: GCC C Linker
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
+ 
+23:29:29 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+23:29:36 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+23:30:06 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:16 **** Build of configuration Debug for project float_or_integer ****
+make all 
+Building file: ../src/float_or_integer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
+../src/float_or_integer.c: In function ‘main’:
+../src/float_or_integer.c:39:12: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+   39 |   printf("%s is an integer number.");
+      |           ~^
+      |            |
+      |            char *
+../src/float_or_integer.c:45:12: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+   45 |   printf("%s is an float number.");
+      |           ~^
+      |            |
+      |            char *
+Finished building: ../src/float_or_integer.c
+ 
+Building target: float_or_integer
+Invoking: GCC C Linker
+gcc  -o "float_or_integer"  ./src/float_or_integer.o   
+Finished building target: float_or_integer
+ 
+23:50:47 **** Incremental Build of configuration Debug for project float_or_integer ****
+make all 
+Building file: ../src/float_or_integer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
+Finished building: ../src/float_or_integer.c
+ 
+Building target: float_or_integer
+Invoking: GCC C Linker
+gcc  -o "float_or_integer"  ./src/float_or_integer.o   
+Finished building target: float_or_integer
+ 
+23:50:55 **** Incremental Build of configuration Debug for project float_or_integer ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:06 **** Incremental Build of configuration Debug for project float_or_integer ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:58 **** Incremental Build of configuration Debug for project float_or_integer ****
+make all 
+Building file: ../src/float_or_integer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
+Finished building: ../src/float_or_integer.c
+ 
+Building target: float_or_integer
+Invoking: GCC C Linker
+gcc  -o "float_or_integer"  ./src/float_or_integer.o   
+Finished building target: float_or_integer
+ 
+00:00:10 **** Build of configuration Debug for project multiplication_table ****
+make all 
+Building file: ../src/multiplication_table.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
+Finished building: ../src/multiplication_table.c
+ 
+Building target: multiplication_table
+Invoking: GCC C Linker
+gcc  -o "multiplication_table"  ./src/multiplication_table.o   
+Finished building target: multiplication_table
+ 
+00:00:27 **** Incremental Build of configuration Debug for project multiplication_table ****
+make all 
+make: Nothing to be done for 'all'.
+00:00:48 **** Incremental Build of configuration Debug for project multiplication_table ****
+make all 
+Building file: ../src/multiplication_table.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
+Finished building: ../src/multiplication_table.c
+ 
+Building target: multiplication_table
+Invoking: GCC C Linker
+gcc  -o "multiplication_table"  ./src/multiplication_table.o   
+Finished building target: multiplication_table
+ 
+00:01:07 **** Incremental Build of configuration Debug for project multiplication_table ****
+make all 
+Building file: ../src/multiplication_table.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
+Finished building: ../src/multiplication_table.c
+ 
+Building target: multiplication_table
+Invoking: GCC C Linker
+gcc  -o "multiplication_table"  ./src/multiplication_table.o   
+Finished building target: multiplication_table
+ 

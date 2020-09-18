@@ -31,7 +31,7 @@ int main(void) {
 
         }
 
-        printf("Factorial of %d = %llu", number, factorial);
+        printf("\nFactorial of %d = %llu", number, factorial);
 
     }
 
