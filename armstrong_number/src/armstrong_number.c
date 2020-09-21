@@ -27,8 +27,7 @@ int main(void) {
 	while(digits > 0){
 
 		remainder = digits % 10;
-		//sum += pow(remainder, 3);//not working. I needed to ink with the math library
-		sum += remainder * remainder * remainder;
+		sum += pow(remainder, 3);//not working. I needed to ink with the math library
 		digits = digits / 10;
 
 	}

@@ -1,6 +1,15 @@
-09:05:47 **** Incremental Build of configuration Debug for project largest_smallest_number ****
+02:43:22 **** Build of configuration Debug for project largest_smallest_number ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/largest_smallest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/largest_smallest_number.d" -MT"src/largest_smallest_number.o" -o "src/largest_smallest_number.o" "../src/largest_smallest_number.c"
+Finished building: ../src/largest_smallest_number.c
+ 
+Building target: largest_smallest_number
+Invoking: GCC C Linker
+gcc  -o "largest_smallest_number"  ./src/largest_smallest_number.o   
+Finished building target: largest_smallest_number
+ 
 
-09:05:48 Build Finished. 0 errors, 0 warnings. (took 777ms)
+02:43:22 Build Finished. 0 errors, 0 warnings. (took 725ms)
 

@@ -1,215 +1,168 @@
-09:25:26 **** Build of configuration Debug for project find_average ****
+02:42:03 **** Clean-only build of configuration Debug for project armstrong_number ****
+make clean 
+rm -rf  ./src/armstrong_number.o  ./src/armstrong_number.d  armstrong_number
+ 
+02:42:26 **** Clean-only build of configuration Debug for project ASCII_value ****
+make clean 
+rm -rf  ./src/ASCII_value.o  ./src/ASCII_value.d  ASCII_value
+ 
+02:42:27 **** Clean-only build of configuration Debug for project armstrong_number ****
+make clean 
+rm -rf  ./src/armstrong_number.o  ./src/armstrong_number.d  armstrong_number
+ 
+02:42:27 **** Clean-only build of configuration Debug for project array_largest_smallest ****
+make clean 
+rm -rf  ./src/array_largest_smallest.o  ./src/array_largest_smallest.d  array_largest_smallest
+ 
+02:42:28 **** Clean-only build of configuration Debug for project array_sum_n_numbers ****
+make clean 
+rm -rf  ./src/array_sum_n_numbers.o  ./src/array_sum_n_numbers.d  array_sum_n_numbers
+ 
+02:42:29 **** Clean-only build of configuration Debug for project delete_element ****
+make clean 
+rm -rf  ./src/delete_element.o  ./src/delete_element.d  delete_element
+ 
+02:42:30 **** Clean-only build of configuration Debug for project do_while_loop ****
+make clean 
+rm -rf  ./src/do_while_loop.o  ./src/do_while_loop.d  do_while_loop
+ 
+02:42:31 **** Clean-only build of configuration Debug for project exponential_without_pow ****
+make clean 
+rm -rf  ./src/exponential_without_pow.o  ./src/exponential_without_pow.d  exponential_without_pow
+ 
+02:42:32 **** Clean-only build of configuration Debug for project factorial ****
+make clean 
+rm -rf  ./src/factorial.o  ./src/factorial.d  factorial
+ 
+02:42:32 **** Clean-only build of configuration Debug for project factors ****
+make clean 
+rm -rf  ./src/factors.o  ./src/factors.d  factors
+ 
+02:42:33 **** Clean-only build of configuration Debug for project fgets_function ****
+make clean 
+rm -rf  ./src/fgets_function.o  ./src/fgets_function.d  fgets_function
+ 
+02:42:34 **** Clean-only build of configuration Debug for project fibonacci_series ****
+make clean 
+rm -rf  ./src/fibonacci_series.o  ./src/fibonacci_series.d  fibonacci_series
+ 
+02:42:35 **** Clean-only build of configuration Debug for project find_average ****
+make clean 
+rm -rf  ./src/find_average.o  ./src/find_average.d  find_average
+ 
+02:42:36 **** Clean-only build of configuration Debug for project find_largest_number ****
+make clean 
+rm -rf  ./src/find_largest_number.o  ./src/find_largest_number.d  find_largest_number
+ 
+02:42:37 **** Clean-only build of configuration Debug for project find_vowels ****
+make clean 
+rm -rf  ./src/find_vowels.o  ./src/find_vowels.d  find_vowels
+ 
+02:42:37 **** Clean-only build of configuration Debug for project float_or_integer ****
+make clean 
+rm -rf  ./src/float_or_integer.o  ./src/float_or_integer.d  float_or_integer
+ 
+02:42:38 **** Clean-only build of configuration Debug for project for_loop ****
+make clean 
+rm -rf  ./src/for_loop.o  ./src/for_loop.d  for_loop
+ 
+02:42:39 **** Clean-only build of configuration Debug for project hello_world ****
+make clean 
+rm -rf  ./src/hello_world.o  ./src/hello_world.d  hello_world
+ 
+02:42:40 **** Clean-only build of configuration Debug for project hexadecimal_to_decimal ****
+make clean 
+rm -rf  ./src/hexadecimal_to_decimal.o  ./src/hexadecimal_to_decimal.d  hexadecimal_to_decimal
+ 
+02:42:41 **** Clean-only build of configuration Debug for project if_else ****
+make clean 
+rm -rf  ./src/if_else.o  ./src/if_else.d  if_else
+ 
+02:42:41 **** Clean-only build of configuration Debug for project insert_element_1 ****
+make clean 
+rm -rf  ./src/insert_element.o  ./src/insert_element.d  insert_element
+ 
+02:42:42 **** Clean-only build of configuration Debug for project insert_element_2 ****
+make clean 
+rm -rf  ./src/insert_element_2.o  ./src/insert_element_2.d  insert_element_2
+ 
+02:42:43 **** Clean-only build of configuration Debug for project largest_smallest_number ****
+make clean 
+rm -rf  ./src/largest_smallest_number.o  ./src/largest_smallest_number.d  largest_smallest_number
+ 
+02:42:44 **** Clean-only build of configuration Debug for project multiplication_table ****
+make clean 
+rm -rf  ./src/multiplication_table.o  ./src/multiplication_table.d  multiplication_table
+ 
+02:42:45 **** Clean-only build of configuration Debug for project nested_for_loop ****
+make clean 
+rm -rf  ./src/nested_for_loop.o  ./src/nested_for_loop.d  nested_for_loop
+ 
+02:42:45 **** Clean-only build of configuration Debug for project odd_or_even ****
+make clean 
+rm -rf  ./src/odd_or_even.o  ./src/odd_or_even.d  odd_or_even
+ 
+02:42:46 **** Clean-only build of configuration Debug for project palindrome ****
+make clean 
+rm -rf  ./src/palindrome.o  ./src/palindrome.d  palindrome
+ 
+02:42:47 **** Clean-only build of configuration Debug for project prime_numbers ****
+make clean 
+rm -rf  ./src/prime_numbers.o  ./src/prime_numbers.d  prime_numbers
+ 
+02:42:48 **** Clean-only build of configuration Debug for project reverse_array ****
+make clean 
+rm -rf  ./src/reverse_array.o  ./src/reverse_array.d  reverse_array
+ 
+02:42:49 **** Clean-only build of configuration Debug for project reverse_char_array ****
+make clean 
+rm -rf  ./src/reverse_char_array.o  ./src/reverse_char_array.d  reverse_char_array
+ 
+02:42:50 **** Clean-only build of configuration Debug for project reverse_string ****
+make clean 
+rm -rf  ./src/reverse_string.o  ./src/reverse_string.d  reverse_string
+ 
+02:42:51 **** Clean-only build of configuration Debug for project sum_digits ****
+make clean 
+rm -rf  ./src/sum_digits.o  ./src/sum_digits.d  sum_digits
+ 
+02:42:51 **** Clean-only build of configuration Debug for project sum_n_numbers ****
+make clean 
+rm -rf  ./src/sum_n_numbers.o  ./src/sum_n_numbers.d  sum_n_numbers
+ 
+02:42:52 **** Clean-only build of configuration Debug for project swap_numbers ****
+make clean 
+rm -rf  ./src/swap_numbers.o  ./src/swap_numbers.d  swap_numbers
+ 
+02:42:53 **** Clean-only build of configuration Debug for project switch_case ****
+make clean 
+rm -rf  ./src/switch_case.o  ./src/switch_case.d  switch_case
+ 
+02:42:54 **** Clean-only build of configuration Debug for project upper_lower_case ****
+make clean 
+rm -rf  ./src/upper_lower_case.o  ./src/upper_lower_case.d  upper_lower_case
+ 
+02:42:55 **** Clean-only build of configuration Debug for project user_input ****
+make clean 
+rm -rf  ./src/user_input.o  ./src/user_input.d  user_input
+ 
+02:42:56 **** Clean-only build of configuration Debug for project while_loop ****
+make clean 
+rm -rf  ./src/while_loop.o  ./src/while_loop.d  while_loop
+ 
+02:43:02 **** Build of configuration Debug for project ASCII_value ****
 make all 
-Building file: ../src/find_average.c
+Building file: ../src/ASCII_value.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-../src/find_average.c: In function ‘main’:
-../src/find_average.c:22:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘float *’ [-Wformat=]
-   22 |  scanf("%d", &divisor);
-      |         ~^   ~~~~~~~~
-      |          |   |
-      |          |   float *
-      |          int *
-      |         %e
-../src/find_average.c:27:11: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘int *’ [-Wformat=]
-   27 |   scanf("%f", &number);
-      |          ~^   ~~~~~~~
-      |           |   |
-      |           |   int *
-      |           float *
-      |          %d
-Finished building: ../src/find_average.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ASCII_value.d" -MT"src/ASCII_value.o" -o "src/ASCII_value.o" "../src/ASCII_value.c"
+Finished building: ../src/ASCII_value.c
  
-Building target: find_average
+Building target: ASCII_value
 Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
+gcc  -o "ASCII_value"  ./src/ASCII_value.o   
+Finished building target: ASCII_value
  
-09:26:05 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:26:20 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:26:31 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:33:22 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-../src/find_average.c: In function ‘main’:
-../src/find_average.c:29:17: warning: ‘average’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   29 |   if(number < 0 || average > 10){
-      |      ~~~~~~~~~~~^~~~~~~~~~~~~~~
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:33:26 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:33:32 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:34:16 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:36:31 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:40:09 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-../src/find_average.c: In function ‘main’:
-../src/find_average.c:44:17: warning: ‘average’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   44 |   if(number < 0 || average > 10){
-      |      ~~~~~~~~~~~^~~~~~~~~~~~~~~
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:40:47 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:40:52 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:41:56 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-09:42:47 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-Building file: ../src/find_average.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
-Finished building: ../src/find_average.c
- 
-Building target: find_average
-Invoking: GCC C Linker
-gcc  -o "find_average"  ./src/find_average.o   
-Finished building target: find_average
- 
-09:45:45 **** Incremental Build of configuration Debug for project find_average ****
-make all 
-make: Nothing to be done for 'all'.
-10:44:01 **** Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-../src/armstrong_number.c: In function ‘main’:
-../src/armstrong_number.c:37:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-   37 |   printf("%d is an armstrong number.");
-      |           ~^
-      |            |
-      |            int
-../src/armstrong_number.c:41:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-   41 |   printf("%d is not an armstrong number.");
-      |           ~^
-      |            |
-      |            int
-Finished building: ../src/armstrong_number.c
- 
-Building target: armstrong_number
-Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-/usr/bin/ld: ./src/armstrong_number.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: armstrong_number] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-10:53:36 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
- 
-Building target: armstrong_number
-Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-/usr/bin/ld: ./src/armstrong_number.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: armstrong_number] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-10:54:19 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
- 
-Building target: armstrong_number
-Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-Finished building target: armstrong_number
- 
-10:55:14 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-make: Nothing to be done for 'all'.
-10:55:49 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
- 
-Building target: armstrong_number
-Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-Finished building target: armstrong_number
- 
-10:56:39 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
- 
-Building target: armstrong_number
-Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-Finished building target: armstrong_number
- 
-11:02:32 **** Incremental Build of configuration Debug for project armstrong_number ****
+02:43:03 **** Build of configuration Debug for project armstrong_number ****
 make all 
 Building file: ../src/armstrong_number.c
 Invoking: GCC C Compiler
@@ -224,979 +177,375 @@ gcc  -o "armstrong_number"  ./src/armstrong_number.o
 collect2: error: ld returned 1 exit status
 make: *** [makefile:32: armstrong_number] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-11:02:53 **** Incremental Build of configuration Debug for project armstrong_number ****
+02:43:04 **** Build of configuration Debug for project array_largest_smallest ****
 make all 
-Building target: armstrong_number
+Building file: ../src/array_largest_smallest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_largest_smallest.d" -MT"src/array_largest_smallest.o" -o "src/array_largest_smallest.o" "../src/array_largest_smallest.c"
+Finished building: ../src/array_largest_smallest.c
+ 
+Building target: array_largest_smallest
 Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-/usr/bin/ld: ./src/armstrong_number.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: armstrong_number] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-11:03:03 **** Incremental Build of configuration Debug for project armstrong_number ****
+gcc  -o "array_largest_smallest"  ./src/array_largest_smallest.o   
+Finished building target: array_largest_smallest
+ 
+02:43:04 **** Build of configuration Debug for project array_sum_n_numbers ****
 make all 
-Building target: armstrong_number
+Building file: ../src/array_sum_n_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_sum_n_numbers.d" -MT"src/array_sum_n_numbers.o" -o "src/array_sum_n_numbers.o" "../src/array_sum_n_numbers.c"
+Finished building: ../src/array_sum_n_numbers.c
+ 
+Building target: array_sum_n_numbers
 Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-/usr/bin/ld: ./src/armstrong_number.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: armstrong_number] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-11:03:59 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
+gcc  -o "array_sum_n_numbers"  ./src/array_sum_n_numbers.o   
+Finished building target: array_sum_n_numbers
  
-Building target: armstrong_number
+02:43:05 **** Build of configuration Debug for project delete_element ****
+make all 
+Building file: ../src/delete_element.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/delete_element.d" -MT"src/delete_element.o" -o "src/delete_element.o" "../src/delete_element.c"
+Finished building: ../src/delete_element.c
+ 
+Building target: delete_element
 Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-Finished building target: armstrong_number
+gcc  -o "delete_element"  ./src/delete_element.o   
+Finished building target: delete_element
  
-11:04:03 **** Incremental Build of configuration Debug for project armstrong_number ****
+02:43:06 **** Build of configuration Debug for project do_while_loop ****
 make all 
-make: Nothing to be done for 'all'.
-11:04:39 **** Incremental Build of configuration Debug for project armstrong_number ****
-make all 
-Building file: ../src/armstrong_number.c
+Building file: ../src/do_while_loop.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/armstrong_number.d" -MT"src/armstrong_number.o" -o "src/armstrong_number.o" "../src/armstrong_number.c"
-Finished building: ../src/armstrong_number.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/do_while_loop.d" -MT"src/do_while_loop.o" -o "src/do_while_loop.o" "../src/do_while_loop.c"
+Finished building: ../src/do_while_loop.c
  
-Building target: armstrong_number
+Building target: do_while_loop
 Invoking: GCC C Linker
-gcc  -o "armstrong_number"  ./src/armstrong_number.o   
-Finished building target: armstrong_number
+gcc  -o "do_while_loop"  ./src/do_while_loop.o   
+Finished building target: do_while_loop
  
-01:48:05 **** Incremental Build of configuration Debug for project ASCII_value ****
+02:43:07 **** Build of configuration Debug for project exponential_without_pow ****
 make all 
-make: Nothing to be done for 'all'.
-01:48:16 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:48:27 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:48:42 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:48:48 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:48:59 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:49:08 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:49:16 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:49:21 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:49:28 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-01:52:58 **** Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
+Building file: ../src/exponential_without_pow.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                      ^~~~
-../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
+Finished building: ../src/exponential_without_pow.c
  
-Building target: hexadecimal_to_decimal
+Building target: exponential_without_pow
 Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
+gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
+Finished building target: exponential_without_pow
  
-01:53:17 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+02:43:08 **** Build of configuration Debug for project factorial ****
 make all 
-make: Nothing to be done for 'all'.
-02:03:48 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-Building file: ../src/upper_lower_case.c
+Building file: ../src/factorial.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-Finished building: ../src/upper_lower_case.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factorial.d" -MT"src/factorial.o" -o "src/factorial.o" "../src/factorial.c"
+Finished building: ../src/factorial.c
  
-Building target: upper_lower_case
+Building target: factorial
 Invoking: GCC C Linker
-gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
-Finished building target: upper_lower_case
+gcc  -o "factorial"  ./src/factorial.o   
+Finished building target: factorial
  
-02:09:59 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-02:10:06 **** Incremental Build of configuration Debug for project ASCII_value ****
-make all 
-make: Nothing to be done for 'all'.
-02:17:11 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-Building file: ../src/upper_lower_case.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-../src/upper_lower_case.c: In function ‘main’:
-../src/upper_lower_case.c:44:6: error: redefinition of ‘current’
-   44 |  int current = 0;
-      |      ^~~~~~~
-../src/upper_lower_case.c:22:6: note: previous definition of ‘current’ was here
-   22 |  int current = 0;
-      |      ^~~~~~~
-make: *** [src/subdir.mk:20: src/upper_lower_case.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-02:19:33 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-Building file: ../src/upper_lower_case.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-Finished building: ../src/upper_lower_case.c
- 
-Building target: upper_lower_case
-Invoking: GCC C Linker
-gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
-Finished building target: upper_lower_case
- 
-02:19:42 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-make: Nothing to be done for 'all'.
-09:17:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                      ^~~~
-../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:19:30 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-Building file: ../src/upper_lower_case.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-Finished building: ../src/upper_lower_case.c
- 
-Building target: upper_lower_case
-Invoking: GCC C Linker
-gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
-Finished building target: upper_lower_case
- 
-09:19:36 **** Incremental Build of configuration Debug for project upper_lower_case ****
-make all 
-Building file: ../src/upper_lower_case.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
-Finished building: ../src/upper_lower_case.c
- 
-Building target: upper_lower_case
-Invoking: GCC C Linker
-gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
-Finished building target: upper_lower_case
- 
-09:21:35 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:70: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                      ^~~~
-../src/hexadecimal_to_decimal.c:18:70: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:35:27 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                           ^~~~
-../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                          ^~~
-../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:35:56 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-09:36:29 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                           ^~~~
-../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                          ^~~
-../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:36:56 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:18:75: warning: multi-character character constant [-Wmultichar]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                           ^~~~
-../src/hexadecimal_to_decimal.c:18:75: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘12592’ to ‘48’ [-Woverflow]
-../src/hexadecimal_to_decimal.c:18:101: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                     ^~~
-../src/hexadecimal_to_decimal.c:18:101: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:106: warning: excess elements in array initializer
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |                                                                                                          ^~~
-../src/hexadecimal_to_decimal.c:18:106: note: (near initialization for ‘hexaString’)
-../src/hexadecimal_to_decimal.c:18:7: warning: unused variable ‘hexaString’ [-Wunused-variable]
-   18 |  char hexaString[15] = {'\0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'A', 'B', 'C', 'D', 'E', 'F'};
-      |       ^~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:49:57 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
-   23 |  scanf("%f", &decimal);
-      |         ~^   ~~~~~~~~
-      |          |   |
-      |          |   double *
-      |          float *
-      |         %lf
-../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
-   32 |  remainder = quotient % 16;
-      |                       ^
-../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
-   52 |  printf("%c", hexanumber[i]);
-      |                          ^
-../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
-../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
-   20 |  char hexanumber[100];
-      |       ^~~~~~~~~~
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-09:51:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
-   23 |  scanf("%f", &decimal);
-      |         ~^   ~~~~~~~~
-      |          |   |
-      |          |   double *
-      |          float *
-      |         %lf
-../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
-   32 |  remainder = quotient % 16;
-      |                       ^
-../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
-   52 |  printf("%c", hexanumber[i]);
-      |                          ^
-../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
-../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
-   20 |  char hexanumber[100];
-      |       ^~~~~~~~~~
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-09:51:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:23:10: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘double *’ [-Wformat=]
-   23 |  scanf("%f", &decimal);
-      |         ~^   ~~~~~~~~
-      |          |   |
-      |          |   double *
-      |          float *
-      |         %lf
-../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘double’ and ‘int’)
-   32 |  remainder = quotient % 16;
-      |                       ^
-../src/hexadecimal_to_decimal.c:52:26: error: ‘i’ undeclared (first use in this function)
-   52 |  printf("%c", hexanumber[i]);
-      |                          ^
-../src/hexadecimal_to_decimal.c:52:26: note: each undeclared identifier is reported only once for each function it appears in
-../src/hexadecimal_to_decimal.c:20:7: warning: variable ‘hexanumber’ set but not used [-Wunused-but-set-variable]
-   20 |  char hexanumber[100];
-      |       ^~~~~~~~~~
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-09:53:40 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:32:23: error: invalid operands to binary % (have ‘float’ and ‘int’)
-   32 |  remainder = quotient % 16;
-      |                       ^
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-09:55:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:48:58: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
-   48 |  printf("Equivalent hexadecimal value of decimal number %f:", decimal);
-      |                                                         ~^    ~~~~~~~
-      |                                                          |    |
-      |                                                          |    int
-      |                                                          double
-      |                                                         %d
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:55:15 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-09:55:31 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-09:55:42 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-09:56:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:09:30 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:10:15 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:10:19 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:12:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:12:32 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:15:14 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:18:13 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:18:16 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:18:43 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:20:24 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:24:59 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:21:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘printf’
-   21 |  printf("Type a hexadecimal number:");
-      |  ^~~~~~
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-10:25:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:21:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘printf’
-   21 |  printf("Type a hexadecimal number:");
-      |  ^~~~~~
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-10:31:41 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:34:07 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:35:09 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:35:22 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:35:26 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-10:35:43 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:36:46 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-10:37:53 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-12:58:57 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-12:59:42 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-13:00:32 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-13:01:36 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:19:7: warning: unused variable ‘extractValue’ [-Wunused-variable]
-   19 |  char extractValue[SIZE] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'E', 'F'};
-      |       ^~~~~~~~~~~~
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-Finished building target: hexadecimal_to_decimal
- 
-13:02:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-13:38:00 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:60: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-13:44:58 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-../src/hexadecimal_to_decimal.c: In function ‘main’:
-../src/hexadecimal_to_decimal.c:20:2: error: unknown type name ‘Link’
-   20 |  Link with -lm
-      |  ^~~~
-../src/hexadecimal_to_decimal.c:20:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘-’ token
-   20 |  Link with -lm
-      |            ^
-../src/hexadecimal_to_decimal.c:26:8: error: ‘hexadecimal’ undeclared (first use in this function)
-   26 |  fgets(hexadecimal, SIZE, stdin);
-      |        ^~~~~~~~~~~
-../src/hexadecimal_to_decimal.c:26:8: note: each undeclared identifier is reported only once for each function it appears in
-make: *** [src/subdir.mk:20: src/hexadecimal_to_decimal.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-13:45:11 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-13:45:23 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-00:56:12 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:62: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-01:06:01 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:64: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-01:06:11 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc -lm  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   
-/usr/bin/ld: ./src/hexadecimal_to_decimal.o: in function `main':
-/home/vitor/Desktop/C_WorkSpace/hexadecimal_to_decimal/Debug/../src/hexadecimal_to_decimal.c:64: undefined reference to `pow'
-collect2: error: ld returned 1 exit status
-make: *** [makefile:32: hexadecimal_to_decimal] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-01:17:06 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   -lm
-Finished building target: hexadecimal_to_decimal
- 
-01:17:33 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   -lm
-Finished building target: hexadecimal_to_decimal
- 
-01:17:36 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-01:24:47 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   -lm
-Finished building target: hexadecimal_to_decimal
- 
-01:25:11 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-Building file: ../src/hexadecimal_to_decimal.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
-Finished building: ../src/hexadecimal_to_decimal.c
- 
-Building target: hexadecimal_to_decimal
-Invoking: GCC C Linker
-gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   -lm
-Finished building target: hexadecimal_to_decimal
- 
-01:25:21 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
-make all 
-make: Nothing to be done for 'all'.
-02:50:34 **** Build of configuration Debug for project odd_or_even ****
-make all 
-Building file: ../src/odd_or_even.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/odd_or_even.d" -MT"src/odd_or_even.o" -o "src/odd_or_even.o" "../src/odd_or_even.c"
-../src/odd_or_even.c: In function ‘main’:
-../src/odd_or_even.c:23:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-   23 |   printf("%d is an even number.");
-      |           ~^
-      |            |
-      |            int
-../src/odd_or_even.c:27:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
-   27 |   printf("%d is an odd number.");
-      |           ~^
-      |            |
-      |            int
-Finished building: ../src/odd_or_even.c
- 
-Building target: odd_or_even
-Invoking: GCC C Linker
-gcc  -o "odd_or_even"  ./src/odd_or_even.o   
-Finished building target: odd_or_even
- 
-02:50:57 **** Incremental Build of configuration Debug for project odd_or_even ****
-make all 
-Building file: ../src/odd_or_even.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/odd_or_even.d" -MT"src/odd_or_even.o" -o "src/odd_or_even.o" "../src/odd_or_even.c"
-Finished building: ../src/odd_or_even.c
- 
-Building target: odd_or_even
-Invoking: GCC C Linker
-gcc  -o "odd_or_even"  ./src/odd_or_even.o   
-Finished building target: odd_or_even
- 
-02:51:08 **** Incremental Build of configuration Debug for project odd_or_even ****
-make all 
-make: Nothing to be done for 'all'.
-19:16:12 **** Build of configuration Debug for project factors ****
+02:43:09 **** Build of configuration Debug for project factors ****
 make all 
 Building file: ../src/factors.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
-../src/factors.c: In function ‘main’:
-../src/factors.c:20:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
-   20 |  scanf("%d", number);
-      |         ~^   ~~~~~~
-      |          |   |
-      |          |   int
-      |          int *
-../src/factors.c:17:6: warning: unused variable ‘factor’ [-Wunused-variable]
-   17 |  int factor;
+Finished building: ../src/factors.c
+ 
+Building target: factors
+Invoking: GCC C Linker
+gcc  -o "factors"  ./src/factors.o   
+Finished building target: factors
+ 
+02:43:10 **** Build of configuration Debug for project fgets_function ****
+make all 
+Building file: ../src/fgets_function.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fgets_function.d" -MT"src/fgets_function.o" -o "src/fgets_function.o" "../src/fgets_function.c"
+Finished building: ../src/fgets_function.c
+ 
+Building target: fgets_function
+Invoking: GCC C Linker
+gcc  -o "fgets_function"  ./src/fgets_function.o   
+Finished building target: fgets_function
+ 
+02:43:11 **** Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+02:43:12 **** Build of configuration Debug for project find_average ****
+make all 
+Building file: ../src/find_average.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_average.d" -MT"src/find_average.o" -o "src/find_average.o" "../src/find_average.c"
+Finished building: ../src/find_average.c
+ 
+Building target: find_average
+Invoking: GCC C Linker
+gcc  -o "find_average"  ./src/find_average.o   
+Finished building target: find_average
+ 
+02:43:13 **** Build of configuration Debug for project find_largest_number ****
+make all 
+Building file: ../src/find_largest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
+Finished building: ../src/find_largest_number.c
+ 
+Building target: find_largest_number
+Invoking: GCC C Linker
+gcc  -o "find_largest_number"  ./src/find_largest_number.o   
+Finished building target: find_largest_number
+ 
+02:43:14 **** Build of configuration Debug for project find_vowels ****
+make all 
+Building file: ../src/find_vowels.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_vowels.d" -MT"src/find_vowels.o" -o "src/find_vowels.o" "../src/find_vowels.c"
+Finished building: ../src/find_vowels.c
+ 
+Building target: find_vowels
+Invoking: GCC C Linker
+gcc  -o "find_vowels"  ./src/find_vowels.o   
+Finished building target: find_vowels
+ 
+02:43:15 **** Build of configuration Debug for project float_or_integer ****
+make all 
+Building file: ../src/float_or_integer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
+Finished building: ../src/float_or_integer.c
+ 
+Building target: float_or_integer
+Invoking: GCC C Linker
+gcc  -o "float_or_integer"  ./src/float_or_integer.o   
+Finished building target: float_or_integer
+ 
+02:43:16 **** Build of configuration Debug for project for_loop ****
+make all 
+Building file: ../src/for_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for_loop.d" -MT"src/for_loop.o" -o "src/for_loop.o" "../src/for_loop.c"
+Finished building: ../src/for_loop.c
+ 
+Building target: for_loop
+Invoking: GCC C Linker
+gcc  -o "for_loop"  ./src/for_loop.o   
+Finished building target: for_loop
+ 
+02:43:16 **** Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/hello_world.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello_world.d" -MT"src/hello_world.o" -o "src/hello_world.o" "../src/hello_world.c"
+Finished building: ../src/hello_world.c
+ 
+Building target: hello_world
+Invoking: GCC C Linker
+gcc  -o "hello_world"  ./src/hello_world.o   
+Finished building target: hello_world
+ 
+02:43:17 **** Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+Building file: ../src/hexadecimal_to_decimal.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hexadecimal_to_decimal.d" -MT"src/hexadecimal_to_decimal.o" -o "src/hexadecimal_to_decimal.o" "../src/hexadecimal_to_decimal.c"
+Finished building: ../src/hexadecimal_to_decimal.c
+ 
+Building target: hexadecimal_to_decimal
+Invoking: GCC C Linker
+gcc  -o "hexadecimal_to_decimal"  ./src/hexadecimal_to_decimal.o   -lm
+Finished building target: hexadecimal_to_decimal
+ 
+02:43:19 **** Build of configuration Debug for project if_else ****
+make all 
+Building file: ../src/if_else.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/if_else.d" -MT"src/if_else.o" -o "src/if_else.o" "../src/if_else.c"
+Finished building: ../src/if_else.c
+ 
+Building target: if_else
+Invoking: GCC C Linker
+gcc  -o "if_else"  ./src/if_else.o   
+Finished building target: if_else
+ 
+02:43:19 **** Clean-only build of configuration Debug for project insert_element_1 ****
+make clean 
+rm -rf  ./src/insert_element.o  ./src/insert_element.d  insert_element
+ 
+02:43:20 **** Build of configuration Debug for project insert_element_1 ****
+make all 
+Building file: ../src/insert_element.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/insert_element.d" -MT"src/insert_element.o" -o "src/insert_element.o" "../src/insert_element.c"
+Finished building: ../src/insert_element.c
+ 
+Building target: insert_element_1
+Invoking: GCC C Linker
+gcc  -o "insert_element_1"  ./src/insert_element.o   
+Finished building target: insert_element_1
+ 
+02:43:21 **** Build of configuration Debug for project insert_element_2 ****
+make all 
+Building file: ../src/insert_element_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/insert_element_2.d" -MT"src/insert_element_2.o" -o "src/insert_element_2.o" "../src/insert_element_2.c"
+Finished building: ../src/insert_element_2.c
+ 
+Building target: insert_element_2
+Invoking: GCC C Linker
+gcc  -o "insert_element_2"  ./src/insert_element_2.o   
+Finished building target: insert_element_2
+ 
+02:43:22 **** Build of configuration Debug for project largest_smallest_number ****
+make all 
+Building file: ../src/largest_smallest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/largest_smallest_number.d" -MT"src/largest_smallest_number.o" -o "src/largest_smallest_number.o" "../src/largest_smallest_number.c"
+Finished building: ../src/largest_smallest_number.c
+ 
+Building target: largest_smallest_number
+Invoking: GCC C Linker
+gcc  -o "largest_smallest_number"  ./src/largest_smallest_number.o   
+Finished building target: largest_smallest_number
+ 
+02:43:22 **** Build of configuration Debug for project multiplication_table ****
+make all 
+Building file: ../src/multiplication_table.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
+Finished building: ../src/multiplication_table.c
+ 
+Building target: multiplication_table
+Invoking: GCC C Linker
+gcc  -o "multiplication_table"  ./src/multiplication_table.o   
+Finished building target: multiplication_table
+ 
+02:43:23 **** Build of configuration Debug for project nested_for_loop ****
+make all 
+Building file: ../src/nested_for_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/nested_for_loop.d" -MT"src/nested_for_loop.o" -o "src/nested_for_loop.o" "../src/nested_for_loop.c"
+Finished building: ../src/nested_for_loop.c
+ 
+Building target: nested_for_loop
+Invoking: GCC C Linker
+gcc  -o "nested_for_loop"  ./src/nested_for_loop.o   
+Finished building target: nested_for_loop
+ 
+02:43:24 **** Build of configuration Debug for project odd_or_even ****
+make all 
+Building file: ../src/odd_or_even.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/odd_or_even.d" -MT"src/odd_or_even.o" -o "src/odd_or_even.o" "../src/odd_or_even.c"
+Finished building: ../src/odd_or_even.c
+ 
+Building target: odd_or_even
+Invoking: GCC C Linker
+gcc  -o "odd_or_even"  ./src/odd_or_even.o   
+Finished building target: odd_or_even
+ 
+02:43:25 **** Build of configuration Debug for project palindrome ****
+make all 
+Building file: ../src/palindrome.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindrome.d" -MT"src/palindrome.o" -o "src/palindrome.o" "../src/palindrome.c"
+../src/palindrome.c: In function ‘main’:
+../src/palindrome.c:21:6: warning: unused variable ‘digits’ [-Wunused-variable]
+   21 |  int digits;
       |      ^~~~~~
-../src/factors.c:20:2: warning: ‘number’ is used uninitialized in this function [-Wuninitialized]
-   20 |  scanf("%d", number);
-      |  ^~~~~~~~~~~~~~~~~~~
-Finished building: ../src/factors.c
+Finished building: ../src/palindrome.c
  
-Building target: factors
+Building target: palindrome
 Invoking: GCC C Linker
-gcc  -o "factors"  ./src/factors.o   
-Finished building target: factors
+gcc  -o "palindrome"  ./src/palindrome.o   
+Finished building target: palindrome
  
-19:16:26 **** Incremental Build of configuration Debug for project factors ****
+02:43:26 **** Build of configuration Debug for project prime_numbers ****
 make all 
-Building file: ../src/factors.c
+Building file: ../src/prime_numbers.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
-../src/factors.c: In function ‘main’:
-../src/factors.c:19:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
-   19 |  scanf("%d", number);
-      |         ~^   ~~~~~~
-      |          |   |
-      |          |   int
-      |          int *
-../src/factors.c:19:2: warning: ‘number’ is used uninitialized in this function [-Wuninitialized]
-   19 |  scanf("%d", number);
-      |  ^~~~~~~~~~~~~~~~~~~
-Finished building: ../src/factors.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
+Finished building: ../src/prime_numbers.c
  
-Building target: factors
+Building target: prime_numbers
 Invoking: GCC C Linker
-gcc  -o "factors"  ./src/factors.o   
-Finished building target: factors
+gcc  -o "prime_numbers"  ./src/prime_numbers.o   
+Finished building target: prime_numbers
  
-19:16:58 **** Incremental Build of configuration Debug for project factors ****
+02:43:27 **** Build of configuration Debug for project reverse_array ****
 make all 
-Building file: ../src/factors.c
+Building file: ../src/reverse_array.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
-Finished building: ../src/factors.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_array.d" -MT"src/reverse_array.o" -o "src/reverse_array.o" "../src/reverse_array.c"
+Finished building: ../src/reverse_array.c
  
-Building target: factors
+Building target: reverse_array
 Invoking: GCC C Linker
-gcc  -o "factors"  ./src/factors.o   
-Finished building target: factors
+gcc  -o "reverse_array"  ./src/reverse_array.o   
+Finished building target: reverse_array
  
-19:17:05 **** Incremental Build of configuration Debug for project factors ****
+02:43:28 **** Build of configuration Debug for project reverse_char_array ****
 make all 
-make: Nothing to be done for 'all'.
-19:17:14 **** Incremental Build of configuration Debug for project factors ****
-make all 
-make: Nothing to be done for 'all'.
-19:17:55 **** Incremental Build of configuration Debug for project factors ****
-make all 
-make: Nothing to be done for 'all'.
-19:18:22 **** Incremental Build of configuration Debug for project factors ****
-make all 
-Building file: ../src/factors.c
+Building file: ../src/reverse_char_array.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factors.d" -MT"src/factors.o" -o "src/factors.o" "../src/factors.c"
-Finished building: ../src/factors.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_char_array.d" -MT"src/reverse_char_array.o" -o "src/reverse_char_array.o" "../src/reverse_char_array.c"
+Finished building: ../src/reverse_char_array.c
  
-Building target: factors
+Building target: reverse_char_array
 Invoking: GCC C Linker
-gcc  -o "factors"  ./src/factors.o   
-Finished building target: factors
+gcc  -o "reverse_char_array"  ./src/reverse_char_array.o   
+Finished building target: reverse_char_array
  
-19:22:42 **** Build of configuration Debug for project sum_n_numbers ****
+02:43:29 **** Build of configuration Debug for project reverse_string ****
+make all 
+Building file: ../src/reverse_string.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_string.d" -MT"src/reverse_string.o" -o "src/reverse_string.o" "../src/reverse_string.c"
+Finished building: ../src/reverse_string.c
+ 
+Building target: reverse_string
+Invoking: GCC C Linker
+gcc  -o "reverse_string"  ./src/reverse_string.o   
+Finished building target: reverse_string
+ 
+02:43:30 **** Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:43:31 **** Build of configuration Debug for project sum_digits ****
+make all 
+Building file: ../src/sum_digits.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_digits.d" -MT"src/sum_digits.o" -o "src/sum_digits.o" "../src/sum_digits.c"
+Finished building: ../src/sum_digits.c
+ 
+Building target: sum_digits
+Invoking: GCC C Linker
+gcc  -o "sum_digits"  ./src/sum_digits.o   
+Finished building target: sum_digits
+ 
+02:43:31 **** Build of configuration Debug for project sum_n_numbers ****
 make all 
 Building file: ../src/sum_n_numbers.c
 Invoking: GCC C Compiler
@@ -1208,424 +557,63 @@ Invoking: GCC C Linker
 gcc  -o "sum_n_numbers"  ./src/sum_n_numbers.o   
 Finished building target: sum_n_numbers
  
-19:22:51 **** Incremental Build of configuration Debug for project sum_n_numbers ****
+02:43:32 **** Build of configuration Debug for project swap_numbers ****
 make all 
-make: Nothing to be done for 'all'.
-19:23:08 **** Incremental Build of configuration Debug for project sum_n_numbers ****
-make all 
-Building file: ../src/sum_n_numbers.c
+Building file: ../src/swap_numbers.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_n_numbers.d" -MT"src/sum_n_numbers.o" -o "src/sum_n_numbers.o" "../src/sum_n_numbers.c"
-Finished building: ../src/sum_n_numbers.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swap_numbers.d" -MT"src/swap_numbers.o" -o "src/swap_numbers.o" "../src/swap_numbers.c"
+Finished building: ../src/swap_numbers.c
  
-Building target: sum_n_numbers
+Building target: swap_numbers
 Invoking: GCC C Linker
-gcc  -o "sum_n_numbers"  ./src/sum_n_numbers.o   
-Finished building target: sum_n_numbers
+gcc  -o "swap_numbers"  ./src/swap_numbers.o   
+Finished building target: swap_numbers
  
-20:04:58 **** Build of configuration Debug for project prime_numbers ****
+02:43:34 **** Build of configuration Debug for project switch_case ****
 make all 
-Building file: ../src/prime_numbers.c
+Building file: ../src/switch_case.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch_case.d" -MT"src/switch_case.o" -o "src/switch_case.o" "../src/switch_case.c"
+Finished building: ../src/switch_case.c
  
-Building target: prime_numbers
+Building target: switch_case
 Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
+gcc  -o "switch_case"  ./src/switch_case.o   
+Finished building target: switch_case
  
-20:06:54 **** Incremental Build of configuration Debug for project prime_numbers ****
+02:43:34 **** Build of configuration Debug for project upper_lower_case ****
 make all 
-make: Nothing to be done for 'all'.
-20:09:42 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
+Building file: ../src/upper_lower_case.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
  
-Building target: prime_numbers
+Building target: upper_lower_case
 Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
  
-20:11:37 **** Incremental Build of configuration Debug for project prime_numbers ****
+02:43:35 **** Build of configuration Debug for project user_input ****
 make all 
-Building file: ../src/prime_numbers.c
+Building file: ../src/user_input.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-../src/prime_numbers.c: In function ‘main’:
-../src/prime_numbers.c:35:35: error: expected expression before ‘)’ token
-   35 |     } else if (current == test && ){
-      |                                   ^
-make: *** [src/subdir.mk:20: src/prime_numbers.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-20:11:48 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/user_input.d" -MT"src/user_input.o" -o "src/user_input.o" "../src/user_input.c"
+Finished building: ../src/user_input.c
  
-Building target: prime_numbers
+Building target: user_input
 Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
+gcc  -o "user_input"  ./src/user_input.o   
+Finished building target: user_input
  
-20:12:03 **** Incremental Build of configuration Debug for project prime_numbers ****
+02:43:37 **** Build of configuration Debug for project while_loop ****
 make all 
-Building file: ../src/prime_numbers.c
+Building file: ../src/while_loop.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while_loop.d" -MT"src/while_loop.o" -o "src/while_loop.o" "../src/while_loop.c"
+Finished building: ../src/while_loop.c
  
-Building target: prime_numbers
+Building target: while_loop
 Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
- 
-20:12:30 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-make: Nothing to be done for 'all'.
-20:13:51 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-make: Nothing to be done for 'all'.
-20:15:07 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-make: Nothing to be done for 'all'.
-20:41:25 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
- 
-Building target: prime_numbers
-Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
- 
-20:48:17 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
- 
-Building target: prime_numbers
-Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
- 
-20:50:34 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
- 
-Building target: prime_numbers
-Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
- 
-20:56:49 **** Incremental Build of configuration Debug for project prime_numbers ****
-make all 
-Building file: ../src/prime_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prime_numbers.d" -MT"src/prime_numbers.o" -o "src/prime_numbers.o" "../src/prime_numbers.c"
-Finished building: ../src/prime_numbers.c
- 
-Building target: prime_numbers
-Invoking: GCC C Linker
-gcc  -o "prime_numbers"  ./src/prime_numbers.o   
-Finished building target: prime_numbers
- 
-22:22:00 **** Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-../src/find_largest_number.c: In function ‘main’:
-../src/find_largest_number.c:21:6: warning: unused variable ‘numbers’ [-Wunused-variable]
-   21 |  int numbers[limit];
-      |      ^~~~~~~
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:22:22 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-../src/find_largest_number.c: In function ‘main’:
-../src/find_largest_number.c:21:6: warning: unused variable ‘numbers’ [-Wunused-variable]
-   21 |  int numbers[limit];
-      |      ^~~~~~~
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:23:34 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-../src/find_largest_number.c: In function ‘main’:
-../src/find_largest_number.c:21:6: warning: variable ‘numbers’ set but not used [-Wunused-but-set-variable]
-   21 |  int numbers[limit];
-      |      ^~~~~~~
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:26:34 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:49:55 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:50:10 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-make: Nothing to be done for 'all'.
-22:50:35 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-make: Nothing to be done for 'all'.
-22:51:37 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:52:40 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:54:40 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-Building file: ../src/find_largest_number.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_largest_number.d" -MT"src/find_largest_number.o" -o "src/find_largest_number.o" "../src/find_largest_number.c"
-Finished building: ../src/find_largest_number.c
- 
-Building target: find_largest_number
-Invoking: GCC C Linker
-gcc  -o "find_largest_number"  ./src/find_largest_number.o   
-Finished building target: find_largest_number
- 
-22:55:02 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-make: Nothing to be done for 'all'.
-22:55:08 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-make: Nothing to be done for 'all'.
-22:55:28 **** Incremental Build of configuration Debug for project find_largest_number ****
-make all 
-make: Nothing to be done for 'all'.
-23:26:12 **** Build of configuration Debug for project exponential_without_pow ****
-make all 
-Building file: ../src/exponential_without_pow.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
-Finished building: ../src/exponential_without_pow.c
- 
-Building target: exponential_without_pow
-Invoking: GCC C Linker
-gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
-Finished building target: exponential_without_pow
- 
-23:26:16 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-make: Nothing to be done for 'all'.
-23:27:41 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-Building file: ../src/exponential_without_pow.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
-Finished building: ../src/exponential_without_pow.c
- 
-Building target: exponential_without_pow
-Invoking: GCC C Linker
-gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
-Finished building target: exponential_without_pow
- 
-23:28:28 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-Building file: ../src/exponential_without_pow.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
-Finished building: ../src/exponential_without_pow.c
- 
-Building target: exponential_without_pow
-Invoking: GCC C Linker
-gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
-Finished building target: exponential_without_pow
- 
-23:28:52 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-Building file: ../src/exponential_without_pow.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
-Finished building: ../src/exponential_without_pow.c
- 
-Building target: exponential_without_pow
-Invoking: GCC C Linker
-gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
-Finished building target: exponential_without_pow
- 
-23:29:23 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-Building file: ../src/exponential_without_pow.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/exponential_without_pow.d" -MT"src/exponential_without_pow.o" -o "src/exponential_without_pow.o" "../src/exponential_without_pow.c"
-Finished building: ../src/exponential_without_pow.c
- 
-Building target: exponential_without_pow
-Invoking: GCC C Linker
-gcc  -o "exponential_without_pow"  ./src/exponential_without_pow.o   
-Finished building target: exponential_without_pow
- 
-23:29:29 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-make: Nothing to be done for 'all'.
-23:29:36 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-make: Nothing to be done for 'all'.
-23:30:06 **** Incremental Build of configuration Debug for project exponential_without_pow ****
-make all 
-make: Nothing to be done for 'all'.
-23:50:16 **** Build of configuration Debug for project float_or_integer ****
-make all 
-Building file: ../src/float_or_integer.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
-../src/float_or_integer.c: In function ‘main’:
-../src/float_or_integer.c:39:12: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-   39 |   printf("%s is an integer number.");
-      |           ~^
-      |            |
-      |            char *
-../src/float_or_integer.c:45:12: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
-   45 |   printf("%s is an float number.");
-      |           ~^
-      |            |
-      |            char *
-Finished building: ../src/float_or_integer.c
- 
-Building target: float_or_integer
-Invoking: GCC C Linker
-gcc  -o "float_or_integer"  ./src/float_or_integer.o   
-Finished building target: float_or_integer
- 
-23:50:47 **** Incremental Build of configuration Debug for project float_or_integer ****
-make all 
-Building file: ../src/float_or_integer.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
-Finished building: ../src/float_or_integer.c
- 
-Building target: float_or_integer
-Invoking: GCC C Linker
-gcc  -o "float_or_integer"  ./src/float_or_integer.o   
-Finished building target: float_or_integer
- 
-23:50:55 **** Incremental Build of configuration Debug for project float_or_integer ****
-make all 
-make: Nothing to be done for 'all'.
-23:51:06 **** Incremental Build of configuration Debug for project float_or_integer ****
-make all 
-make: Nothing to be done for 'all'.
-23:51:58 **** Incremental Build of configuration Debug for project float_or_integer ****
-make all 
-Building file: ../src/float_or_integer.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/float_or_integer.d" -MT"src/float_or_integer.o" -o "src/float_or_integer.o" "../src/float_or_integer.c"
-Finished building: ../src/float_or_integer.c
- 
-Building target: float_or_integer
-Invoking: GCC C Linker
-gcc  -o "float_or_integer"  ./src/float_or_integer.o   
-Finished building target: float_or_integer
- 
-00:00:10 **** Build of configuration Debug for project multiplication_table ****
-make all 
-Building file: ../src/multiplication_table.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
-Finished building: ../src/multiplication_table.c
- 
-Building target: multiplication_table
-Invoking: GCC C Linker
-gcc  -o "multiplication_table"  ./src/multiplication_table.o   
-Finished building target: multiplication_table
- 
-00:00:27 **** Incremental Build of configuration Debug for project multiplication_table ****
-make all 
-make: Nothing to be done for 'all'.
-00:00:48 **** Incremental Build of configuration Debug for project multiplication_table ****
-make all 
-Building file: ../src/multiplication_table.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
-Finished building: ../src/multiplication_table.c
- 
-Building target: multiplication_table
-Invoking: GCC C Linker
-gcc  -o "multiplication_table"  ./src/multiplication_table.o   
-Finished building target: multiplication_table
- 
-00:01:07 **** Incremental Build of configuration Debug for project multiplication_table ****
-make all 
-Building file: ../src/multiplication_table.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multiplication_table.d" -MT"src/multiplication_table.o" -o "src/multiplication_table.o" "../src/multiplication_table.c"
-Finished building: ../src/multiplication_table.c
- 
-Building target: multiplication_table
-Invoking: GCC C Linker
-gcc  -o "multiplication_table"  ./src/multiplication_table.o   
-Finished building target: multiplication_table
+gcc  -o "while_loop"  ./src/while_loop.o   
+Finished building target: while_loop
  

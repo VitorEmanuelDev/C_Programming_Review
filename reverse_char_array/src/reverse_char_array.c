@@ -4,7 +4,7 @@
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : Reverse string of chars
+ Description : Reverse string
  ============================================================================
  */
 

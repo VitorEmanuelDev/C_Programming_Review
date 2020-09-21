@@ -1,6 +1,15 @@
-09:05:44 **** Incremental Build of configuration Debug for project for_loop ****
+02:43:16 **** Build of configuration Debug for project for_loop ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/for_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for_loop.d" -MT"src/for_loop.o" -o "src/for_loop.o" "../src/for_loop.c"
+Finished building: ../src/for_loop.c
+ 
+Building target: for_loop
+Invoking: GCC C Linker
+gcc  -o "for_loop"  ./src/for_loop.o   
+Finished building target: for_loop
+ 
 
-09:05:45 Build Finished. 0 errors, 0 warnings. (took 735ms)
+02:43:16 Build Finished. 0 errors, 0 warnings. (took 822ms)
 

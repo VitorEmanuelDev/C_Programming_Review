@@ -1,6 +1,15 @@
-09:05:39 **** Incremental Build of configuration Debug for project do_while_loop ****
+02:43:06 **** Build of configuration Debug for project do_while_loop ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/do_while_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/do_while_loop.d" -MT"src/do_while_loop.o" -o "src/do_while_loop.o" "../src/do_while_loop.c"
+Finished building: ../src/do_while_loop.c
+ 
+Building target: do_while_loop
+Invoking: GCC C Linker
+gcc  -o "do_while_loop"  ./src/do_while_loop.o   
+Finished building target: do_while_loop
+ 
 
-09:05:40 Build Finished. 0 errors, 0 warnings. (took 730ms)
+02:43:07 Build Finished. 0 errors, 0 warnings. (took 723ms)
 

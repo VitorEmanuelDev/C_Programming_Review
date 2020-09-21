@@ -1,4 +1,4 @@
-09:05:52 **** Incremental Build of configuration Debug for project reverse_char_array ****
+02:43:28 **** Build of configuration Debug for project reverse_char_array ****
 make all 
 Building file: ../src/reverse_char_array.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "reverse_char_array"  ./src/reverse_char_array.o
 Finished building target: reverse_char_array
  
 
-09:05:52 Build Finished. 0 errors, 0 warnings. (took 877ms)
+02:43:29 Build Finished. 0 errors, 0 warnings. (took 929ms)
 

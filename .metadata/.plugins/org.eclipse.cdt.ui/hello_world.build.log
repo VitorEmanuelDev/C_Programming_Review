@@ -1,6 +1,15 @@
-09:05:45 **** Incremental Build of configuration Debug for project hello_world ****
+02:43:16 **** Build of configuration Debug for project hello_world ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/hello_world.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello_world.d" -MT"src/hello_world.o" -o "src/hello_world.o" "../src/hello_world.c"
+Finished building: ../src/hello_world.c
+ 
+Building target: hello_world
+Invoking: GCC C Linker
+gcc  -o "hello_world"  ./src/hello_world.o   
+Finished building target: hello_world
+ 
 
-09:05:46 Build Finished. 0 errors, 0 warnings. (took 773ms)
+02:43:17 Build Finished. 0 errors, 0 warnings. (took 873ms)
 
