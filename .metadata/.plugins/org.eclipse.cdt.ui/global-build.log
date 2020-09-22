@@ -258,3 +258,33 @@ Invoking: GCC C Linker
 gcc  -o "find_duplicates"  ./src/find_duplicates.o   
 Finished building target: find_duplicates
  
+11:01:07 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+Building file: ../src/find_duplicates.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_duplicates.d" -MT"src/find_duplicates.o" -o "src/find_duplicates.o" "../src/find_duplicates.c"
+Finished building: ../src/find_duplicates.c
+ 
+Building target: find_duplicates
+Invoking: GCC C Linker
+gcc  -o "find_duplicates"  ./src/find_duplicates.o   
+Finished building target: find_duplicates
+ 
+11:01:44 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+Building file: ../src/find_duplicates.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_duplicates.d" -MT"src/find_duplicates.o" -o "src/find_duplicates.o" "../src/find_duplicates.c"
+Finished building: ../src/find_duplicates.c
+ 
+Building target: find_duplicates
+Invoking: GCC C Linker
+gcc  -o "find_duplicates"  ./src/find_duplicates.o   
+Finished building target: find_duplicates
+ 
+11:02:14 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+make: Nothing to be done for 'all'.
+11:02:21 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+make: Nothing to be done for 'all'.

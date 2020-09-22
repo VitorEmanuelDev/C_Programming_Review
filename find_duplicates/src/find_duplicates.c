@@ -31,15 +31,13 @@ int main(void) {
 
 				deletions++;//count deletions to reduce the size of the array after this iteration inside the if block
 
-				currentY--;//stay in the same position by undoing the increment if a duplicate is found
-
 			}
 
 		}
 
 	}
 
-	printf("[");
+	printf("[ ");
 	for(int current = 0; current < SIZE - deletions; current++){
 
 		printf("%d ", array[current]);
