@@ -617,3 +617,111 @@ Invoking: GCC C Linker
 gcc  -o "while_loop"  ./src/while_loop.o   
 Finished building target: while_loop
  
+02:08:50 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:11:33 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+../src/sort_array.c: In function ‘main’:
+../src/sort_array.c:21:6: warning: unused variable ‘currentY’ [-Wunused-variable]
+   21 |  int currentY = currentX + 1;
+      |      ^~~~~~~~
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:12:06 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+../src/sort_array.c: In function ‘main’:
+../src/sort_array.c:21:6: warning: unused variable ‘currentY’ [-Wunused-variable]
+   21 |  int currentY = currentX + 1;
+      |      ^~~~~~~~
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:12:46 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+../src/sort_array.c: In function ‘main’:
+../src/sort_array.c:20:6: warning: unused variable ‘currentX’ [-Wunused-variable]
+   20 |  int currentX = 0;
+      |      ^~~~~~~~
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:12:57 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:13:08 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:13:20 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+02:13:36 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
