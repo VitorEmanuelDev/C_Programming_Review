@@ -1,4 +1,4 @@
-02:43:10 **** Build of configuration Debug for project fgets_function ****
+23:26:33 **** Incremental Build of configuration Debug for project fgets_function ****
 make all 
 Building file: ../src/fgets_function.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "fgets_function"  ./src/fgets_function.o
 Finished building target: fgets_function
  
 
-02:43:11 Build Finished. 0 errors, 0 warnings. (took 822ms)
+23:26:34 Build Finished. 0 errors, 0 warnings. (took 821ms)
 

@@ -1,4 +1,4 @@
-02:43:14 **** Build of configuration Debug for project find_vowels ****
+23:26:37 **** Incremental Build of configuration Debug for project find_vowels ****
 make all 
 Building file: ../src/find_vowels.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "find_vowels"  ./src/find_vowels.o
 Finished building target: find_vowels
  
 
-02:43:14 Build Finished. 0 errors, 0 warnings. (took 775ms)
+23:26:38 Build Finished. 0 errors, 0 warnings. (took 733ms)
 

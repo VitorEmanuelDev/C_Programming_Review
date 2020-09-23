@@ -1,4 +1,4 @@
-02:43:06 **** Build of configuration Debug for project do_while_loop ****
+23:26:30 **** Incremental Build of configuration Debug for project do_while_loop ****
 make all 
 Building file: ../src/do_while_loop.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "do_while_loop"  ./src/do_while_loop.o
 Finished building target: do_while_loop
  
 
-02:43:07 Build Finished. 0 errors, 0 warnings. (took 723ms)
+23:26:31 Build Finished. 0 errors, 0 warnings. (took 770ms)
 

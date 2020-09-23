@@ -10,16 +10,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#define SIZE 10
 
 int main(void) {
 
-	int size = 10;
-	int array[size] = {9,7,5,6,4,2,3,1,8,0};
+	int array[SIZE] = {9,7,5,6,4,2,3,1,8,0};
 	int temp = 0;
 
-	for(int currentX = 0; currentX < size; currentX++){
+	for(int currentX = 0; currentX < SIZE; currentX++){
 
-		for(int currentY = 0; currentY < size; currentY++){
+		for(int currentY = 0; currentY < SIZE; currentY++){
 
 			if(array[currentX] < array[currentY]){
 
@@ -33,7 +33,7 @@ int main(void) {
 
 	}
 
-	for(int current = 0; current < size; current++){
+	for(int current = 0; current < SIZE; current++){
 
 		printf("%d ", array[current]);
 

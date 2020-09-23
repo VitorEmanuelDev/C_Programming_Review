@@ -1,4 +1,4 @@
-02:43:16 **** Build of configuration Debug for project hello_world ****
+23:26:40 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
 Building file: ../src/hello_world.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "hello_world"  ./src/hello_world.o
 Finished building target: hello_world
  
 
-02:43:17 Build Finished. 0 errors, 0 warnings. (took 873ms)
+23:26:41 Build Finished. 0 errors, 0 warnings. (took 914ms)
 

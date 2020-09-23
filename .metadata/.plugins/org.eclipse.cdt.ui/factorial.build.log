@@ -1,4 +1,4 @@
-02:43:08 **** Build of configuration Debug for project factorial ****
+23:26:32 **** Incremental Build of configuration Debug for project factorial ****
 make all 
 Building file: ../src/factorial.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "factorial"  ./src/factorial.o
 Finished building target: factorial
  
 
-02:43:09 Build Finished. 0 errors, 0 warnings. (took 789ms)
+23:26:33 Build Finished. 0 errors, 0 warnings. (took 816ms)
 

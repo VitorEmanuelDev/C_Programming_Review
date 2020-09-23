@@ -1,4 +1,4 @@
-02:43:34 **** Build of configuration Debug for project switch_case ****
+23:26:54 **** Incremental Build of configuration Debug for project switch_case ****
 make all 
 Building file: ../src/switch_case.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "switch_case"  ./src/switch_case.o
 Finished building target: switch_case
  
 
-02:43:34 Build Finished. 0 errors, 0 warnings. (took 884ms)
+23:26:55 Build Finished. 0 errors, 0 warnings. (took 622ms)
 

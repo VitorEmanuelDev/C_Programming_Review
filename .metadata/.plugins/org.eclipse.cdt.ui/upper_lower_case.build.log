@@ -1,4 +1,4 @@
-02:43:34 **** Build of configuration Debug for project upper_lower_case ****
+23:26:55 **** Incremental Build of configuration Debug for project upper_lower_case ****
 make all 
 Building file: ../src/upper_lower_case.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "upper_lower_case"  ./src/upper_lower_case.o
 Finished building target: upper_lower_case
  
 
-02:43:35 Build Finished. 0 errors, 0 warnings. (took 991ms)
+23:26:56 Build Finished. 0 errors, 0 warnings. (took 814ms)
 

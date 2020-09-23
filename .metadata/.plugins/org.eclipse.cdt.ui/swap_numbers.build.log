@@ -1,4 +1,4 @@
-02:43:32 **** Build of configuration Debug for project swap_numbers ****
+23:26:53 **** Incremental Build of configuration Debug for project swap_numbers ****
 make all 
 Building file: ../src/swap_numbers.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "swap_numbers"  ./src/swap_numbers.o
 Finished building target: swap_numbers
  
 
-02:43:33 Build Finished. 0 errors, 0 warnings. (took 1s.126ms)
+23:26:54 Build Finished. 0 errors, 0 warnings. (took 664ms)
 

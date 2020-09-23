@@ -1,4 +1,4 @@
-02:43:19 **** Build of configuration Debug for project if_else ****
+23:26:42 **** Incremental Build of configuration Debug for project if_else ****
 make all 
 Building file: ../src/if_else.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "if_else"  ./src/if_else.o
 Finished building target: if_else
  
 
-02:43:19 Build Finished. 0 errors, 0 warnings. (took 825ms)
+23:26:43 Build Finished. 0 errors, 0 warnings. (took 886ms)
 

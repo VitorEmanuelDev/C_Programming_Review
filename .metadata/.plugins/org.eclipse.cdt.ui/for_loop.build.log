@@ -1,4 +1,4 @@
-02:43:16 **** Build of configuration Debug for project for_loop ****
+23:26:39 **** Incremental Build of configuration Debug for project for_loop ****
 make all 
 Building file: ../src/for_loop.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "for_loop"  ./src/for_loop.o
 Finished building target: for_loop
  
 
-02:43:16 Build Finished. 0 errors, 0 warnings. (took 822ms)
+23:26:40 Build Finished. 0 errors, 0 warnings. (took 806ms)
 

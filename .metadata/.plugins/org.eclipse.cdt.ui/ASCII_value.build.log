@@ -1,4 +1,4 @@
-02:43:02 **** Build of configuration Debug for project ASCII_value ****
+23:26:26 **** Incremental Build of configuration Debug for project ASCII_value ****
 make all 
 Building file: ../src/ASCII_value.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "ASCII_value"  ./src/ASCII_value.o
 Finished building target: ASCII_value
  
 
-02:43:03 Build Finished. 0 errors, 0 warnings. (took 878ms)
+23:26:27 Build Finished. 0 errors, 0 warnings. (took 775ms)
 

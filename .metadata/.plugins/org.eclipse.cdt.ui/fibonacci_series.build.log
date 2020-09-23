@@ -1,4 +1,4 @@
-02:43:11 **** Build of configuration Debug for project fibonacci_series ****
+23:26:34 **** Incremental Build of configuration Debug for project fibonacci_series ****
 make all 
 Building file: ../src/fibonacci_series.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "fibonacci_series"  ./src/fibonacci_series.o
 Finished building target: fibonacci_series
  
 
-02:43:12 Build Finished. 0 errors, 0 warnings. (took 920ms)
+23:26:35 Build Finished. 0 errors, 0 warnings. (took 822ms)
 

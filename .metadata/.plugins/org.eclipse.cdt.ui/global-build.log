@@ -288,3 +288,492 @@ make: Nothing to be done for 'all'.
 11:02:21 **** Incremental Build of configuration Debug for project find_duplicates ****
 make all 
 make: Nothing to be done for 'all'.
+23:24:24 **** Build of configuration Debug for project find_duplicates ****
+make all 
+Building file: ../src/find_duplicates.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_duplicates.d" -MT"src/find_duplicates.o" -o "src/find_duplicates.o" "../src/find_duplicates.c"
+Finished building: ../src/find_duplicates.c
+ 
+Building target: find_duplicates
+Invoking: GCC C Linker
+gcc  -o "find_duplicates"  ./src/find_duplicates.o   
+Finished building target: find_duplicates
+ 
+23:25:52 **** Build of configuration Debug for project delete_element ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:04 **** Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:26 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+Building file: ../src/ASCII_value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ASCII_value.d" -MT"src/ASCII_value.o" -o "src/ASCII_value.o" "../src/ASCII_value.c"
+Finished building: ../src/ASCII_value.c
+ 
+Building target: ASCII_value
+Invoking: GCC C Linker
+gcc  -o "ASCII_value"  ./src/ASCII_value.o   
+Finished building target: ASCII_value
+ 
+23:26:27 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:28 **** Build of configuration Debug for project array_largest_smallest ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:28 **** Build of configuration Debug for project array_sum_n_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:29 **** Incremental Build of configuration Debug for project delete_element ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:30 **** Incremental Build of configuration Debug for project do_while_loop ****
+make all 
+Building file: ../src/do_while_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/do_while_loop.d" -MT"src/do_while_loop.o" -o "src/do_while_loop.o" "../src/do_while_loop.c"
+Finished building: ../src/do_while_loop.c
+ 
+Building target: do_while_loop
+Invoking: GCC C Linker
+gcc  -o "do_while_loop"  ./src/do_while_loop.o   
+Finished building target: do_while_loop
+ 
+23:26:31 **** Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:32 **** Incremental Build of configuration Debug for project factorial ****
+make all 
+Building file: ../src/factorial.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/factorial.d" -MT"src/factorial.o" -o "src/factorial.o" "../src/factorial.c"
+Finished building: ../src/factorial.c
+ 
+Building target: factorial
+Invoking: GCC C Linker
+gcc  -o "factorial"  ./src/factorial.o   
+Finished building target: factorial
+ 
+23:26:33 **** Build of configuration Debug for project factors ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:33 **** Incremental Build of configuration Debug for project fgets_function ****
+make all 
+Building file: ../src/fgets_function.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fgets_function.d" -MT"src/fgets_function.o" -o "src/fgets_function.o" "../src/fgets_function.c"
+Finished building: ../src/fgets_function.c
+ 
+Building target: fgets_function
+Invoking: GCC C Linker
+gcc  -o "fgets_function"  ./src/fgets_function.o   
+Finished building target: fgets_function
+ 
+23:26:34 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+Building file: ../src/fibonacci_series.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
+Finished building: ../src/fibonacci_series.c
+ 
+Building target: fibonacci_series
+Invoking: GCC C Linker
+gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
+Finished building target: fibonacci_series
+ 
+23:26:35 **** Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:36 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:36 **** Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:37 **** Incremental Build of configuration Debug for project find_vowels ****
+make all 
+Building file: ../src/find_vowels.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_vowels.d" -MT"src/find_vowels.o" -o "src/find_vowels.o" "../src/find_vowels.c"
+Finished building: ../src/find_vowels.c
+ 
+Building target: find_vowels
+Invoking: GCC C Linker
+gcc  -o "find_vowels"  ./src/find_vowels.o   
+Finished building target: find_vowels
+ 
+23:26:38 **** Build of configuration Debug for project float_or_integer ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:39 **** Incremental Build of configuration Debug for project for_loop ****
+make all 
+Building file: ../src/for_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for_loop.d" -MT"src/for_loop.o" -o "src/for_loop.o" "../src/for_loop.c"
+Finished building: ../src/for_loop.c
+ 
+Building target: for_loop
+Invoking: GCC C Linker
+gcc  -o "for_loop"  ./src/for_loop.o   
+Finished building target: for_loop
+ 
+23:26:40 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/hello_world.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello_world.d" -MT"src/hello_world.o" -o "src/hello_world.o" "../src/hello_world.c"
+Finished building: ../src/hello_world.c
+ 
+Building target: hello_world
+Invoking: GCC C Linker
+gcc  -o "hello_world"  ./src/hello_world.o   
+Finished building target: hello_world
+ 
+23:26:41 **** Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:42 **** Incremental Build of configuration Debug for project if_else ****
+make all 
+Building file: ../src/if_else.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/if_else.d" -MT"src/if_else.o" -o "src/if_else.o" "../src/if_else.c"
+Finished building: ../src/if_else.c
+ 
+Building target: if_else
+Invoking: GCC C Linker
+gcc  -o "if_else"  ./src/if_else.o   
+Finished building target: if_else
+ 
+23:26:43 **** Build of configuration Debug for project insert_element_1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:43 **** Build of configuration Debug for project insert_element_2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:44 **** Incremental Build of configuration Debug for project largest_smallest_number ****
+make all 
+Building file: ../src/largest_smallest_number.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/largest_smallest_number.d" -MT"src/largest_smallest_number.o" -o "src/largest_smallest_number.o" "../src/largest_smallest_number.c"
+Finished building: ../src/largest_smallest_number.c
+ 
+Building target: largest_smallest_number
+Invoking: GCC C Linker
+gcc  -o "largest_smallest_number"  ./src/largest_smallest_number.o   
+Finished building target: largest_smallest_number
+ 
+23:26:45 **** Build of configuration Debug for project multiplication_table ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:46 **** Incremental Build of configuration Debug for project nested_for_loop ****
+make all 
+Building file: ../src/nested_for_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/nested_for_loop.d" -MT"src/nested_for_loop.o" -o "src/nested_for_loop.o" "../src/nested_for_loop.c"
+Finished building: ../src/nested_for_loop.c
+ 
+Building target: nested_for_loop
+Invoking: GCC C Linker
+gcc  -o "nested_for_loop"  ./src/nested_for_loop.o   
+Finished building target: nested_for_loop
+ 
+23:26:47 **** Build of configuration Debug for project odd_or_even ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:47 **** Incremental Build of configuration Debug for project palindrome ****
+make all 
+Building file: ../src/palindrome.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindrome.d" -MT"src/palindrome.o" -o "src/palindrome.o" "../src/palindrome.c"
+../src/palindrome.c: In function ‘main’:
+../src/palindrome.c:21:6: warning: unused variable ‘digits’ [-Wunused-variable]
+   21 |  int digits;
+      |      ^~~~~~
+Finished building: ../src/palindrome.c
+ 
+Building target: palindrome
+Invoking: GCC C Linker
+gcc  -o "palindrome"  ./src/palindrome.o   
+Finished building target: palindrome
+ 
+23:26:48 **** Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:49 **** Build of configuration Debug for project reverse_array ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:49 **** Incremental Build of configuration Debug for project reverse_char_array ****
+make all 
+Building file: ../src/reverse_char_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_char_array.d" -MT"src/reverse_char_array.o" -o "src/reverse_char_array.o" "../src/reverse_char_array.c"
+Finished building: ../src/reverse_char_array.c
+ 
+Building target: reverse_char_array
+Invoking: GCC C Linker
+gcc  -o "reverse_char_array"  ./src/reverse_char_array.o   
+Finished building target: reverse_char_array
+ 
+23:26:50 **** Build of configuration Debug for project reverse_string ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:51 **** Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+../src/sort_array.c: In function ‘main’:
+../src/sort_array.c:17:2: error: variable-sized object may not be initialized
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |  ^~~
+../src/sort_array.c:17:21: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                     ^
+../src/sort_array.c:17:21: note: (near initialization for ‘array’)
+../src/sort_array.c:17:23: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                       ^
+../src/sort_array.c:17:23: note: (near initialization for ‘array’)
+../src/sort_array.c:17:25: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                         ^
+../src/sort_array.c:17:25: note: (near initialization for ‘array’)
+../src/sort_array.c:17:27: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                           ^
+../src/sort_array.c:17:27: note: (near initialization for ‘array’)
+../src/sort_array.c:17:29: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                             ^
+../src/sort_array.c:17:29: note: (near initialization for ‘array’)
+../src/sort_array.c:17:31: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                               ^
+../src/sort_array.c:17:31: note: (near initialization for ‘array’)
+../src/sort_array.c:17:33: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                                 ^
+../src/sort_array.c:17:33: note: (near initialization for ‘array’)
+../src/sort_array.c:17:35: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                                   ^
+../src/sort_array.c:17:35: note: (near initialization for ‘array’)
+../src/sort_array.c:17:37: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                                     ^
+../src/sort_array.c:17:37: note: (near initialization for ‘array’)
+../src/sort_array.c:17:39: warning: excess elements in array initializer
+   17 |  int array[size] = {9,7,5,6,4,2,3,1,8,0};
+      |                                       ^
+../src/sort_array.c:17:39: note: (near initialization for ‘array’)
+make: *** [src/subdir.mk:20: src/sort_array.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:52 **** Build of configuration Debug for project sum_digits ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:53 **** Build of configuration Debug for project sum_n_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:53 **** Incremental Build of configuration Debug for project swap_numbers ****
+make all 
+Building file: ../src/swap_numbers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swap_numbers.d" -MT"src/swap_numbers.o" -o "src/swap_numbers.o" "../src/swap_numbers.c"
+Finished building: ../src/swap_numbers.c
+ 
+Building target: swap_numbers
+Invoking: GCC C Linker
+gcc  -o "swap_numbers"  ./src/swap_numbers.o   
+Finished building target: swap_numbers
+ 
+23:26:54 **** Incremental Build of configuration Debug for project switch_case ****
+make all 
+Building file: ../src/switch_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch_case.d" -MT"src/switch_case.o" -o "src/switch_case.o" "../src/switch_case.c"
+Finished building: ../src/switch_case.c
+ 
+Building target: switch_case
+Invoking: GCC C Linker
+gcc  -o "switch_case"  ./src/switch_case.o   
+Finished building target: switch_case
+ 
+23:26:55 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
+ 
+23:26:56 **** Incremental Build of configuration Debug for project user_input ****
+make all 
+Building file: ../src/user_input.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/user_input.d" -MT"src/user_input.o" -o "src/user_input.o" "../src/user_input.c"
+Finished building: ../src/user_input.c
+ 
+Building target: user_input
+Invoking: GCC C Linker
+gcc  -o "user_input"  ./src/user_input.o   
+Finished building target: user_input
+ 
+23:26:57 **** Incremental Build of configuration Debug for project while_loop ****
+make all 
+Building file: ../src/while_loop.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while_loop.d" -MT"src/while_loop.o" -o "src/while_loop.o" "../src/while_loop.c"
+Finished building: ../src/while_loop.c
+ 
+Building target: while_loop
+Invoking: GCC C Linker
+gcc  -o "while_loop"  ./src/while_loop.o   
+Finished building target: while_loop
+ 
+23:30:03 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+Building file: ../src/sort_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sort_array.d" -MT"src/sort_array.o" -o "src/sort_array.o" "../src/sort_array.c"
+Finished building: ../src/sort_array.c
+ 
+Building target: sort_array
+Invoking: GCC C Linker
+gcc  -o "sort_array"  ./src/sort_array.o   
+Finished building target: sort_array
+ 
+00:33:06 **** Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+../src/sparse_matrix.c: In function ‘main’:
+../src/sparse_matrix.c:17:5: error: expected ‘]’ before ‘,’ token
+   17 |   [0,2,3,0,4],
+      |     ^
+      |     ]
+../src/sparse_matrix.c:17:14: error: expected expression before ‘,’ token
+   17 |   [0,2,3,0,4],
+      |              ^
+../src/sparse_matrix.c:24:2: error: expected ‘,’ or ‘;’ before ‘for’
+   24 |  for(int row = 0; row < 5; row++){
+      |  ^~~
+../src/sparse_matrix.c:24:19: error: ‘row’ undeclared (first use in this function)
+   24 |  for(int row = 0; row < 5; row++){
+      |                   ^~~
+../src/sparse_matrix.c:24:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/sparse_matrix.c:24:33: error: expected ‘;’ before ‘)’ token
+   24 |  for(int row = 0; row < 5; row++){
+      |                                 ^
+      |                                 ;
+../src/sparse_matrix.c:24:33: error: expected statement before ‘)’ token
+../src/sparse_matrix.c:27:4: error: ‘count’ undeclared (first use in this function)
+   27 |    count++;
+      |    ^~~~~
+../src/sparse_matrix.c:16:6: warning: variable ‘matrix’ set but not used [-Wunused-but-set-variable]
+   16 |  int matrix[5][5] = {
+      |      ^~~~~~
+make: *** [src/subdir.mk:20: src/sparse_matrix.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:33:52 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+../src/sparse_matrix.c: In function ‘main’:
+../src/sparse_matrix.c:17:5: error: expected ‘]’ before ‘,’ token
+   17 |   [0,2,3,0,4],
+      |     ^
+      |     ]
+../src/sparse_matrix.c:17:14: error: expected expression before ‘,’ token
+   17 |   [0,2,3,0,4],
+      |              ^
+make: *** [src/subdir.mk:20: src/sparse_matrix.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:38:38 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+../src/sparse_matrix.c: In function ‘main’:
+../src/sparse_matrix.c:28:18: error: ‘column’ undeclared (first use in this function)
+   28 |   if(matrix[row][column] == 0){
+      |                  ^~~~~~
+../src/sparse_matrix.c:28:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/sparse_matrix.c:16:6: warning: variable ‘matrix’ set but not used [-Wunused-but-set-variable]
+   16 |  int matrix[5][5] = {
+      |      ^~~~~~
+make: *** [src/subdir.mk:20: src/sparse_matrix.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:50:05 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+Finished building: ../src/sparse_matrix.c
+ 
+Building target: sparse_matrix
+Invoking: GCC C Linker
+gcc  -o "sparse_matrix"  ./src/sparse_matrix.o   
+Finished building target: sparse_matrix
+ 
+00:50:09 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+00:50:41 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+Finished building: ../src/sparse_matrix.c
+ 
+Building target: sparse_matrix
+Invoking: GCC C Linker
+gcc  -o "sparse_matrix"  ./src/sparse_matrix.o   
+Finished building target: sparse_matrix
+ 
+00:50:50 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+Finished building: ../src/sparse_matrix.c
+ 
+Building target: sparse_matrix
+Invoking: GCC C Linker
+gcc  -o "sparse_matrix"  ./src/sparse_matrix.o   
+Finished building target: sparse_matrix
+ 
+00:51:09 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+Building file: ../src/sparse_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sparse_matrix.d" -MT"src/sparse_matrix.o" -o "src/sparse_matrix.o" "../src/sparse_matrix.c"
+Finished building: ../src/sparse_matrix.c
+ 
+Building target: sparse_matrix
+Invoking: GCC C Linker
+gcc  -o "sparse_matrix"  ./src/sparse_matrix.o   
+Finished building target: sparse_matrix
+ 
