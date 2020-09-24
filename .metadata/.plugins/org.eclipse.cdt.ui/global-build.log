@@ -777,3 +777,291 @@ Invoking: GCC C Linker
 gcc  -o "sparse_matrix"  ./src/sparse_matrix.o   
 Finished building target: sparse_matrix
  
+09:20:41 **** Build of configuration Debug for project square_matrix ****
+make all 
+Building file: ../src/square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/square_matrix.d" -MT"src/square_matrix.o" -o "src/square_matrix.o" "../src/square_matrix.c"
+Finished building: ../src/square_matrix.c
+ 
+Building target: square_matrix
+Invoking: GCC C Linker
+gcc  -o "square_matrix"  ./src/square_matrix.o   
+Finished building target: square_matrix
+ 
+09:20:45 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+09:21:11 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+Building file: ../src/square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/square_matrix.d" -MT"src/square_matrix.o" -o "src/square_matrix.o" "../src/square_matrix.c"
+Finished building: ../src/square_matrix.c
+ 
+Building target: square_matrix
+Invoking: GCC C Linker
+gcc  -o "square_matrix"  ./src/square_matrix.o   
+Finished building target: square_matrix
+ 
+09:21:47 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+Building file: ../src/square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/square_matrix.d" -MT"src/square_matrix.o" -o "src/square_matrix.o" "../src/square_matrix.c"
+Finished building: ../src/square_matrix.c
+ 
+Building target: square_matrix
+Invoking: GCC C Linker
+gcc  -o "square_matrix"  ./src/square_matrix.o   
+Finished building target: square_matrix
+ 
+09:22:00 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+09:23:30 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+Building file: ../src/square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/square_matrix.d" -MT"src/square_matrix.o" -o "src/square_matrix.o" "../src/square_matrix.c"
+Finished building: ../src/square_matrix.c
+ 
+Building target: square_matrix
+Invoking: GCC C Linker
+gcc  -o "square_matrix"  ./src/square_matrix.o   
+Finished building target: square_matrix
+ 
+09:24:18 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+10:10:28 **** Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+../src/matrix_determinant_2x2.c: In function ‘main’:
+../src/matrix_determinant_2x2.c:51:12: warning: unknown escape sequence: '\T'
+   51 |     printf("\The determinant of your matrix is: %d - %d =  %d", diagonalA, diagonalB, determinant);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/matrix_determinant_2x2.c:26:7: warning: ‘row’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |       scanf("%d", &matrixA[row][column]);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/matrix_determinant_2x2.c:26:7: warning: ‘column’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:11:23 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+../src/matrix_determinant_2x2.c: In function ‘main’:
+../src/matrix_determinant_2x2.c:26:7: warning: ‘row’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |       scanf("%d", &matrixA[row][column]);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/matrix_determinant_2x2.c:26:7: warning: ‘column’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:11:28 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:11:38 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:12:05 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:12:33 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:12:38 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:14:00 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+../src/matrix_determinant_2x2.c: In function ‘main’:
+../src/matrix_determinant_2x2.c:37:13: warning: ‘row’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   37 |             printf("%d ", matrixA[row][column]);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/matrix_determinant_2x2.c:37:13: warning: ‘column’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:14:49 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+../src/matrix_determinant_2x2.c: In function ‘main’:
+../src/matrix_determinant_2x2.c:19:9: warning: unused variable ‘column’ [-Wunused-variable]
+   19 |     int column;
+      |         ^~~~~~
+../src/matrix_determinant_2x2.c:18:9: warning: unused variable ‘row’ [-Wunused-variable]
+   18 |     int row;
+      |         ^~~
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:15:03 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+Building file: ../src/matrix_determinant_2x2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_determinant_2x2.d" -MT"src/matrix_determinant_2x2.o" -o "src/matrix_determinant_2x2.o" "../src/matrix_determinant_2x2.c"
+Finished building: ../src/matrix_determinant_2x2.c
+ 
+Building target: matrix_determinant_2x2
+Invoking: GCC C Linker
+gcc  -o "matrix_determinant_2x2"  ./src/matrix_determinant_2x2.o   
+Finished building target: matrix_determinant_2x2
+ 
+10:15:07 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:19:59 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc -lm  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:30: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:21:18 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:21:37 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:21:51 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+23:07:55 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+23:13:30 **** Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+../src/trace_normal_square_matrix.c: In function ‘main’:
+../src/trace_normal_square_matrix.c:37:15: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+   37 |     normal += pow(matrix[row][column], 2);
+      |               ^~~
+../src/trace_normal_square_matrix.c:37:15: warning: incompatible implicit declaration of built-in function ‘pow’
+../src/trace_normal_square_matrix.c:13:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+   12 | #include <stdlib.h>
+  +++ |+#include <math.h>
+   13 | 
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+/usr/bin/ld: ./src/trace_normal_square_matrix.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/trace_normal_square_matrix/Debug/../src/trace_normal_square_matrix.c:37: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: trace_normal_square_matrix] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:14:37 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+Finished building target: trace_normal_square_matrix
+ 
+23:15:59 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+Finished building target: trace_normal_square_matrix
+ 
+23:16:10 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+Finished building target: trace_normal_square_matrix
+ 
+23:18:16 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+/usr/bin/ld: ./src/trace_normal_square_matrix.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/trace_normal_square_matrix/Debug/../src/trace_normal_square_matrix.c:38: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: trace_normal_square_matrix] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:18:19 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+/usr/bin/ld: ./src/trace_normal_square_matrix.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/trace_normal_square_matrix/Debug/../src/trace_normal_square_matrix.c:38: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: trace_normal_square_matrix] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:18:49 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+Building file: ../src/trace_normal_square_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/trace_normal_square_matrix.d" -MT"src/trace_normal_square_matrix.o" -o "src/trace_normal_square_matrix.o" "../src/trace_normal_square_matrix.c"
+Finished building: ../src/trace_normal_square_matrix.c
+ 
+Building target: trace_normal_square_matrix
+Invoking: GCC C Linker
+gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
+Finished building target: trace_normal_square_matrix
+ 

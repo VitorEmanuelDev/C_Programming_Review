@@ -5,6 +5,7 @@
  Version     :
  Copyright   : 
  Description : check if a number is an armstrong number
+ https://www.eclipse.org/forums/index.php?t=msg&th=68204/
  ============================================================================
  */
 
@@ -27,7 +28,7 @@ int main(void) {
 	while(digits > 0){
 
 		remainder = digits % 10;
-		sum += pow(remainder, 3);//not working. I needed to ink with the math library
+		sum += pow(remainder, 3);//https://www.eclipse.org/forums/index.php?t=msg&th=68204/
 		digits = digits / 10;
 
 	}
