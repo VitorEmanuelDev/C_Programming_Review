@@ -1065,3 +1065,1139 @@ Invoking: GCC C Linker
 gcc  -o "trace_normal_square_matrix"  ./src/trace_normal_square_matrix.o   
 Finished building target: trace_normal_square_matrix
  
+01:44:17 **** Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+Building file: ../src/addition_subtraction_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/addition_subtraction_matrix.d" -MT"src/addition_subtraction_matrix.o" -o "src/addition_subtraction_matrix.o" "../src/addition_subtraction_matrix.c"
+../src/addition_subtraction_matrix.c: In function ‘main’:
+../src/addition_subtraction_matrix.c:29:6: warning: ‘main’ is normally a non-static function [-Wmain]
+   29 |  int main(void) {
+      |      ^~~~
+../src/addition_subtraction_matrix.c:79:1: error: expected declaration or statement at end of input
+   79 | }
+      | ^
+At top level:
+../src/addition_subtraction_matrix.c:29:6: warning: ‘main’ defined but not used [-Wunused-function]
+   29 |  int main(void) {
+      |      ^~~~
+make: *** [src/subdir.mk:20: src/addition_subtraction_matrix.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:45:01 **** Clean-only build of configuration Debug for project ASCII_value ****
+make clean 
+rm -rf  ./src/ASCII_value.o  ./src/ASCII_value.d  ASCII_value
+ 
+01:45:02 **** Clean-only build of configuration Debug for project addition_subtraction_matrix ****
+make clean 
+rm -rf  ./src/addition_subtraction_matrix.o  ./src/addition_subtraction_matrix.d  addition_subtraction_matrix
+ 
+01:45:02 **** Clean-only build of configuration Debug for project armstrong_number ****
+make clean 
+rm -rf  ./src/armstrong_number.o  ./src/armstrong_number.d  armstrong_number
+ 
+01:45:03 **** Clean-only build of configuration Debug for project array_largest_smallest ****
+make clean 
+rm -rf  ./src/array_largest_smallest.o  ./src/array_largest_smallest.d  array_largest_smallest
+ 
+01:45:04 **** Clean-only build of configuration Debug for project array_sum_n_numbers ****
+make clean 
+rm -rf  ./src/array_sum_n_numbers.o  ./src/array_sum_n_numbers.d  array_sum_n_numbers
+ 
+01:45:04 **** Clean-only build of configuration Debug for project delete_element ****
+make clean 
+rm -rf  ./src/delete_element.o  ./src/delete_element.d  delete_element
+ 
+01:45:05 **** Clean-only build of configuration Debug for project do_while_loop ****
+make clean 
+rm -rf  ./src/do_while_loop.o  ./src/do_while_loop.d  do_while_loop
+ 
+01:45:06 **** Clean-only build of configuration Debug for project exponential_without_pow ****
+make clean 
+rm -rf  ./src/exponential_without_pow.o  ./src/exponential_without_pow.d  exponential_without_pow
+ 
+01:45:06 **** Clean-only build of configuration Debug for project factorial ****
+make clean 
+rm -rf  ./src/factorial.o  ./src/factorial.d  factorial
+ 
+01:45:07 **** Clean-only build of configuration Debug for project factors ****
+make clean 
+rm -rf  ./src/factors.o  ./src/factors.d  factors
+ 
+01:45:08 **** Clean-only build of configuration Debug for project fgets_function ****
+make clean 
+rm -rf  ./src/fgets_function.o  ./src/fgets_function.d  fgets_function
+ 
+01:45:09 **** Clean-only build of configuration Debug for project fibonacci_series ****
+make clean 
+rm -rf  ./src/fibonacci_series.o  ./src/fibonacci_series.d  fibonacci_series
+ 
+01:45:10 **** Clean-only build of configuration Debug for project find_average ****
+make clean 
+rm -rf  ./src/find_average.o  ./src/find_average.d  find_average
+ 
+01:45:11 **** Clean-only build of configuration Debug for project find_duplicates ****
+make clean 
+rm -rf  ./src/find_duplicates.o  ./src/find_duplicates.d  find_duplicates
+ 
+01:45:11 **** Clean-only build of configuration Debug for project find_largest_number ****
+make clean 
+rm -rf  ./src/find_largest_number.o  ./src/find_largest_number.d  find_largest_number
+ 
+01:45:12 **** Clean-only build of configuration Debug for project find_vowels ****
+make clean 
+rm -rf  ./src/find_vowels.o  ./src/find_vowels.d  find_vowels
+ 
+01:45:13 **** Clean-only build of configuration Debug for project float_or_integer ****
+make clean 
+rm -rf  ./src/float_or_integer.o  ./src/float_or_integer.d  float_or_integer
+ 
+01:45:14 **** Clean-only build of configuration Debug for project for_loop ****
+make clean 
+rm -rf  ./src/for_loop.o  ./src/for_loop.d  for_loop
+ 
+01:45:14 **** Clean-only build of configuration Debug for project hello_world ****
+make clean 
+rm -rf  ./src/hello_world.o  ./src/hello_world.d  hello_world
+ 
+01:45:15 **** Clean-only build of configuration Debug for project hexadecimal_to_decimal ****
+make clean 
+rm -rf  ./src/hexadecimal_to_decimal.o  ./src/hexadecimal_to_decimal.d  hexadecimal_to_decimal
+ 
+01:45:16 **** Clean-only build of configuration Debug for project if_else ****
+make clean 
+rm -rf  ./src/if_else.o  ./src/if_else.d  if_else
+ 
+01:45:16 **** Clean-only build of configuration Debug for project insert_element_1 ****
+make clean 
+rm -rf  ./src/insert_element.o  ./src/insert_element.d  insert_element_1
+ 
+01:45:17 **** Clean-only build of configuration Debug for project insert_element_2 ****
+make clean 
+rm -rf  ./src/insert_element_2.o  ./src/insert_element_2.d  insert_element_2
+ 
+01:45:18 **** Clean-only build of configuration Debug for project largest_smallest_number ****
+make clean 
+rm -rf  ./src/largest_smallest_number.o  ./src/largest_smallest_number.d  largest_smallest_number
+ 
+01:45:18 **** Clean-only build of configuration Debug for project matrix_determinant_2x2 ****
+make clean 
+rm -rf  ./src/matrix_determinant_2x2.o  ./src/matrix_determinant_2x2.d  matrix_determinant_2x2
+ 
+01:45:19 **** Clean-only build of configuration Debug for project multiplication_table ****
+make clean 
+rm -rf  ./src/multiplication_table.o  ./src/multiplication_table.d  multiplication_table
+ 
+01:45:20 **** Clean-only build of configuration Debug for project nested_for_loop ****
+make clean 
+rm -rf  ./src/nested_for_loop.o  ./src/nested_for_loop.d  nested_for_loop
+ 
+01:45:21 **** Clean-only build of configuration Debug for project odd_or_even ****
+make clean 
+rm -rf  ./src/odd_or_even.o  ./src/odd_or_even.d  odd_or_even
+ 
+01:45:21 **** Clean-only build of configuration Debug for project palindrome ****
+make clean 
+rm -rf  ./src/palindrome.o  ./src/palindrome.d  palindrome
+ 
+01:45:22 **** Clean-only build of configuration Debug for project prime_numbers ****
+make clean 
+rm -rf  ./src/prime_numbers.o  ./src/prime_numbers.d  prime_numbers
+ 
+01:45:23 **** Clean-only build of configuration Debug for project reverse_array ****
+make clean 
+rm -rf  ./src/reverse_array.o  ./src/reverse_array.d  reverse_array
+ 
+01:45:23 **** Clean-only build of configuration Debug for project reverse_char_array ****
+make clean 
+rm -rf  ./src/reverse_char_array.o  ./src/reverse_char_array.d  reverse_char_array
+ 
+01:45:24 **** Clean-only build of configuration Debug for project reverse_string ****
+make clean 
+rm -rf  ./src/reverse_string.o  ./src/reverse_string.d  reverse_string
+ 
+01:45:25 **** Clean-only build of configuration Debug for project sort_array ****
+make clean 
+rm -rf  ./src/sort_array.o  ./src/sort_array.d  sort_array
+ 
+01:45:25 **** Clean-only build of configuration Debug for project sparse_matrix ****
+make clean 
+rm -rf  ./src/sparse_matrix.o  ./src/sparse_matrix.d  sparse_matrix
+ 
+01:45:26 **** Clean-only build of configuration Debug for project square_matrix ****
+make clean 
+rm -rf  ./src/square_matrix.o  ./src/square_matrix.d  square_matrix
+ 
+01:45:27 **** Clean-only build of configuration Debug for project sum_digits ****
+make clean 
+rm -rf  ./src/sum_digits.o  ./src/sum_digits.d  sum_digits
+ 
+01:45:28 **** Clean-only build of configuration Debug for project sum_n_numbers ****
+make clean 
+rm -rf  ./src/sum_n_numbers.o  ./src/sum_n_numbers.d  sum_n_numbers
+ 
+01:45:28 **** Clean-only build of configuration Debug for project swap_numbers ****
+make clean 
+rm -rf  ./src/swap_numbers.o  ./src/swap_numbers.d  swap_numbers
+ 
+01:45:29 **** Clean-only build of configuration Debug for project switch_case ****
+make clean 
+rm -rf  ./src/switch_case.o  ./src/switch_case.d  switch_case
+ 
+01:45:30 **** Clean-only build of configuration Debug for project trace_normal_square_matrix ****
+make clean 
+rm -rf  ./src/trace_normal_square_matrix.o  ./src/trace_normal_square_matrix.d  trace_normal_square_matrix
+ 
+01:45:31 **** Clean-only build of configuration Debug for project upper_lower_case ****
+make clean 
+rm -rf  ./src/upper_lower_case.o  ./src/upper_lower_case.d  upper_lower_case
+ 
+01:45:31 **** Clean-only build of configuration Debug for project user_input ****
+make clean 
+rm -rf  ./src/user_input.o  ./src/user_input.d  user_input
+ 
+01:45:32 **** Clean-only build of configuration Debug for project while_loop ****
+make clean 
+rm -rf  ./src/while_loop.o  ./src/while_loop.d  while_loop
+ 
+01:45:47 **** Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+Building file: ../src/addition_subtraction_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/addition_subtraction_matrix.d" -MT"src/addition_subtraction_matrix.o" -o "src/addition_subtraction_matrix.o" "../src/addition_subtraction_matrix.c"
+../src/addition_subtraction_matrix.c: In function ‘main’:
+../src/addition_subtraction_matrix.c:29:6: warning: ‘main’ is normally a non-static function [-Wmain]
+   29 |  int main(void) {
+      |      ^~~~
+../src/addition_subtraction_matrix.c:79:2: error: expected declaration or statement at end of input
+   79 |  }
+      |  ^
+At top level:
+../src/addition_subtraction_matrix.c:29:6: warning: ‘main’ defined but not used [-Wunused-function]
+   29 |  int main(void) {
+      |      ^~~~
+make: *** [src/subdir.mk:20: src/addition_subtraction_matrix.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:47:38 **** Incremental Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+Building file: ../src/addition_subtraction_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/addition_subtraction_matrix.d" -MT"src/addition_subtraction_matrix.o" -o "src/addition_subtraction_matrix.o" "../src/addition_subtraction_matrix.c"
+Finished building: ../src/addition_subtraction_matrix.c
+ 
+Building target: addition_subtraction_matrix
+Invoking: GCC C Linker
+gcc  -o "addition_subtraction_matrix"  ./src/addition_subtraction_matrix.o   
+Finished building target: addition_subtraction_matrix
+ 
+01:49:11 **** Incremental Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+01:50:57 **** Incremental Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+Building file: ../src/addition_subtraction_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/addition_subtraction_matrix.d" -MT"src/addition_subtraction_matrix.o" -o "src/addition_subtraction_matrix.o" "../src/addition_subtraction_matrix.c"
+Finished building: ../src/addition_subtraction_matrix.c
+ 
+Building target: addition_subtraction_matrix
+Invoking: GCC C Linker
+gcc  -o "addition_subtraction_matrix"  ./src/addition_subtraction_matrix.o   
+Finished building target: addition_subtraction_matrix
+ 
+01:52:14 **** Incremental Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+Building file: ../src/addition_subtraction_matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/addition_subtraction_matrix.d" -MT"src/addition_subtraction_matrix.o" -o "src/addition_subtraction_matrix.o" "../src/addition_subtraction_matrix.c"
+Finished building: ../src/addition_subtraction_matrix.c
+ 
+Building target: addition_subtraction_matrix
+Invoking: GCC C Linker
+gcc  -o "addition_subtraction_matrix"  ./src/addition_subtraction_matrix.o   
+Finished building target: addition_subtraction_matrix
+ 
+21:53:20 **** Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:22:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   22 | int main(void){
+      |     ^~~~
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:25:11: warning: unused variable ‘j’ [-Wunused-variable]
+   25 |     int i,j;
+      |           ^
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:67:1: error: expected declaration or statement at end of input
+   67 | }
+      | ^
+At top level:
+../src/questao_02.c:22:5: warning: ‘main’ defined but not used [-Wunused-function]
+   22 | int main(void){
+      |     ^~~~
+make: *** [src/subdir.mk:20: src/questao_02.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:53:52 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:22:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   22 | int main(void){
+      |     ^~~~
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:25:11: warning: unused variable ‘j’ [-Wunused-variable]
+   25 |     int i,j;
+      |           ^
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:67:1: error: expected declaration or statement at end of input
+   67 | }
+      | ^
+At top level:
+../src/questao_02.c:22:5: warning: ‘main’ defined but not used [-Wunused-function]
+   22 | int main(void){
+      |     ^~~~
+make: *** [src/subdir.mk:20: src/questao_02.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:54:30 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:22:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   22 | int main(void){
+      |     ^~~~
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:25:11: warning: unused variable ‘j’ [-Wunused-variable]
+   25 |     int i,j;
+      |           ^
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:67:1: error: expected declaration or statement at end of input
+   67 | }
+      | ^
+At top level:
+../src/questao_02.c:22:5: warning: ‘main’ defined but not used [-Wunused-function]
+   22 | int main(void){
+      |     ^~~~
+make: *** [src/subdir.mk:20: src/questao_02.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:54:46 **** Clean-only build of configuration Debug for project ASCII_value ****
+make clean 
+rm -rf  ./src/ASCII_value.o  ./src/ASCII_value.d  ASCII_value
+ 
+21:54:47 **** Clean-only build of configuration Debug for project addition_subtraction_matrix ****
+make clean 
+rm -rf  ./src/addition_subtraction_matrix.o  ./src/addition_subtraction_matrix.d  addition_subtraction_matrix
+ 
+21:54:48 **** Clean-only build of configuration Debug for project armstrong_number ****
+make clean 
+rm -rf  ./src/armstrong_number.o  ./src/armstrong_number.d  armstrong_number
+ 
+21:54:49 **** Clean-only build of configuration Debug for project array_largest_smallest ****
+make clean 
+rm -rf  ./src/array_largest_smallest.o  ./src/array_largest_smallest.d  array_largest_smallest
+ 
+21:54:50 **** Clean-only build of configuration Debug for project array_sum_n_numbers ****
+make clean 
+rm -rf  ./src/array_sum_n_numbers.o  ./src/array_sum_n_numbers.d  array_sum_n_numbers
+ 
+21:54:50 **** Clean-only build of configuration Debug for project delete_element ****
+make clean 
+rm -rf  ./src/delete_element.o  ./src/delete_element.d  delete_element
+ 
+21:54:51 **** Clean-only build of configuration Debug for project do_while_loop ****
+make clean 
+rm -rf  ./src/do_while_loop.o  ./src/do_while_loop.d  do_while_loop
+ 
+21:54:52 **** Clean-only build of configuration Debug for project exponential_without_pow ****
+make clean 
+rm -rf  ./src/exponential_without_pow.o  ./src/exponential_without_pow.d  exponential_without_pow
+ 
+21:54:52 **** Clean-only build of configuration Debug for project factorial ****
+make clean 
+rm -rf  ./src/factorial.o  ./src/factorial.d  factorial
+ 
+21:54:53 **** Clean-only build of configuration Debug for project factors ****
+make clean 
+rm -rf  ./src/factors.o  ./src/factors.d  factors
+ 
+21:54:54 **** Clean-only build of configuration Debug for project fgets_function ****
+make clean 
+rm -rf  ./src/fgets_function.o  ./src/fgets_function.d  fgets_function
+ 
+21:54:55 **** Clean-only build of configuration Debug for project fibonacci_series ****
+make clean 
+rm -rf  ./src/fibonacci_series.o  ./src/fibonacci_series.d  fibonacci_series
+ 
+21:54:55 **** Clean-only build of configuration Debug for project find_average ****
+make clean 
+rm -rf  ./src/find_average.o  ./src/find_average.d  find_average
+ 
+21:54:56 **** Clean-only build of configuration Debug for project find_duplicates ****
+make clean 
+rm -rf  ./src/find_duplicates.o  ./src/find_duplicates.d  find_duplicates
+ 
+21:54:57 **** Clean-only build of configuration Debug for project find_largest_number ****
+make clean 
+rm -rf  ./src/find_largest_number.o  ./src/find_largest_number.d  find_largest_number
+ 
+21:54:58 **** Clean-only build of configuration Debug for project find_vowels ****
+make clean 
+rm -rf  ./src/find_vowels.o  ./src/find_vowels.d  find_vowels
+ 
+21:54:58 **** Clean-only build of configuration Debug for project float_or_integer ****
+make clean 
+rm -rf  ./src/float_or_integer.o  ./src/float_or_integer.d  float_or_integer
+ 
+21:54:59 **** Clean-only build of configuration Debug for project for_loop ****
+make clean 
+rm -rf  ./src/for_loop.o  ./src/for_loop.d  for_loop
+ 
+21:55:00 **** Clean-only build of configuration Debug for project hello_world ****
+make clean 
+rm -rf  ./src/hello_world.o  ./src/hello_world.d  hello_world
+ 
+21:55:01 **** Clean-only build of configuration Debug for project hexadecimal_to_decimal ****
+make clean 
+rm -rf  ./src/hexadecimal_to_decimal.o  ./src/hexadecimal_to_decimal.d  hexadecimal_to_decimal
+ 
+21:55:01 **** Clean-only build of configuration Debug for project if_else ****
+make clean 
+rm -rf  ./src/if_else.o  ./src/if_else.d  if_else
+ 
+21:55:02 **** Clean-only build of configuration Debug for project insert_element_1 ****
+make clean 
+rm -rf  ./src/insert_element.o  ./src/insert_element.d  insert_element_1
+ 
+21:55:03 **** Clean-only build of configuration Debug for project insert_element_2 ****
+make clean 
+rm -rf  ./src/insert_element_2.o  ./src/insert_element_2.d  insert_element_2
+ 
+21:55:03 **** Clean-only build of configuration Debug for project largest_smallest_number ****
+make clean 
+rm -rf  ./src/largest_smallest_number.o  ./src/largest_smallest_number.d  largest_smallest_number
+ 
+21:55:04 **** Clean-only build of configuration Debug for project matrix_determinant_2x2 ****
+make clean 
+rm -rf  ./src/matrix_determinant_2x2.o  ./src/matrix_determinant_2x2.d  matrix_determinant_2x2
+ 
+21:55:05 **** Clean-only build of configuration Debug for project multiplication_table ****
+make clean 
+rm -rf  ./src/multiplication_table.o  ./src/multiplication_table.d  multiplication_table
+ 
+21:55:05 **** Clean-only build of configuration Debug for project nested_for_loop ****
+make clean 
+rm -rf  ./src/nested_for_loop.o  ./src/nested_for_loop.d  nested_for_loop
+ 
+21:55:06 **** Clean-only build of configuration Debug for project odd_or_even ****
+make clean 
+rm -rf  ./src/odd_or_even.o  ./src/odd_or_even.d  odd_or_even
+ 
+21:55:07 **** Clean-only build of configuration Debug for project palindrome ****
+make clean 
+rm -rf  ./src/palindrome.o  ./src/palindrome.d  palindrome
+ 
+21:55:08 **** Clean-only build of configuration Debug for project prime_numbers ****
+make clean 
+rm -rf  ./src/prime_numbers.o  ./src/prime_numbers.d  prime_numbers
+ 
+21:55:08 **** Clean-only build of configuration Debug for project questao_02 ****
+make clean 
+rm -rf  ./src/questao_02.o  ./src/questao_02.d  questao_02
+ 
+21:55:09 **** Clean-only build of configuration Debug for project reverse_array ****
+make clean 
+rm -rf  ./src/reverse_array.o  ./src/reverse_array.d  reverse_array
+ 
+21:55:10 **** Clean-only build of configuration Debug for project reverse_char_array ****
+make clean 
+rm -rf  ./src/reverse_char_array.o  ./src/reverse_char_array.d  reverse_char_array
+ 
+21:55:10 **** Clean-only build of configuration Debug for project reverse_string ****
+make clean 
+rm -rf  ./src/reverse_string.o  ./src/reverse_string.d  reverse_string
+ 
+21:55:11 **** Clean-only build of configuration Debug for project sort_array ****
+make clean 
+rm -rf  ./src/sort_array.o  ./src/sort_array.d  sort_array
+ 
+21:55:12 **** Clean-only build of configuration Debug for project sparse_matrix ****
+make clean 
+rm -rf  ./src/sparse_matrix.o  ./src/sparse_matrix.d  sparse_matrix
+ 
+21:55:12 **** Clean-only build of configuration Debug for project square_matrix ****
+make clean 
+rm -rf  ./src/square_matrix.o  ./src/square_matrix.d  square_matrix
+ 
+21:55:13 **** Clean-only build of configuration Debug for project sum_digits ****
+make clean 
+rm -rf  ./src/sum_digits.o  ./src/sum_digits.d  sum_digits
+ 
+21:55:14 **** Clean-only build of configuration Debug for project sum_n_numbers ****
+make clean 
+rm -rf  ./src/sum_n_numbers.o  ./src/sum_n_numbers.d  sum_n_numbers
+ 
+21:55:14 **** Clean-only build of configuration Debug for project swap_numbers ****
+make clean 
+rm -rf  ./src/swap_numbers.o  ./src/swap_numbers.d  swap_numbers
+ 
+21:55:15 **** Clean-only build of configuration Debug for project switch_case ****
+make clean 
+rm -rf  ./src/switch_case.o  ./src/switch_case.d  switch_case
+ 
+21:55:16 **** Clean-only build of configuration Debug for project trace_normal_square_matrix ****
+make clean 
+rm -rf  ./src/trace_normal_square_matrix.o  ./src/trace_normal_square_matrix.d  trace_normal_square_matrix
+ 
+21:55:16 **** Clean-only build of configuration Debug for project upper_lower_case ****
+make clean 
+rm -rf  ./src/upper_lower_case.o  ./src/upper_lower_case.d  upper_lower_case
+ 
+21:55:17 **** Clean-only build of configuration Debug for project user_input ****
+make clean 
+rm -rf  ./src/user_input.o  ./src/user_input.d  user_input
+ 
+21:55:18 **** Clean-only build of configuration Debug for project while_loop ****
+make clean 
+rm -rf  ./src/while_loop.o  ./src/while_loop.d  while_loop
+ 
+21:55:26 **** Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:18:21: warning: unused variable ‘str2’ [-Wunused-variable]
+   18 |     char str1[TAM], str2[TAM];
+      |                     ^~~~
+../src/questao_02.c:18:10: warning: unused variable ‘str1’ [-Wunused-variable]
+   18 |     char str1[TAM], str2[TAM];
+      |          ^~~~
+../src/questao_02.c:17:11: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |     int i,j;
+      |           ^
+../src/questao_02.c:17:9: warning: unused variable ‘i’ [-Wunused-variable]
+   17 |     int i,j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+21:56:05 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:7: warning: unused variable ‘str2’ [-Wunused-variable]
+   19 |  char str2[TAM];
+      |       ^~~~
+../src/questao_02.c:18:10: warning: unused variable ‘str1’ [-Wunused-variable]
+   18 |     char str1[TAM];
+      |          ^~~~
+../src/questao_02.c:17:11: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |     int i,j;
+      |           ^
+../src/questao_02.c:17:9: warning: unused variable ‘i’ [-Wunused-variable]
+   17 |     int i,j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:02:17 **** Clean-only build of configuration Debug for project questao_02 ****
+make clean 
+rm -rf  ./src/questao_02.o  ./src/questao_02.d  questao_02
+ 
+22:02:17 **** Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:03:36 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:03:57 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:04:04 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+make: Nothing to be done for 'all'.
+22:05:44 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:08:31 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:12:56 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:13:03 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:35:52 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   19 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:36:44 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   19 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:38:27 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   19 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:40:04 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   19 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:41:33 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:19:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   19 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+22:45:23 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:18:6: warning: unused variable ‘subs’ [-Wunused-variable]
+   18 |  int subs = 0;
+      |      ^~~~
+../src/questao_02.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 |  int i, j;
+      |         ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:05:54 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:06:53 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:08:05 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:10:35 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:71:23: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   71 |  for(i=0, j=0; i < TAM, j < TAM;){
+      |                       ^
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:12:38 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:15:14 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:16:24 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:23:56 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:25:16 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:29:41 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:30:10 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:32:05 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:39:14 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:99:5: warning: implicit declaration of function ‘end’ [-Wimplicit-function-declaration]
+   99 |     end(0);
+      |     ^~~
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:39:26 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+../src/questao_02.c: In function ‘main’:
+../src/questao_02.c:99:5: warning: implicit declaration of function ‘end’ [-Wimplicit-function-declaration]
+   99 |     end(0);
+      |     ^~~
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:39:37 **** Incremental Build of configuration Debug for project questao_02 ****
+make all 
+Building file: ../src/questao_02.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/questao_02.d" -MT"src/questao_02.o" -o "src/questao_02.o" "../src/questao_02.c"
+Finished building: ../src/questao_02.c
+ 
+Building target: questao_02
+Invoking: GCC C Linker
+gcc  -o "questao_02"  ./src/questao_02.o   
+Finished building target: questao_02
+ 
+23:46:02 **** Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+../src/matrix_multiplication.c: In function ‘main’:
+../src/matrix_multiplication.c:34:4: error: expected ‘}’ before ‘{’ token
+   34 |    {4,-2},
+      |    ^
+../src/matrix_multiplication.c:31:22: note: to match this ‘{’
+   31 |  int matrixB[3][2] = {
+      |                      ^
+../src/matrix_multiplication.c:52:3: error: ‘columnsc’ undeclared (first use in this function); did you mean ‘columnsC’?
+   52 |   columnsc = rowsA;
+      |   ^~~~~~~~
+      |   columnsC
+../src/matrix_multiplication.c:52:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/matrix_multiplication.c:40:6: warning: unused variable ‘matrixAC’ [-Wunused-variable]
+   40 |  int matrixAC[2][2];
+      |      ^~~~~~~~
+../src/matrix_multiplication.c:18:13: warning: variable ‘columnsC’ set but not used [-Wunused-but-set-variable]
+   18 |  int rowsC, columnsC;
+      |             ^~~~~~~~
+../src/matrix_multiplication.c:18:6: warning: unused variable ‘rowsC’ [-Wunused-variable]
+   18 |  int rowsC, columnsC;
+      |      ^~~~~
+../src/matrix_multiplication.c:17:13: warning: unused variable ‘columnsB’ [-Wunused-variable]
+   17 |  int rowsB, columnsB;
+      |             ^~~~~~~~
+../src/matrix_multiplication.c:16:13: warning: unused variable ‘columnsA’ [-Wunused-variable]
+   16 |  int rowsA, columnsA;
+      |             ^~~~~~~~
+make: *** [src/subdir.mk:20: src/matrix_multiplication.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:46:39 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+../src/matrix_multiplication.c: In function ‘main’:
+../src/matrix_multiplication.c:52:3: error: ‘columnsc’ undeclared (first use in this function); did you mean ‘columnsC’?
+   52 |   columnsc = rowsA;
+      |   ^~~~~~~~
+      |   columnsC
+../src/matrix_multiplication.c:52:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/matrix_multiplication.c:40:6: warning: unused variable ‘matrixAC’ [-Wunused-variable]
+   40 |  int matrixAC[2][2];
+      |      ^~~~~~~~
+../src/matrix_multiplication.c:18:13: warning: variable ‘columnsC’ set but not used [-Wunused-but-set-variable]
+   18 |  int rowsC, columnsC;
+      |             ^~~~~~~~
+../src/matrix_multiplication.c:18:6: warning: unused variable ‘rowsC’ [-Wunused-variable]
+   18 |  int rowsC, columnsC;
+      |      ^~~~~
+../src/matrix_multiplication.c:17:13: warning: unused variable ‘columnsB’ [-Wunused-variable]
+   17 |  int rowsB, columnsB;
+      |             ^~~~~~~~
+../src/matrix_multiplication.c:16:13: warning: unused variable ‘columnsA’ [-Wunused-variable]
+   16 |  int rowsA, columnsA;
+      |             ^~~~~~~~
+make: *** [src/subdir.mk:20: src/matrix_multiplication.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:05:23 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+../src/matrix_multiplication.c: In function ‘main’:
+../src/matrix_multiplication.c:39:11: warning: ‘rowsA’ is used uninitialized in this function [-Wuninitialized]
+   39 |  columnsC = rowsA;
+      |  ~~~~~~~~~^~~~~~~
+../src/matrix_multiplication.c:40:8: warning: ‘columnsB’ is used uninitialized in this function [-Wuninitialized]
+   40 |  rowsC = columnsB;
+      |  ~~~~~~^~~~~~~~~~
+../src/matrix_multiplication.c:84:4: warning: ‘columnsA’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   84 |    for(int currentY = 0; currentY < columnsA; currentY++){
+      |    ^~~
+../src/matrix_multiplication.c:96:3: warning: ‘rowsB’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   96 |   for(int currentX = 0; currentX < rowsB; currentX++){
+      |   ^~~
+Finished building: ../src/matrix_multiplication.c
+ 
+Building target: matrix_multiplication
+Invoking: GCC C Linker
+gcc  -o "matrix_multiplication"  ./src/matrix_multiplication.o   
+Finished building target: matrix_multiplication
+ 
+01:06:38 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+../src/matrix_multiplication.c: In function ‘main’:
+../src/matrix_multiplication.c:26:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘columnsA’
+   26 |  int matrixA[rowsA]columnsA] = {
+      |                    ^~~~~~~~
+../src/matrix_multiplication.c:26:20: warning: statement with no effect [-Wunused-value]
+../src/matrix_multiplication.c:26:28: error: expected ‘;’ before ‘]’ token
+   26 |  int matrixA[rowsA]columnsA] = {
+      |                            ^
+      |                            ;
+../src/matrix_multiplication.c:26:28: error: expected statement before ‘]’ token
+../src/matrix_multiplication.c:26:30: error: expected expression before ‘=’ token
+   26 |  int matrixA[rowsA]columnsA] = {
+      |                              ^
+../src/matrix_multiplication.c:31:2: error: variable-sized object may not be initialized
+   31 |  int matrixB[rowsA][columnsA] = {
+      |  ^~~
+../src/matrix_multiplication.c:32:5: warning: excess elements in array initializer
+   32 |    {3,4},
+      |     ^
+../src/matrix_multiplication.c:32:5: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:32:7: warning: excess elements in array initializer
+   32 |    {3,4},
+      |       ^
+../src/matrix_multiplication.c:32:7: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:32:4: warning: excess elements in array initializer
+   32 |    {3,4},
+      |    ^
+../src/matrix_multiplication.c:32:4: note: (near initialization for ‘matrixB’)
+../src/matrix_multiplication.c:33:5: warning: excess elements in array initializer
+   33 |    {3,-2},
+      |     ^
+../src/matrix_multiplication.c:33:5: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:33:7: warning: excess elements in array initializer
+   33 |    {3,-2},
+      |       ^
+../src/matrix_multiplication.c:33:7: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:33:4: warning: excess elements in array initializer
+   33 |    {3,-2},
+      |    ^
+../src/matrix_multiplication.c:33:4: note: (near initialization for ‘matrixB’)
+../src/matrix_multiplication.c:34:5: warning: excess elements in array initializer
+   34 |    {4,-2}
+      |     ^
+../src/matrix_multiplication.c:34:5: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:34:7: warning: excess elements in array initializer
+   34 |    {4,-2}
+      |       ^
+../src/matrix_multiplication.c:34:7: note: (near initialization for ‘matrixB[0]’)
+../src/matrix_multiplication.c:34:4: warning: excess elements in array initializer
+   34 |    {4,-2}
+      |    ^
+../src/matrix_multiplication.c:34:4: note: (near initialization for ‘matrixB’)
+../src/matrix_multiplication.c:60:18: error: ‘matrixA’ undeclared (first use in this function); did you mean ‘matrixB’?
+   60 |     scanf("%d", &matrixA[currentX][currentY]);
+      |                  ^~~~~~~
+      |                  matrixB
+../src/matrix_multiplication.c:60:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/matrix_multiplication.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:07:52 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+Finished building: ../src/matrix_multiplication.c
+ 
+Building target: matrix_multiplication
+Invoking: GCC C Linker
+gcc  -o "matrix_multiplication"  ./src/matrix_multiplication.o   
+Finished building target: matrix_multiplication
+ 
+01:08:01 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+make: Nothing to be done for 'all'.
+01:08:42 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+Building file: ../src/matrix_multiplication.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_multiplication.d" -MT"src/matrix_multiplication.o" -o "src/matrix_multiplication.o" "../src/matrix_multiplication.c"
+Finished building: ../src/matrix_multiplication.c
+ 
+Building target: matrix_multiplication
+Invoking: GCC C Linker
+gcc  -o "matrix_multiplication"  ./src/matrix_multiplication.o   
+Finished building target: matrix_multiplication
+ 
+01:08:45 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+make: Nothing to be done for 'all'.

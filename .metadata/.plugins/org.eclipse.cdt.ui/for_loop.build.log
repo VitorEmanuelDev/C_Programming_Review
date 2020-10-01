@@ -1,15 +1,7 @@
-23:26:39 **** Incremental Build of configuration Debug for project for_loop ****
-make all 
-Building file: ../src/for_loop.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for_loop.d" -MT"src/for_loop.o" -o "src/for_loop.o" "../src/for_loop.c"
-Finished building: ../src/for_loop.c
- 
-Building target: for_loop
-Invoking: GCC C Linker
-gcc  -o "for_loop"  ./src/for_loop.o   
-Finished building target: for_loop
+21:54:59 **** Clean-only build of configuration Debug for project for_loop ****
+make clean 
+rm -rf  ./src/for_loop.o  ./src/for_loop.d  for_loop
  
 
-23:26:40 Build Finished. 0 errors, 0 warnings. (took 806ms)
+21:55:00 Build Finished. 0 errors, 0 warnings. (took 828ms)
 

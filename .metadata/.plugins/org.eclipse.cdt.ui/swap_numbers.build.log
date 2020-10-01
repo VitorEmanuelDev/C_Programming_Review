@@ -1,15 +1,7 @@
-23:26:53 **** Incremental Build of configuration Debug for project swap_numbers ****
-make all 
-Building file: ../src/swap_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swap_numbers.d" -MT"src/swap_numbers.o" -o "src/swap_numbers.o" "../src/swap_numbers.c"
-Finished building: ../src/swap_numbers.c
- 
-Building target: swap_numbers
-Invoking: GCC C Linker
-gcc  -o "swap_numbers"  ./src/swap_numbers.o   
-Finished building target: swap_numbers
+21:55:14 **** Clean-only build of configuration Debug for project swap_numbers ****
+make clean 
+rm -rf  ./src/swap_numbers.o  ./src/swap_numbers.d  swap_numbers
  
 
-23:26:54 Build Finished. 0 errors, 0 warnings. (took 664ms)
+21:55:15 Build Finished. 0 errors, 0 warnings. (took 682ms)
 

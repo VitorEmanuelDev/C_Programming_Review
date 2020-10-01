@@ -8,7 +8,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
 	<section name="RefactoringWizard.preview">
-		<item key="width" value="600"/>
+		<item key="width" value="630"/>
 		<item key="height" value="400"/>
 	</section>
 	<section name="RefactoringWizard.Clean Up">
