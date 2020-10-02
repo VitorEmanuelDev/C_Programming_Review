@@ -2201,3 +2201,173 @@ Finished building target: matrix_multiplication
 01:08:45 **** Incremental Build of configuration Debug for project matrix_multiplication ****
 make all 
 make: Nothing to be done for 'all'.
+00:19:33 **** Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+00:19:38 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+make: Nothing to be done for 'all'.
+00:30:14 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+08:42:07 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+08:50:22 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:01:03 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:07:41 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+../src/c_for_win_exercises.c: In function ‘main’:
+../src/c_for_win_exercises.c:55:6: warning: variable ‘secondMax’ set but not used [-Wunused-but-set-variable]
+   55 |  int secondMax = 0;
+      |      ^~~~~~~~~
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:08:11 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+../src/c_for_win_exercises.c: In function ‘main’:
+../src/c_for_win_exercises.c:54:6: warning: variable ‘secondMax’ set but not used [-Wunused-but-set-variable]
+   54 |  int secondMax = 0;
+      |      ^~~~~~~~~
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:08:43 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+../src/c_for_win_exercises.c: In function ‘main’:
+../src/c_for_win_exercises.c:54:6: warning: variable ‘secondMax’ set but not used [-Wunused-but-set-variable]
+   54 |  int secondMax = 0;
+      |      ^~~~~~~~~
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:09:16 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+../src/c_for_win_exercises.c: In function ‘main’:
+../src/c_for_win_exercises.c:54:6: warning: variable ‘secondMax’ set but not used [-Wunused-but-set-variable]
+   54 |  int secondMax = 0;
+      |      ^~~~~~~~~
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:11:11 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:11:23 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+make: Nothing to be done for 'all'.
+09:12:01 **** Incremental Build of configuration Debug for project c_for_win_exercises ****
+make all 
+Building file: ../src/c_for_win_exercises.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_for_win_exercises.d" -MT"src/c_for_win_exercises.o" -o "src/c_for_win_exercises.o" "../src/c_for_win_exercises.c"
+Finished building: ../src/c_for_win_exercises.c
+ 
+Building target: c_for_win_exercises
+Invoking: GCC C Linker
+gcc  -o "c_for_win_exercises"  ./src/c_for_win_exercises.o   
+Finished building target: c_for_win_exercises
+ 
+09:23:32 **** Clean-only build of configuration Debug for project array_01_c_for_win ****
+make clean 
+rm -rf  ./src/c_for_win_exercises.o  ./src/c_for_win_exercises.d  c_for_win_exercises
+ 
+09:23:33 **** Build of configuration Debug for project array_01_c_for_win ****
+make all 
+Building file: ../src/array_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_01_c_for_win.d" -MT"src/array_01_c_for_win.o" -o "src/array_01_c_for_win.o" "../src/array_01_c_for_win.c"
+Finished building: ../src/array_01_c_for_win.c
+ 
+Building target: array_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_01_c_for_win"  ./src/array_01_c_for_win.o   
+Finished building target: array_01_c_for_win
+ 
