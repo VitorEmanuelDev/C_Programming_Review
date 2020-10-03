@@ -2371,3 +2371,796 @@ Invoking: GCC C Linker
 gcc  -o "array_01_c_for_win"  ./src/array_01_c_for_win.o   
 Finished building target: array_01_c_for_win
  
+09:49:33 **** Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:49:39 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:21 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+../src/string_01_c_for_win.c: In function ‘main’:
+../src/string_01_c_for_win.c:26:9: warning: statement with no effect [-Wunused-value]
+   26 |   string[current];
+      |   ~~~~~~^~~~~~~~~
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:50:44 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+../src/string_01_c_for_win.c: In function ‘main’:
+../src/string_01_c_for_win.c:26:9: warning: statement with no effect [-Wunused-value]
+   26 |   string[current];
+      |   ~~~~~~^~~~~~~~~
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:51:05 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+../src/string_01_c_for_win.c: In function ‘main’:
+../src/string_01_c_for_win.c:26:9: warning: statement with no effect [-Wunused-value]
+   26 |   string[current];
+      |   ~~~~~~^~~~~~~~~
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:51:51 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:52:15 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+09:52:59 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+../src/string_01_c_for_win.c: In function ‘main’:
+../src/string_01_c_for_win.c:26:9: error: ‘current’ undeclared (first use in this function)
+   26 |  size = current;
+      |         ^~~~~~~
+../src/string_01_c_for_win.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/string_01_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:53:34 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+Building file: ../src/string_01_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_01_c_for_win.d" -MT"src/string_01_c_for_win.o" -o "src/string_01_c_for_win.o" "../src/string_01_c_for_win.c"
+Finished building: ../src/string_01_c_for_win.c
+ 
+Building target: string_01_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_01_c_for_win"  ./src/string_01_c_for_win.o   
+Finished building target: string_01_c_for_win
+ 
+20:56:41 **** Build of configuration Debug for project string_02_c_for_win ****
+make all 
+Building file: ../src/string_02_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_02_c_for_win.d" -MT"src/string_02_c_for_win.o" -o "src/string_02_c_for_win.o" "../src/string_02_c_for_win.c"
+Finished building: ../src/string_02_c_for_win.c
+ 
+Building target: string_02_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_02_c_for_win"  ./src/string_02_c_for_win.o   
+Finished building target: string_02_c_for_win
+ 
+20:56:54 **** Incremental Build of configuration Debug for project string_02_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:57:34 **** Incremental Build of configuration Debug for project string_02_c_for_win ****
+make all 
+Building file: ../src/string_02_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_02_c_for_win.d" -MT"src/string_02_c_for_win.o" -o "src/string_02_c_for_win.o" "../src/string_02_c_for_win.c"
+Finished building: ../src/string_02_c_for_win.c
+ 
+Building target: string_02_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_02_c_for_win"  ./src/string_02_c_for_win.o   
+Finished building target: string_02_c_for_win
+ 
+21:06:03 **** Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:06:08 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:44 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:07:23 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:07:50 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:09:17 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:11:04 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:15:05 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:16:56 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:17:31 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:18:47 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+../src/string_03_c_for_win.c: In function ‘main’:
+../src/string_03_c_for_win.c:23:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   23 |     gets(str1);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+/usr/bin/ld: ./src/string_03_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_03_c_for_win/Debug/../src/string_03_c_for_win.c:23: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_03_c_for_win
+ 
+21:18:54 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:57 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:23:11 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:24:26 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+Finished building target: string_03_c_for_win
+ 
+21:25:12 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+../src/string_03_c_for_win.c: In function ‘main’:
+../src/string_03_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+/usr/bin/ld: ./src/string_03_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_03_c_for_win/Debug/../src/string_03_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_03_c_for_win
+ 
+21:25:20 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:25:23 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:08 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+Building file: ../src/string_03_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_03_c_for_win.d" -MT"src/string_03_c_for_win.o" -o "src/string_03_c_for_win.o" "../src/string_03_c_for_win.c"
+../src/string_03_c_for_win.c: In function ‘main’:
+../src/string_03_c_for_win.c:22:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   22 |  gets(string1);//doesn't work with fgets
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_03_c_for_win.c
+ 
+Building target: string_03_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_03_c_for_win"  ./src/string_03_c_for_win.o   
+/usr/bin/ld: ./src/string_03_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_03_c_for_win/Debug/../src/string_03_c_for_win.c:22: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_03_c_for_win
+ 
+21:29:15 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:16 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:19:20 **** Build of configuration Debug for project string_04_c_for_win ****
+make all 
+Building file: ../src/string_04_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_04_c_for_win.d" -MT"src/string_04_c_for_win.o" -o "src/string_04_c_for_win.o" "../src/string_04_c_for_win.c"
+../src/string_04_c_for_win.c: In function ‘main’:
+../src/string_04_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_04_c_for_win.c
+ 
+Building target: string_04_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_04_c_for_win"  ./src/string_04_c_for_win.o   
+/usr/bin/ld: ./src/string_04_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_04_c_for_win/Debug/../src/string_04_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_04_c_for_win
+ 
+22:19:34 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:11 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:22:25 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:24:52 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+Building file: ../src/string_04_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_04_c_for_win.d" -MT"src/string_04_c_for_win.o" -o "src/string_04_c_for_win.o" "../src/string_04_c_for_win.c"
+../src/string_04_c_for_win.c: In function ‘main’:
+../src/string_04_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_04_c_for_win.c
+ 
+Building target: string_04_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_04_c_for_win"  ./src/string_04_c_for_win.o   
+/usr/bin/ld: ./src/string_04_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_04_c_for_win/Debug/../src/string_04_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_04_c_for_win
+ 
+22:25:19 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:25:33 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:25:51 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:31:34 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+Building file: ../src/string_04_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_04_c_for_win.d" -MT"src/string_04_c_for_win.o" -o "src/string_04_c_for_win.o" "../src/string_04_c_for_win.c"
+../src/string_04_c_for_win.c: In function ‘main’:
+../src/string_04_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_04_c_for_win.c
+ 
+Building target: string_04_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_04_c_for_win"  ./src/string_04_c_for_win.o   
+/usr/bin/ld: ./src/string_04_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_04_c_for_win/Debug/../src/string_04_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_04_c_for_win
+ 
+22:31:40 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:31:43 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:39:26 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+Building file: ../src/string_04_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_04_c_for_win.d" -MT"src/string_04_c_for_win.o" -o "src/string_04_c_for_win.o" "../src/string_04_c_for_win.c"
+../src/string_04_c_for_win.c: In function ‘main’:
+../src/string_04_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_04_c_for_win.c
+ 
+Building target: string_04_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_04_c_for_win"  ./src/string_04_c_for_win.o   
+/usr/bin/ld: ./src/string_04_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_04_c_for_win/Debug/../src/string_04_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_04_c_for_win
+ 
+23:26:11 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+Building file: ../src/string_04_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_04_c_for_win.d" -MT"src/string_04_c_for_win.o" -o "src/string_04_c_for_win.o" "../src/string_04_c_for_win.c"
+../src/string_04_c_for_win.c: In function ‘main’:
+../src/string_04_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string1);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_04_c_for_win.c
+ 
+Building target: string_04_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_04_c_for_win"  ./src/string_04_c_for_win.o   
+/usr/bin/ld: ./src/string_04_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_04_c_for_win/Debug/../src/string_04_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_04_c_for_win
+ 
+02:58:01 **** Build of configuration Debug for project string_05_c_for_win ****
+make all 
+Building file: ../src/string_05_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_05_c_for_win.d" -MT"src/string_05_c_for_win.o" -o "src/string_05_c_for_win.o" "../src/string_05_c_for_win.c"
+../src/string_05_c_for_win.c: In function ‘main’:
+../src/string_05_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_05_c_for_win.c
+ 
+Building target: string_05_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_05_c_for_win"  ./src/string_05_c_for_win.o   
+/usr/bin/ld: ./src/string_05_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_05_c_for_win/Debug/../src/string_05_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_05_c_for_win
+ 
+02:58:32 **** Incremental Build of configuration Debug for project string_05_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+02:58:36 **** Incremental Build of configuration Debug for project string_05_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+03:29:43 **** Build of configuration Debug for project string_6_c_for_win ****
+make all 
+Building file: ../src/string_6_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_6_c_for_win.d" -MT"src/string_6_c_for_win.o" -o "src/string_6_c_for_win.o" "../src/string_6_c_for_win.c"
+../src/string_6_c_for_win.c: In function ‘main’:
+../src/string_6_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_6_c_for_win.c
+ 
+Building target: string_6_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_6_c_for_win"  ./src/string_6_c_for_win.o   
+/usr/bin/ld: ./src/string_6_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_6_c_for_win/Debug/../src/string_6_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_6_c_for_win
+ 
+03:29:52 **** Incremental Build of configuration Debug for project string_6_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+03:30:01 **** Incremental Build of configuration Debug for project string_6_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+03:30:10 **** Incremental Build of configuration Debug for project string_6_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+04:03:06 **** Build of configuration Debug for project string_7_c_for_win ****
+make all 
+Building file: ../src/string_7_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_7_c_for_win.d" -MT"src/string_7_c_for_win.o" -o "src/string_7_c_for_win.o" "../src/string_7_c_for_win.c"
+../src/string_7_c_for_win.c: In function ‘main’:
+../src/string_7_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_7_c_for_win.c
+ 
+Building target: string_7_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_7_c_for_win"  ./src/string_7_c_for_win.o   
+/usr/bin/ld: ./src/string_7_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_7_c_for_win/Debug/../src/string_7_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_7_c_for_win
+ 
+04:06:11 **** Incremental Build of configuration Debug for project string_7_c_for_win ****
+make all 
+Building file: ../src/string_7_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_7_c_for_win.d" -MT"src/string_7_c_for_win.o" -o "src/string_7_c_for_win.o" "../src/string_7_c_for_win.c"
+../src/string_7_c_for_win.c: In function ‘main’:
+../src/string_7_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_7_c_for_win.c
+ 
+Building target: string_7_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_7_c_for_win"  ./src/string_7_c_for_win.o   
+/usr/bin/ld: ./src/string_7_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_7_c_for_win/Debug/../src/string_7_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_7_c_for_win
+ 
+04:06:45 **** Incremental Build of configuration Debug for project string_7_c_for_win ****
+make all 
+Building file: ../src/string_7_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_7_c_for_win.d" -MT"src/string_7_c_for_win.o" -o "src/string_7_c_for_win.o" "../src/string_7_c_for_win.c"
+../src/string_7_c_for_win.c: In function ‘main’:
+../src/string_7_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_7_c_for_win.c
+ 
+Building target: string_7_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_7_c_for_win"  ./src/string_7_c_for_win.o   
+/usr/bin/ld: ./src/string_7_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_7_c_for_win/Debug/../src/string_7_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_7_c_for_win
+ 
+04:08:48 **** Incremental Build of configuration Debug for project string_7_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+04:08:51 **** Incremental Build of configuration Debug for project string_7_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+04:08:55 **** Incremental Build of configuration Debug for project string_7_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:07:45 **** Build of configuration Debug for project string_08_c_for_win ****
+make all 
+Building file: ../src/string_08_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_08_c_for_win.d" -MT"src/string_08_c_for_win.o" -o "src/string_08_c_for_win.o" "../src/string_08_c_for_win.c"
+Finished building: ../src/string_08_c_for_win.c
+ 
+Building target: string_08_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_08_c_for_win"  ./src/string_08_c_for_win.o   
+Finished building target: string_08_c_for_win
+ 
+05:07:53 **** Incremental Build of configuration Debug for project string_08_c_for_win ****
+make all 
+Building file: ../src/string_08_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_08_c_for_win.d" -MT"src/string_08_c_for_win.o" -o "src/string_08_c_for_win.o" "../src/string_08_c_for_win.c"
+../src/string_08_c_for_win.c: In function ‘main’:
+../src/string_08_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_08_c_for_win.c
+ 
+Building target: string_08_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_08_c_for_win"  ./src/string_08_c_for_win.o   
+/usr/bin/ld: ./src/string_08_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_08_c_for_win/Debug/../src/string_08_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_08_c_for_win
+ 
+05:11:21 **** Incremental Build of configuration Debug for project string_08_c_for_win ****
+make all 
+Building file: ../src/string_08_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_08_c_for_win.d" -MT"src/string_08_c_for_win.o" -o "src/string_08_c_for_win.o" "../src/string_08_c_for_win.c"
+../src/string_08_c_for_win.c: In function ‘main’:
+../src/string_08_c_for_win.c:21:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_08_c_for_win.c
+ 
+Building target: string_08_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_08_c_for_win"  ./src/string_08_c_for_win.o   
+/usr/bin/ld: ./src/string_08_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_08_c_for_win/Debug/../src/string_08_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_08_c_for_win
+ 
+05:11:26 **** Incremental Build of configuration Debug for project string_08_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:12:08 **** Incremental Build of configuration Debug for project string_08_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:29:38 **** Build of configuration Debug for project string_09_c_for_win ****
+make all 
+Building file: ../src/string_09_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_09_c_for_win.d" -MT"src/string_09_c_for_win.o" -o "src/string_09_c_for_win.o" "../src/string_09_c_for_win.c"
+../src/string_09_c_for_win.c: In function ‘main’:
+../src/string_09_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_09_c_for_win.c
+ 
+Building target: string_09_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_09_c_for_win"  ./src/string_09_c_for_win.o   
+/usr/bin/ld: ./src/string_09_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_09_c_for_win/Debug/../src/string_09_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_09_c_for_win
+ 
+05:29:57 **** Incremental Build of configuration Debug for project string_09_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:30:08 **** Incremental Build of configuration Debug for project string_09_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:43:45 **** Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_10_c_for_win.c
+ 
+Building target: string_10_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_10_c_for_win"  ./src/string_10_c_for_win.o   
+/usr/bin/ld: ./src/string_10_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_10_c_for_win/Debug/../src/string_10_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_10_c_for_win
+ 
+05:43:58 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:44:01 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:47:57 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+../src/string_10_c_for_win.c:33:22: error: empty character constant
+   33 |   }else if(string == ''){
+      |                      ^~
+make: *** [src/subdir.mk:20: src/string_10_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:48:10 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+../src/string_10_c_for_win.c:33:22: error: empty character constant
+   33 |   }else if(string == ''){
+      |                      ^~
+make: *** [src/subdir.mk:20: src/string_10_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:48:26 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+../src/string_10_c_for_win.c:33:22: error: empty character constant
+   33 |   }else if(string == ''){
+      |                      ^~
+make: *** [src/subdir.mk:20: src/string_10_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:49:12 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_10_c_for_win.c
+ 
+Building target: string_10_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_10_c_for_win"  ./src/string_10_c_for_win.o   
+/usr/bin/ld: ./src/string_10_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_10_c_for_win/Debug/../src/string_10_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_10_c_for_win
+ 
+05:49:18 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:49:23 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:49:37 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:56:30 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_10_c_for_win.c
+ 
+Building target: string_10_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_10_c_for_win"  ./src/string_10_c_for_win.o   
+/usr/bin/ld: ./src/string_10_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_10_c_for_win/Debug/../src/string_10_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_10_c_for_win
+ 
+05:56:35 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:56:41 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+05:58:06 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
