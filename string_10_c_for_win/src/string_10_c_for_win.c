@@ -36,7 +36,7 @@ int main(void) {
 
 	}
 
-	if(count > 0){
+	if(count > 0 && string[current] != ' '){
 
 		count++;
 
