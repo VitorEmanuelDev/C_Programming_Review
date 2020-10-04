@@ -67,9 +67,6 @@ int main(void) {
 
 	}
 
-
-
-
 	printf("\n");
 	printf("[ ");
 	for(int current = 0; current < size; current++){
