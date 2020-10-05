@@ -3579,3 +3579,2294 @@ make: Nothing to be done for 'all'.
 00:37:43 **** Incremental Build of configuration Debug for project array_10_c_for_win ****
 make all 
 make: Nothing to be done for 'all'.
+00:50:09 **** Build of configuration Debug for project string_10_c_for_win ****
+make all 
+Building file: ../src/string_10_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_10_c_for_win.d" -MT"src/string_10_c_for_win.o" -o "src/string_10_c_for_win.o" "../src/string_10_c_for_win.c"
+../src/string_10_c_for_win.c: In function ‘main’:
+../src/string_10_c_for_win.c:20:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   20 |  gets(string);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/string_10_c_for_win.c
+ 
+Building target: string_10_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_10_c_for_win"  ./src/string_10_c_for_win.o   
+/usr/bin/ld: ./src/string_10_c_for_win.o: in function `main':
+Finished building target: string_10_c_for_win
+/home/vitor/Desktop/C_WorkSpace/string_10_c_for_win/Debug/../src/string_10_c_for_win.c:20: warning: the `gets' function is dangerous and should not be used.
+ 
+00:50:25 **** Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+00:50:58 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+11:53:09 **** Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:32:51: error: expected expression before ‘)’ token
+   32 |   for(int currentY = 0; currentY < size; currentY+){
+      |                                                   ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:53:28 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:32:51: error: expected expression before ‘)’ token
+   32 |   for(int currentY = 0; currentY < size; currentY+){
+      |                                                   ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:02:41 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:32:51: error: expected expression before ‘)’ token
+   32 |   for(int currentY = 0; currentY < size; currentY+){
+      |                                                   ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:06:35 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:33:7: warning: unused variable ‘counter’ [-Wunused-variable]
+   33 |   int counter = 0;
+      |       ^~~~~~~
+../src/array_11_c_for_win.c:18:6: warning: unused variable ‘frequency’ [-Wunused-variable]
+   18 |  int frequency[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+12:38:27 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:18:6: warning: variable ‘freqArray’ set but not used [-Wunused-but-set-variable]
+   18 |  int freqArray[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+12:48:33 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:67:5: error: expected expression before ‘break’
+   67 |     break;
+      |     ^~~~~
+../src/array_11_c_for_win.c:75:10: error: expected identifier or ‘(’ before ‘)’ token
+   75 |  for(int ){}
+      |          ^
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+   77 | }
+      | ^
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+../src/array_11_c_for_win.c:19:6: warning: variable ‘valueArray’ set but not used [-Wunused-but-set-variable]
+   19 |  int valueArray[SIZE];
+      |      ^~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: warning: variable ‘frequencyArray’ set but not used [-Wunused-but-set-variable]
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:49:24 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:75:10: error: expected identifier or ‘(’ before ‘)’ token
+   75 |  for(int ){}
+      |          ^
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+   77 | }
+      | ^
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+../src/array_11_c_for_win.c:77:1: error: expected expression before ‘}’ token
+../src/array_11_c_for_win.c:19:6: warning: variable ‘valueArray’ set but not used [-Wunused-but-set-variable]
+   19 |  int valueArray[SIZE];
+      |      ^~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: warning: variable ‘frequencyArray’ set but not used [-Wunused-but-set-variable]
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:56:48 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:19:6: warning: variable ‘valueArray’ set but not used [-Wunused-but-set-variable]
+   19 |  int valueArray[SIZE];
+      |      ^~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: warning: variable ‘frequencyArray’ set but not used [-Wunused-but-set-variable]
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+12:58:05 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+12:59:57 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:03:22 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:04:42 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:08:36 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:10:33 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:20:6: warning: unused variable ‘size’ [-Wunused-variable]
+   20 |  int size = 10;
+      |      ^~~~
+../src/array_11_c_for_win.c:19:6: warning: unused variable ‘valueArray’ [-Wunused-variable]
+   19 |  int valueArray[SIZE];
+      |      ^~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: warning: unused variable ‘frequencyArray’ [-Wunused-variable]
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:17:6: warning: unused variable ‘array’ [-Wunused-variable]
+   17 |  int array[SIZE] = {5, 10, 2, 5, 50, 5, 10, 1, 2, 2};
+      |      ^~~~~
+../src/array_11_c_for_win.c: At top level:
+../src/array_11_c_for_win.c:33:2: error: expected identifier or ‘(’ before ‘for’
+   33 |  for(int currentX = 0; currentX < size; currentX++){
+      |  ^~~
+../src/array_11_c_for_win.c:33:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   33 |  for(int currentX = 0; currentX < size; currentX++){
+      |                                 ^
+../src/array_11_c_for_win.c:33:49: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+   33 |  for(int currentX = 0; currentX < size; currentX++){
+      |                                                 ^~
+../src/array_11_c_for_win.c:53:2: error: expected identifier or ‘(’ before ‘for’
+   53 |  for(int currentX = 0; currentX < size; currentX++){
+      |  ^~~
+../src/array_11_c_for_win.c:53:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   53 |  for(int currentX = 0; currentX < size; currentX++){
+      |                                 ^
+../src/array_11_c_for_win.c:53:49: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+   53 |  for(int currentX = 0; currentX < size; currentX++){
+      |                                                 ^~
+../src/array_11_c_for_win.c:80:2: error: expected identifier or ‘(’ before ‘for’
+   80 |  for(int current = 0; current <= newSize; current++){
+      |  ^~~
+../src/array_11_c_for_win.c:80:31: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<=’ token
+   80 |  for(int current = 0; current <= newSize; current++){
+      |                               ^~
+../src/array_11_c_for_win.c:80:50: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+   80 |  for(int current = 0; current <= newSize; current++){
+      |                                                  ^~
+../src/array_11_c_for_win.c:86:1: error: expected identifier or ‘(’ before ‘}’ token
+   86 | }
+      | ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:11:00 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:11:09 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:11:28 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:13:04 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:13:27 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:13:57 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:15:01 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:15:07 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:15:16 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:16:10 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:16:14 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:18:41 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:18:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:49 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:19:05 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:21:31 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:21:34 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+13:31:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:31:54 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:43:34 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:80:28: warning: self-comparison always evaluates to true [-Wtautological-compare]
+   80 |    }else if(array[size -1] == array[size -1]){
+      |                            ^~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:48:34 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:80:28: warning: self-comparison always evaluates to true [-Wtautological-compare]
+   80 |    }else if(array[size -1] == array[size -1]){
+      |                            ^~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:48:52 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:82:22: warning: self-comparison always evaluates to true [-Wtautological-compare]
+   82 |    if(array[size -1] == array[size -1]){
+      |                      ^~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:51:36 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+13:51:51 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+14:03:32 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:57:6: warning: unused variable ‘counter’ [-Wunused-variable]
+   57 |  int counter = 0;
+      |      ^~~~~~~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+14:50:47 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+14:50:54 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+14:50:57 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+14:51:17 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:01:56 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:11:21 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:12:21 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:16:06 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:21:16 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:26:39 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:30:15 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:30:30 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:44:47 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:47:33 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:60:6: error: redeclaration of ‘frequencyArray’ with no linkage
+   60 |  int frequencyArray[SIZE] = -1;
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: note: previous declaration of ‘frequencyArray’ was here
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:60:29: error: invalid initializer
+   60 |  int frequencyArray[SIZE] = -1;
+      |                             ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:47:45 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:60:6: error: redeclaration of ‘frequencyArray’ with no linkage
+   60 |  int frequencyArray[SIZE] = -1;
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: note: previous declaration of ‘frequencyArray’ was here
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:60:29: error: invalid initializer
+   60 |  int frequencyArray[SIZE] = -1;
+      |                             ^
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:48:47 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:60:6: error: redeclaration of ‘frequencyArray’ with no linkage
+   60 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: note: previous declaration of ‘frequencyArray’ was here
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:49:14 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:60:6: error: redeclaration of ‘frequencyArray’ with no linkage
+   60 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: note: previous declaration of ‘frequencyArray’ was here
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:49:21 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:60:6: error: redeclaration of ‘frequencyArray’ with no linkage
+   60 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+../src/array_11_c_for_win.c:18:6: note: previous declaration of ‘frequencyArray’ was here
+   18 |  int frequencyArray[SIZE];
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:49:37 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:51:46 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:52:10 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+15:53:03 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+16:04:50 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+16:07:48 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+16:09:06 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+16:32:45 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+16:35:37 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:00:53 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:01:00 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:19:6: warning: unused variable ‘valueArray’ [-Wunused-variable]
+   19 |  int valueArray[SIZE];
+      |      ^~~~~~~~~~
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:03:35 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:03:41 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:06:35 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:09:58 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:10:04 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:10:52 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:11:22 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:12:03 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:12 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:14:07 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:14:17 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:15:05 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:15:17 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:58:25 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+17:58:29 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:01 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:17:52 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:21:33 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:27:27 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:29:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:31:27 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:31:40 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:31:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:03 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:32:39 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:48 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:34:24 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:34:29 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:48 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:35:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:35:49 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:36:20 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:47:52 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:47:58 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:48:24 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:49:02 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:49:27 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:49:51 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:50:48 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+../src/array_11_c_for_win.c: In function ‘main’:
+../src/array_11_c_for_win.c:62:39: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   62 |  for(int currentX = 0; currentX < size, currentX++){
+      |                                       ^
+../src/array_11_c_for_win.c:62:51: error: expected ‘;’ before ‘)’ token
+   62 |  for(int currentX = 0; currentX < size, currentX++){
+      |                                                   ^
+      |                                                   ;
+make: *** [src/subdir.mk:20: src/array_11_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:51:11 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:51:49 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:53:01 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+18:53:16 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+19:00:41 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+19:14:47 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+19:15:54 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+19:15:59 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+19:16:43 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:12 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+20:04:03 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+20:04:49 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+Building file: ../src/array_11_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_11_c_for_win.d" -MT"src/array_11_c_for_win.o" -o "src/array_11_c_for_win.o" "../src/array_11_c_for_win.c"
+Finished building: ../src/array_11_c_for_win.c
+ 
+Building target: array_11_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_11_c_for_win"  ./src/array_11_c_for_win.o   
+Finished building target: array_11_c_for_win
+ 
+20:12:09 **** Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+../src/array_12_c_for_win.c: In function ‘main’:
+../src/array_12_c_for_win.c:20:5: warning: ‘main’ is normally a non-static function [-Wmain]
+   20 | int main(void) {
+      |     ^~~~
+At top level:
+../src/array_12_c_for_win.c:20:5: warning: ‘main’ defined but not used [-Wunused-function]
+Finished building: ../src/array_12_c_for_win.c
+ 
+Building target: array_12_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_12_c_for_win"  ./src/array_12_c_for_win.o   
+Finished building target: array_12_c_for_win
+ 
+20:12:45 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+../src/array_12_c_for_win.c:108:1: error: expected identifier or ‘(’ before ‘}’ token
+  108 | }
+      | ^
+make: *** [src/subdir.mk:20: src/array_12_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:12:59 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+../src/array_12_c_for_win.c:108:1: error: expected identifier or ‘(’ before ‘}’ token
+  108 | }
+      | ^
+make: *** [src/subdir.mk:20: src/array_12_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:13:32 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+../src/array_12_c_for_win.c:108:1: error: expected identifier or ‘(’ before ‘}’ token
+  108 | }
+      | ^
+make: *** [src/subdir.mk:20: src/array_12_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:13:46 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+../src/array_12_c_for_win.c:108:1: error: expected identifier or ‘(’ before ‘}’ token
+  108 | }
+      | ^
+make: *** [src/subdir.mk:20: src/array_12_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:14:00 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+Building file: ../src/array_12_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_12_c_for_win.d" -MT"src/array_12_c_for_win.o" -o "src/array_12_c_for_win.o" "../src/array_12_c_for_win.c"
+Finished building: ../src/array_12_c_for_win.c
+ 
+Building target: array_12_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_12_c_for_win"  ./src/array_12_c_for_win.o   
+Finished building target: array_12_c_for_win
+ 
+20:27:54 **** Build of configuration Debug for project array_13_c_for_win ****
+make all 
+Building file: ../src/array_13_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_13_c_for_win.d" -MT"src/array_13_c_for_win.o" -o "src/array_13_c_for_win.o" "../src/array_13_c_for_win.c"
+Finished building: ../src/array_13_c_for_win.c
+ 
+Building target: array_13_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_13_c_for_win"  ./src/array_13_c_for_win.o   
+Finished building target: array_13_c_for_win
+ 
+20:28:06 **** Incremental Build of configuration Debug for project array_13_c_for_win ****
+make all 
+Building file: ../src/array_13_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_13_c_for_win.d" -MT"src/array_13_c_for_win.o" -o "src/array_13_c_for_win.o" "../src/array_13_c_for_win.c"
+Finished building: ../src/array_13_c_for_win.c
+ 
+Building target: array_13_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_13_c_for_win"  ./src/array_13_c_for_win.o   
+Finished building target: array_13_c_for_win
+ 
+20:57:58 **** Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:6: error: size of array ‘arrayCppy’ is negative
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+../src/array_14_c_for_win.c:58:22: error: invalid initializer
+   58 |  int arrayCppy[-1] = 0;
+      |                      ^
+../src/array_14_c_for_win.c:58:6: warning: unused variable ‘arrayCppy’ [-Wunused-variable]
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:58:16 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:6: error: size of array ‘arrayCppy’ is negative
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+../src/array_14_c_for_win.c:58:22: error: invalid initializer
+   58 |  int arrayCppy[-1] = 0;
+      |                      ^
+../src/array_14_c_for_win.c:58:6: warning: unused variable ‘arrayCppy’ [-Wunused-variable]
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:58:33 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:6: error: size of array ‘arrayCppy’ is negative
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+../src/array_14_c_for_win.c:58:22: error: invalid initializer
+   58 |  int arrayCppy[-1] = 0;
+      |                      ^
+../src/array_14_c_for_win.c:58:6: warning: unused variable ‘arrayCppy’ [-Wunused-variable]
+   58 |  int arrayCppy[-1] = 0;
+      |      ^~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:58:53 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:21: error: invalid initializer
+   58 |  int arrayCppy[0] = 0;
+      |                     ^
+../src/array_14_c_for_win.c:58:6: warning: unused variable ‘arrayCppy’ [-Wunused-variable]
+   58 |  int arrayCppy[0] = 0;
+      |      ^~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:59:16 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:2: error: variable-sized object may not be initialized
+   58 |  int arrayCppy[current] = 0;
+      |  ^~~
+../src/array_14_c_for_win.c:58:6: warning: unused variable ‘arrayCppy’ [-Wunused-variable]
+   58 |  int arrayCppy[current] = 0;
+      |      ^~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:59:39 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+../src/array_14_c_for_win.c: In function ‘main’:
+../src/array_14_c_for_win.c:58:2: error: ‘arrayCppy’ undeclared (first use in this function); did you mean ‘arrayCopy’?
+   58 |  arrayCppy[-1] = 0;
+      |  ^~~~~~~~~
+      |  arrayCopy
+../src/array_14_c_for_win.c:58:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/array_14_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:59:53 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+Finished building: ../src/array_14_c_for_win.c
+ 
+Building target: array_14_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_14_c_for_win"  ./src/array_14_c_for_win.o   
+Finished building target: array_14_c_for_win
+ 
+21:00:10 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+Finished building: ../src/array_14_c_for_win.c
+ 
+Building target: array_14_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_14_c_for_win"  ./src/array_14_c_for_win.o   
+Finished building target: array_14_c_for_win
+ 
+21:01:08 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:31 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:14 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+Finished building: ../src/array_14_c_for_win.c
+ 
+Building target: array_14_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_14_c_for_win"  ./src/array_14_c_for_win.o   
+Finished building target: array_14_c_for_win
+ 
+21:02:37 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:09 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+Finished building: ../src/array_14_c_for_win.c
+ 
+Building target: array_14_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_14_c_for_win"  ./src/array_14_c_for_win.o   
+Finished building target: array_14_c_for_win
+ 
+21:18:06 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+Building file: ../src/array_14_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_14_c_for_win.d" -MT"src/array_14_c_for_win.o" -o "src/array_14_c_for_win.o" "../src/array_14_c_for_win.c"
+Finished building: ../src/array_14_c_for_win.c
+ 
+Building target: array_14_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_14_c_for_win"  ./src/array_14_c_for_win.o   
+Finished building target: array_14_c_for_win
+ 
+21:20:04 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:46 **** Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:46:53 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:47:40 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:47:44 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:35 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:50:23 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+../src/array_15_c_for_win.c: In function ‘main’:
+../src/array_15_c_for_win.c:20:6: warning: variable ‘array3’ set but not used [-Wunused-but-set-variable]
+   20 |  int array3[SIZE];
+      |      ^~~~~~
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:51:30 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+../src/array_15_c_for_win.c: In function ‘main’:
+../src/array_15_c_for_win.c:20:6: warning: variable ‘array3’ set but not used [-Wunused-but-set-variable]
+   20 |  int array3[SIZE];
+      |      ^~~~~~
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:51:55 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+../src/array_15_c_for_win.c: In function ‘main’:
+../src/array_15_c_for_win.c:20:6: warning: variable ‘array3’ set but not used [-Wunused-but-set-variable]
+   20 |  int array3[SIZE];
+      |      ^~~~~~
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:54:37 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+21:58:04 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+22:00:05 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+../src/array_15_c_for_win.c: In function ‘main’:
+../src/array_15_c_for_win.c:35:6: error: redefinition of ‘count’
+   35 |  int count = 2;
+      |      ^~~~~
+../src/array_15_c_for_win.c:24:6: note: previous definition of ‘count’ was here
+   24 |  int count = 1;
+      |      ^~~~~
+make: *** [src/subdir.mk:20: src/array_15_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:01:02 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+22:01:59 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+22:02:19 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+Building file: ../src/array_15_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_15_c_for_win.d" -MT"src/array_15_c_for_win.o" -o "src/array_15_c_for_win.o" "../src/array_15_c_for_win.c"
+Finished building: ../src/array_15_c_for_win.c
+ 
+Building target: array_15_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_15_c_for_win"  ./src/array_15_c_for_win.o   
+Finished building target: array_15_c_for_win
+ 
+22:26:01 **** Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+../src/array_16_c_for_win.c: In function ‘main’:
+../src/array_16_c_for_win.c:34:2: error: expected ‘,’ or ‘;’ before ‘for’
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |  ^~~
+../src/array_16_c_for_win.c:34:23: error: ‘current’ undeclared (first use in this function)
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                       ^~~~~~~
+../src/array_16_c_for_win.c:34:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_16_c_for_win.c:34:48: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                ^
+../src/array_16_c_for_win.c:34:59: error: expected ‘;’ before ‘)’ token
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                           ^
+      |                                                           ;
+../src/array_16_c_for_win.c:34:59: error: expected statement before ‘)’ token
+make: *** [src/subdir.mk:20: src/array_16_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:26:56 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+../src/array_16_c_for_win.c: In function ‘main’:
+../src/array_16_c_for_win.c:34:2: error: expected ‘,’ or ‘;’ before ‘for’
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |  ^~~
+../src/array_16_c_for_win.c:34:23: error: ‘current’ undeclared (first use in this function)
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                       ^~~~~~~
+../src/array_16_c_for_win.c:34:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_16_c_for_win.c:34:48: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                ^
+../src/array_16_c_for_win.c:34:59: error: expected ‘;’ before ‘)’ token
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                           ^
+      |                                                           ;
+../src/array_16_c_for_win.c:34:59: error: expected statement before ‘)’ token
+make: *** [src/subdir.mk:20: src/array_16_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:27:07 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+../src/array_16_c_for_win.c: In function ‘main’:
+../src/array_16_c_for_win.c:34:2: error: expected ‘,’ or ‘;’ before ‘for’
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |  ^~~
+../src/array_16_c_for_win.c:34:23: error: ‘current’ undeclared (first use in this function)
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                       ^~~~~~~
+../src/array_16_c_for_win.c:34:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_16_c_for_win.c:34:48: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                ^
+../src/array_16_c_for_win.c:34:59: error: expected ‘;’ before ‘)’ token
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                           ^
+      |                                                           ;
+../src/array_16_c_for_win.c:34:59: error: expected statement before ‘)’ token
+make: *** [src/subdir.mk:20: src/array_16_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:27:13 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+../src/array_16_c_for_win.c: In function ‘main’:
+../src/array_16_c_for_win.c:34:2: error: expected ‘,’ or ‘;’ before ‘for’
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |  ^~~
+../src/array_16_c_for_win.c:34:23: error: ‘current’ undeclared (first use in this function)
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                       ^~~~~~~
+../src/array_16_c_for_win.c:34:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_16_c_for_win.c:34:48: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                ^
+../src/array_16_c_for_win.c:34:59: error: expected ‘;’ before ‘)’ token
+   34 |  for(int current = 0; current < size; current++, reverse--){
+      |                                                           ^
+      |                                                           ;
+../src/array_16_c_for_win.c:34:59: error: expected statement before ‘)’ token
+make: *** [src/subdir.mk:20: src/array_16_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:29:23 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+Finished building: ../src/array_16_c_for_win.c
+ 
+Building target: array_16_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_16_c_for_win"  ./src/array_16_c_for_win.o   
+Finished building target: array_16_c_for_win
+ 
+22:29:29 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+22:30:55 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+Finished building: ../src/array_16_c_for_win.c
+ 
+Building target: array_16_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_16_c_for_win"  ./src/array_16_c_for_win.o   
+Finished building target: array_16_c_for_win
+ 
+22:31:34 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+Finished building: ../src/array_16_c_for_win.c
+ 
+Building target: array_16_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_16_c_for_win"  ./src/array_16_c_for_win.o   
+Finished building target: array_16_c_for_win
+ 
+22:32:22 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+Finished building: ../src/array_16_c_for_win.c
+ 
+Building target: array_16_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_16_c_for_win"  ./src/array_16_c_for_win.o   
+Finished building target: array_16_c_for_win
+ 
+22:34:20 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+Building file: ../src/array_16_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_16_c_for_win.d" -MT"src/array_16_c_for_win.o" -o "src/array_16_c_for_win.o" "../src/array_16_c_for_win.c"
+Finished building: ../src/array_16_c_for_win.c
+ 
+Building target: array_16_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_16_c_for_win"  ./src/array_16_c_for_win.o   
+Finished building target: array_16_c_for_win
+ 
+23:15:26 **** Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:38:37: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   38 |  for(int current = 0; current < size, current++){
+      |                                     ^
+../src/array_17_c_for_win.c:38:48: error: expected ‘;’ before ‘)’ token
+   38 |  for(int current = 0; current < size, current++){
+      |                                                ^
+      |                                                ;
+../src/array_17_c_for_win.c:42:4: error: ‘arrayEven’ undeclared (first use in this function); did you mean ‘arrayEvens’?
+   42 |    arrayEven[evenCount];
+      |    ^~~~~~~~~
+      |    arrayEvens
+../src/array_17_c_for_win.c:42:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_17_c_for_win.c:47:4: error: ‘arrayOdd’ undeclared (first use in this function); did you mean ‘arrayOdds’?
+   47 |    arrayOdd[oddCount];
+      |    ^~~~~~~~
+      |    arrayOdds
+../src/array_17_c_for_win.c:55:33: error: expected expression before ‘;’ token
+   55 |  for(int current = 0; current < ; current++){
+      |                                 ^
+../src/array_17_c_for_win.c:57:17: error: ‘array3’ undeclared (first use in this function); did you mean ‘array’?
+   57 |   printf("%d ", array3[current]);
+      |                 ^~~~~~
+      |                 array
+../src/array_17_c_for_win.c:22:6: warning: unused variable ‘size2’ [-Wunused-variable]
+   22 |  int size2;
+      |      ^~~~~
+../src/array_17_c_for_win.c:20:6: warning: unused variable ‘arrayOdds’ [-Wunused-variable]
+   20 |  int arrayOdds[SIZE];
+      |      ^~~~~~~~~
+../src/array_17_c_for_win.c:19:6: warning: unused variable ‘arrayEvens’ [-Wunused-variable]
+   19 |  int arrayEvens[SIZE];
+      |      ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_17_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:15:48 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:38:37: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   38 |  for(int current = 0; current < size, current++){
+      |                                     ^
+../src/array_17_c_for_win.c:38:48: error: expected ‘;’ before ‘)’ token
+   38 |  for(int current = 0; current < size, current++){
+      |                                                ^
+      |                                                ;
+../src/array_17_c_for_win.c:42:4: error: ‘arrayEven’ undeclared (first use in this function); did you mean ‘arrayEvens’?
+   42 |    arrayEven[evenCount];
+      |    ^~~~~~~~~
+      |    arrayEvens
+../src/array_17_c_for_win.c:42:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_17_c_for_win.c:47:4: error: ‘arrayOdd’ undeclared (first use in this function); did you mean ‘arrayOdds’?
+   47 |    arrayOdd[oddCount];
+      |    ^~~~~~~~
+      |    arrayOdds
+../src/array_17_c_for_win.c:22:6: warning: unused variable ‘size2’ [-Wunused-variable]
+   22 |  int size2;
+      |      ^~~~~
+../src/array_17_c_for_win.c:20:6: warning: unused variable ‘arrayOdds’ [-Wunused-variable]
+   20 |  int arrayOdds[SIZE];
+      |      ^~~~~~~~~
+../src/array_17_c_for_win.c:19:6: warning: unused variable ‘arrayEvens’ [-Wunused-variable]
+   19 |  int arrayEvens[SIZE];
+      |      ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_17_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:16:04 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:38:37: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   38 |  for(int current = 0; current < size, current++){
+      |                                     ^
+../src/array_17_c_for_win.c:38:48: error: expected ‘;’ before ‘)’ token
+   38 |  for(int current = 0; current < size, current++){
+      |                                                ^
+      |                                                ;
+../src/array_17_c_for_win.c:42:4: error: ‘arrayEven’ undeclared (first use in this function); did you mean ‘arrayEvens’?
+   42 |    arrayEven[evenCount];
+      |    ^~~~~~~~~
+      |    arrayEvens
+../src/array_17_c_for_win.c:42:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_17_c_for_win.c:47:4: error: ‘arrayOdd’ undeclared (first use in this function); did you mean ‘arrayOdds’?
+   47 |    arrayOdd[oddCount];
+      |    ^~~~~~~~
+      |    arrayOdds
+../src/array_17_c_for_win.c:22:6: warning: unused variable ‘size2’ [-Wunused-variable]
+   22 |  int size2;
+      |      ^~~~~
+../src/array_17_c_for_win.c:20:6: warning: unused variable ‘arrayOdds’ [-Wunused-variable]
+   20 |  int arrayOdds[SIZE];
+      |      ^~~~~~~~~
+../src/array_17_c_for_win.c:19:6: warning: unused variable ‘arrayEvens’ [-Wunused-variable]
+   19 |  int arrayEvens[SIZE];
+      |      ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_17_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:16:43 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:37:37: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   37 |  for(int current = 0; current < size, current++){
+      |                                     ^
+../src/array_17_c_for_win.c:37:48: error: expected ‘;’ before ‘)’ token
+   37 |  for(int current = 0; current < size, current++){
+      |                                                ^
+      |                                                ;
+../src/array_17_c_for_win.c:41:14: warning: statement with no effect [-Wunused-value]
+   41 |    arrayEvens[evenCount];
+      |    ~~~~~~~~~~^~~~~~~~~~~
+../src/array_17_c_for_win.c:46:13: warning: statement with no effect [-Wunused-value]
+   46 |    arrayOdds[oddCount];
+      |    ~~~~~~~~~^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/array_17_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:16:58 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:41:14: warning: statement with no effect [-Wunused-value]
+   41 |    arrayEvens[evenCount];
+      |    ~~~~~~~~~~^~~~~~~~~~~
+../src/array_17_c_for_win.c:46:13: warning: statement with no effect [-Wunused-value]
+   46 |    arrayOdds[oddCount];
+      |    ~~~~~~~~~^~~~~~~~~~
+Finished building: ../src/array_17_c_for_win.c
+ 
+Building target: array_17_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_17_c_for_win"  ./src/array_17_c_for_win.o   
+Finished building target: array_17_c_for_win
+ 
+23:17:37 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+../src/array_17_c_for_win.c: In function ‘main’:
+../src/array_17_c_for_win.c:20:6: warning: variable ‘arrayOdds’ set but not used [-Wunused-but-set-variable]
+   20 |  int arrayOdds[SIZE];
+      |      ^~~~~~~~~
+../src/array_17_c_for_win.c:19:6: warning: variable ‘arrayEvens’ set but not used [-Wunused-but-set-variable]
+   19 |  int arrayEvens[SIZE];
+      |      ^~~~~~~~~~
+Finished building: ../src/array_17_c_for_win.c
+ 
+Building target: array_17_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_17_c_for_win"  ./src/array_17_c_for_win.o   
+Finished building target: array_17_c_for_win
+ 
+23:19:46 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+Finished building: ../src/array_17_c_for_win.c
+ 
+Building target: array_17_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_17_c_for_win"  ./src/array_17_c_for_win.o   
+Finished building target: array_17_c_for_win
+ 
+23:19:52 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+23:24:39 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+Building file: ../src/array_17_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_17_c_for_win.d" -MT"src/array_17_c_for_win.o" -o "src/array_17_c_for_win.o" "../src/array_17_c_for_win.c"
+Finished building: ../src/array_17_c_for_win.c
+ 
+Building target: array_17_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_17_c_for_win"  ./src/array_17_c_for_win.o   
+Finished building target: array_17_c_for_win
+ 
+23:50:12 **** Build of configuration Debug for project array_18_c_for_win ****
+make all 
+Building file: ../src/array_18_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_18_c_for_win.d" -MT"src/array_18_c_for_win.o" -o "src/array_18_c_for_win.o" "../src/array_18_c_for_win.c"
+Finished building: ../src/array_18_c_for_win.c
+ 
+Building target: array_18_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_18_c_for_win"  ./src/array_18_c_for_win.o   
+Finished building target: array_18_c_for_win
+ 
+23:50:18 **** Incremental Build of configuration Debug for project array_18_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:52 **** Incremental Build of configuration Debug for project array_18_c_for_win ****
+make all 
+Building file: ../src/array_18_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_18_c_for_win.d" -MT"src/array_18_c_for_win.o" -o "src/array_18_c_for_win.o" "../src/array_18_c_for_win.c"
+Finished building: ../src/array_18_c_for_win.c
+ 
+Building target: array_18_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_18_c_for_win"  ./src/array_18_c_for_win.o   
+Finished building target: array_18_c_for_win
+ 
+00:20:52 **** Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:21:02 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+../src/array_19_c_for_win.c: In function ‘main’:
+../src/array_19_c_for_win.c:18:6: warning: unused variable ‘arrayCopy’ [-Wunused-variable]
+   18 |  int arrayCopy[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:23:01 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+../src/array_19_c_for_win.c: In function ‘main’:
+../src/array_19_c_for_win.c:18:6: warning: unused variable ‘arrayCopy’ [-Wunused-variable]
+   18 |  int arrayCopy[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:23:10 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+../src/array_19_c_for_win.c: In function ‘main’:
+../src/array_19_c_for_win.c:18:6: warning: unused variable ‘arrayCopy’ [-Wunused-variable]
+   18 |  int arrayCopy[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:23:34 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+../src/array_19_c_for_win.c: In function ‘main’:
+../src/array_19_c_for_win.c:18:6: warning: unused variable ‘arrayCopy’ [-Wunused-variable]
+   18 |  int arrayCopy[SIZE];
+      |      ^~~~~~~~~
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:30:26 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+Building file: ../src/array_19_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_19_c_for_win.d" -MT"src/array_19_c_for_win.o" -o "src/array_19_c_for_win.o" "../src/array_19_c_for_win.c"
+Finished building: ../src/array_19_c_for_win.c
+ 
+Building target: array_19_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_19_c_for_win"  ./src/array_19_c_for_win.o   
+Finished building target: array_19_c_for_win
+ 
+00:42:42 **** Build of configuration Debug for project array_20_c_for_win ****
+make all 
+Building file: ../src/array_20_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_20_c_for_win.d" -MT"src/array_20_c_for_win.o" -o "src/array_20_c_for_win.o" "../src/array_20_c_for_win.c"
+Finished building: ../src/array_20_c_for_win.c
+ 
+Building target: array_20_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_20_c_for_win"  ./src/array_20_c_for_win.o   
+Finished building target: array_20_c_for_win
+ 
+00:42:47 **** Incremental Build of configuration Debug for project array_20_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+00:44:37 **** Incremental Build of configuration Debug for project array_20_c_for_win ****
+make all 
+Building file: ../src/array_20_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_20_c_for_win.d" -MT"src/array_20_c_for_win.o" -o "src/array_20_c_for_win.o" "../src/array_20_c_for_win.c"
+Finished building: ../src/array_20_c_for_win.c
+ 
+Building target: array_20_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_20_c_for_win"  ./src/array_20_c_for_win.o   
+Finished building target: array_20_c_for_win
+ 
+00:46:13 **** Incremental Build of configuration Debug for project array_20_c_for_win ****
+make all 
+Building file: ../src/array_20_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_20_c_for_win.d" -MT"src/array_20_c_for_win.o" -o "src/array_20_c_for_win.o" "../src/array_20_c_for_win.c"
+Finished building: ../src/array_20_c_for_win.c
+ 
+Building target: array_20_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_20_c_for_win"  ./src/array_20_c_for_win.o   
+Finished building target: array_20_c_for_win
+ 
+00:48:42 **** Incremental Build of configuration Debug for project array_20_c_for_win ****
+make all 
+Building file: ../src/array_20_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_20_c_for_win.d" -MT"src/array_20_c_for_win.o" -o "src/array_20_c_for_win.o" "../src/array_20_c_for_win.c"
+Finished building: ../src/array_20_c_for_win.c
+ 
+Building target: array_20_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_20_c_for_win"  ./src/array_20_c_for_win.o   
+Finished building target: array_20_c_for_win
+ 
