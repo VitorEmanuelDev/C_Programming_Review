@@ -4218,3 +4218,279 @@ java.lang.NullPointerException: null parent found while collapsing trees
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 00:51:13.301
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 09:17:44.910
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 09:17:45.263
+!MESSAGE Indexed 'string_11_c_for_win' (1 sources, 55 headers) in 0,307 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 09:22:45.001
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 09:29:56.179
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 09:35:41.834
+!MESSAGE Indexed 'string_array_c_for_win' (1 sources, 0 headers) in 0,004 sec: 2 declarations; 1 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (25%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 09:35:44.531
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 09:40:44.623
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 10:20:35.779
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 10:25:28.011
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 10:25:28.355
+!MESSAGE Indexed 'string_12_c_for_win' (1 sources, 55 headers) in 0,278 sec: 979 declarations; 1.829 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 10:26:49.075
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-05 10:26:49.487
+!MESSAGE Indexed 'string_13_c_for_win' (1 sources, 55 headers) in 0,375 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 10:31:49.156
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 12:36:30.459
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 20:03:27.382
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 20:22:46.779
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 20:27:53.390
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 20:36:33.380
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 20:48:34.906
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 21:52:20.344
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 22:47:37.226
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 23:10:56.725
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 23:17:12.396
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 23:23:48.063
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-05 23:44:13.149
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-06 00:00:57.356
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-06 00:11:43.374
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
