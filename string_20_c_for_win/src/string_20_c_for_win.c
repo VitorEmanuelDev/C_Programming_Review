@@ -29,8 +29,6 @@ int main(void)
 
     }
 
-
-
     for(current = 0; current < size; current++){
 
         if(string[current] >= 'a' && string[current] <= 'z'){
@@ -46,7 +44,6 @@ int main(void)
     }
 
     for(current = 0; current < 26; current++){
-
 
         if(frequency[current] != 0){
 
