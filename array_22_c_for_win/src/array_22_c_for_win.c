@@ -25,6 +25,41 @@ int main(void) {
 	printf("By how many numbers do you want to rotate your array?");
 	scanf("%d", &rotation);
 
+	printf("Input %d values into the array:", size);
 
+	for(int current = 0; current < size; current++){
+
+		scanf("%d", &array[current]);
+
+	}
+
+	int rightRotation = size - rotation;
+	int current = 0;
+
+	while(current < rightRotation){
+
+		array[current + size] = array[current];
+		current++;
+
+	}
+
+	int restart = 0;
+	for(int current = rightRotation; current < size + rightRotation; current++){
+
+		array[restart] = array[current];
+		restart++;
+
+	}
+
+	for(int current = size; current < size + rightRotation; current++)
+		array[current] = '\0';
+
+	printf("[ ");
+	for(int current = 0; current < size; current++){
+
+		printf("%d ",array[current]);
+
+	}
+	printf("]");
 
 }

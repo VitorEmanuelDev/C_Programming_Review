@@ -8626,3 +8626,54 @@ Finished building target: array_22_c_for_win
 03:06:04 **** Incremental Build of configuration Debug for project array_21_c_for_win ****
 make all 
 make: Nothing to be done for 'all'.
+03:16:46 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+Building file: ../src/array_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_22_c_for_win.d" -MT"src/array_22_c_for_win.o" -o "src/array_22_c_for_win.o" "../src/array_22_c_for_win.c"
+Finished building: ../src/array_22_c_for_win.c
+ 
+Building target: array_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_22_c_for_win"  ./src/array_22_c_for_win.o   
+Finished building target: array_22_c_for_win
+ 
+03:18:15 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+Building file: ../src/array_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_22_c_for_win.d" -MT"src/array_22_c_for_win.o" -o "src/array_22_c_for_win.o" "../src/array_22_c_for_win.c"
+Finished building: ../src/array_22_c_for_win.c
+ 
+Building target: array_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_22_c_for_win"  ./src/array_22_c_for_win.o   
+Finished building target: array_22_c_for_win
+ 
+03:18:18 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+03:19:55 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+Building file: ../src/array_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_22_c_for_win.d" -MT"src/array_22_c_for_win.o" -o "src/array_22_c_for_win.o" "../src/array_22_c_for_win.c"
+Finished building: ../src/array_22_c_for_win.c
+ 
+Building target: array_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_22_c_for_win"  ./src/array_22_c_for_win.o   
+Finished building target: array_22_c_for_win
+ 
+03:20:53 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+Building file: ../src/array_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_22_c_for_win.d" -MT"src/array_22_c_for_win.o" -o "src/array_22_c_for_win.o" "../src/array_22_c_for_win.c"
+Finished building: ../src/array_22_c_for_win.c
+ 
+Building target: array_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_22_c_for_win"  ./src/array_22_c_for_win.o   
+Finished building target: array_22_c_for_win
+ 
