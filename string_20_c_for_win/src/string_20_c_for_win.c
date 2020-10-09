@@ -15,21 +15,21 @@
 int main(void)
 {
     char string[SIZE];
-    int current, size;
-    int frequency[26];
+	int size;
+    int frequency[SIZE];
 
     printf("Write a string:");
     gets(string);
 
     size = strlen(string);
 
-    for(current = 0; current < 26; current++){
+    for(int current = 0; current < 26; current++){
 
         frequency[current] = 0;
 
     }
 
-    for(current = 0; current < size; current++){
+    for(int current = 0; current < size; current++){
 
         if(string[current] >= 'a' && string[current] <= 'z'){
 
@@ -43,7 +43,7 @@ int main(void)
 
     }
 
-    for(current = 0; current < 26; current++){
+    for(int current = 0; current < 26; current++){
 
         if(frequency[current] != 0){
 

@@ -8677,3 +8677,913 @@ Invoking: GCC C Linker
 gcc  -o "array_22_c_for_win"  ./src/array_22_c_for_win.o   
 Finished building target: array_22_c_for_win
  
+20:06:51 **** Incremental Build of configuration Debug for project string_20_c_for_win ****
+make all 
+Building file: ../src/string_20_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_20_c_for_win.d" -MT"src/string_20_c_for_win.o" -o "src/string_20_c_for_win.o" "../src/string_20_c_for_win.c"
+../src/string_20_c_for_win.c: In function ‘main’:
+../src/string_20_c_for_win.c:22:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   22 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_20_c_for_win.c
+ 
+Building target: string_20_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_20_c_for_win"  ./src/string_20_c_for_win.o   
+/usr/bin/ld: ./src/string_20_c_for_win.o: in function `main':
+Finished building target: string_20_c_for_win
+/home/vitor/Desktop/C_WorkSpace/string_20_c_for_win/Debug/../src/string_20_c_for_win.c:22: warning: the `gets' function is dangerous and should not be used.
+ 
+20:20:36 **** Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:25:13: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |     scanf("%c", &character);
+      |            ~^   ~~~~~~~~~~
+      |             |   |
+      |             |   int *
+      |             char *
+      |            %lc
+../src/string_21_c_for_win.c:44:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   44 |       printf("%s is in position %d", string[current], current);
+      |               ~^                     ~~~~~~~~~~~~~~~
+      |                |                           |
+      |                char *                      int
+      |               %d
+../src/string_21_c_for_win.c:45:7: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   45 |       exit(0);
+      |       ^~~~
+../src/string_21_c_for_win.c:45:7: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/string_21_c_for_win.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <string.h>
+  +++ |+#include <stdlib.h>
+   13 | #define SIZE 512
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:20:49 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:53 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:53 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:47:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   47 |      printf("%s is in position %d", string[current], current);
+      |              ~^                     ~~~~~~~~~~~~~~~
+      |               |                           |
+      |               char *                      int
+      |              %d
+../src/string_21_c_for_win.c:48:12: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   48 |            exit(0);
+      |            ^~~~
+../src/string_21_c_for_win.c:48:12: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/string_21_c_for_win.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <string.h>
+  +++ |+#include <stdlib.h>
+   13 | #define SIZE 512
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:34:16 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:20 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:24 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:38:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   38 |      printf("%s is in position %d", string[current], current);
+      |              ~^                     ~~~~~~~~~~~~~~~
+      |               |                           |
+      |               char *                      int
+      |              %d
+../src/string_21_c_for_win.c:39:12: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   39 |            exit(0);
+      |            ^~~~
+../src/string_21_c_for_win.c:39:12: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/string_21_c_for_win.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <string.h>
+  +++ |+#include <stdlib.h>
+   13 | #define SIZE 512
+../src/string_21_c_for_win.c:31:8: warning: ‘character’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   31 |      if(string[current] == character){
+      |        ^
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:36:53 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:25 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:38:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   38 |      printf("%s is in position %d", string[current], current);
+      |              ~^                     ~~~~~~~~~~~~~~~
+      |               |                           |
+      |               char *                      int
+      |              %d
+../src/string_21_c_for_win.c:39:12: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   39 |            exit(0);
+      |            ^~~~
+../src/string_21_c_for_win.c:39:12: warning: incompatible implicit declaration of built-in function ‘exit’
+../src/string_21_c_for_win.c:13:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+   12 | #include <string.h>
+  +++ |+#include <stdlib.h>
+   13 | #define SIZE 512
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:41:01 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:42:12 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:42:18 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:21 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:49:46 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:52:48 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:52:54 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:57 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:15 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:54:22 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:54:24 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+20:55:00 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+20:58:17 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+Finished building target: string_21_c_for_win
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+ 
+20:58:42 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+21:00:37 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:48:12: error: expected ‘;’ before ‘}’ token
+   48 |   current++
+      |            ^
+      |            ;
+   49 | 
+   50 |  }
+      |  ~          
+make: *** [src/subdir.mk:20: src/string_21_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:00:46 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:48:12: error: expected ‘;’ before ‘}’ token
+   48 |   current++
+      |            ^
+      |            ;
+   49 | 
+   50 |  }
+      |  ~          
+make: *** [src/subdir.mk:20: src/string_21_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:00:53 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:48:12: error: expected ‘;’ before ‘}’ token
+   48 |   current++
+      |            ^
+      |            ;
+   49 | 
+   50 |  }
+      |  ~          
+make: *** [src/subdir.mk:20: src/string_21_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:01:05 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:48:12: error: expected ‘;’ before ‘}’ token
+   48 |   current++
+      |            ^
+      |            ;
+   49 | 
+   50 |  }
+      |  ~          
+make: *** [src/subdir.mk:20: src/string_21_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:01:12 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+../src/string_21_c_for_win.c:48:12: error: expected ‘;’ before ‘}’ token
+   48 |   current++
+      |            ^
+      |            ;
+   49 | 
+   50 |  }
+      |  ~          
+make: *** [src/subdir.mk:20: src/string_21_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:01:17 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+Building file: ../src/string_21_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_21_c_for_win.d" -MT"src/string_21_c_for_win.o" -o "src/string_21_c_for_win.o" "../src/string_21_c_for_win.c"
+../src/string_21_c_for_win.c: In function ‘main’:
+../src/string_21_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_21_c_for_win.c
+ 
+Building target: string_21_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_21_c_for_win"  ./src/string_21_c_for_win.o   
+/usr/bin/ld: ./src/string_21_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_21_c_for_win/Debug/../src/string_21_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_21_c_for_win
+ 
+21:01:21 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:12:14 **** Build of configuration Debug for project string_22_c_for_win ****
+make all 
+Building file: ../src/string_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_22_c_for_win.d" -MT"src/string_22_c_for_win.o" -o "src/string_22_c_for_win.o" "../src/string_22_c_for_win.c"
+../src/string_22_c_for_win.c: In function ‘main’:
+../src/string_22_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_22_c_for_win.c
+ 
+Building target: string_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_22_c_for_win"  ./src/string_22_c_for_win.o   
+/usr/bin/ld: ./src/string_22_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_22_c_for_win/Debug/../src/string_22_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_22_c_for_win
+ 
+21:12:18 **** Incremental Build of configuration Debug for project string_22_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:39 **** Incremental Build of configuration Debug for project string_22_c_for_win ****
+make all 
+Building file: ../src/string_22_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_22_c_for_win.d" -MT"src/string_22_c_for_win.o" -o "src/string_22_c_for_win.o" "../src/string_22_c_for_win.c"
+../src/string_22_c_for_win.c: In function ‘main’:
+../src/string_22_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_22_c_for_win.c
+ 
+Building target: string_22_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_22_c_for_win"  ./src/string_22_c_for_win.o   
+/usr/bin/ld: ./src/string_22_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_22_c_for_win/Debug/../src/string_22_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_22_c_for_win
+ 
+23:58:26 **** Build of configuration Debug for project string_23_c_for_win ****
+make all 
+Building file: ../src/string_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_23_c_for_win.d" -MT"src/string_23_c_for_win.o" -o "src/string_23_c_for_win.o" "../src/string_23_c_for_win.c"
+../src/string_23_c_for_win.c: In function ‘main’:
+../src/string_23_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_23_c_for_win.c
+ 
+Building target: string_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_23_c_for_win"  ./src/string_23_c_for_win.o   
+/usr/bin/ld: ./src/string_23_c_for_win.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/string_23_c_for_win/Debug/../src/string_23_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+Finished building target: string_23_c_for_win
+ 
+23:58:31 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+23:58:43 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+23:59:02 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+23:59:26 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+Building file: ../src/string_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/string_23_c_for_win.d" -MT"src/string_23_c_for_win.o" -o "src/string_23_c_for_win.o" "../src/string_23_c_for_win.c"
+../src/string_23_c_for_win.c: In function ‘main’:
+../src/string_23_c_for_win.c:21:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   21 |     gets(string);
+      |     ^~~~
+      |     fgets
+Finished building: ../src/string_23_c_for_win.c
+ 
+Building target: string_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "string_23_c_for_win"  ./src/string_23_c_for_win.o   
+/usr/bin/ld: ./src/string_23_c_for_win.o: in function `main':
+Finished building target: string_23_c_for_win
+/home/vitor/Desktop/C_WorkSpace/string_23_c_for_win/Debug/../src/string_23_c_for_win.c:21: warning: the `gets' function is dangerous and should not be used.
+ 
+23:59:45 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:20:43 **** Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:26:6: warning: unused variable ‘matrixB’ [-Wunused-variable]
+   26 |  int matrixB[rows][columns];
+      |      ^~~~~~~
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:20:47 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:20:57 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:25:2: error: variable-sized object may not be initialized
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |  ^~~
+../src/array_23_c_for_win.c:25:33: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                 ^
+../src/array_23_c_for_win.c:25:33: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:25:35: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                   ^
+../src/array_23_c_for_win.c:25:35: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:25:32: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                ^
+../src/array_23_c_for_win.c:25:32: note: (near initialization for ‘matrixA’)
+../src/array_23_c_for_win.c:26:12: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |            ^
+../src/array_23_c_for_win.c:26:12: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:14: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |              ^
+../src/array_23_c_for_win.c:26:14: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:11: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |           ^
+../src/array_23_c_for_win.c:26:11: note: (near initialization for ‘matrixA’)
+../src/array_23_c_for_win.c:27:2: error: variable-sized object may not be initialized
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |  ^~~
+../src/array_23_c_for_win.c:27:32: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                                ^
+../src/array_23_c_for_win.c:27:32: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:27:34: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                                  ^
+../src/array_23_c_for_win.c:27:34: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:27:31: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                               ^
+../src/array_23_c_for_win.c:27:31: note: (near initialization for ‘matrixB’)
+../src/array_23_c_for_win.c:28:21: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                     ^
+../src/array_23_c_for_win.c:28:21: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:28:23: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                       ^
+../src/array_23_c_for_win.c:28:23: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:28:20: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                    ^
+../src/array_23_c_for_win.c:28:20: note: (near initialization for ‘matrixB’)
+../src/array_23_c_for_win.c:29:6: warning: variable ‘matrixC’ set but not used [-Wunused-but-set-variable]
+   29 |  int matrixC[rows][columns];
+      |      ^~~~~~~
+make: *** [src/subdir.mk:20: src/array_23_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:21:07 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:25:2: error: variable-sized object may not be initialized
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |  ^~~
+../src/array_23_c_for_win.c:25:33: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                 ^
+../src/array_23_c_for_win.c:25:33: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:25:35: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                   ^
+../src/array_23_c_for_win.c:25:35: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:25:32: warning: excess elements in array initializer
+   25 |  int matrixA[rows][columns] = {{1,3},
+      |                                ^
+../src/array_23_c_for_win.c:25:32: note: (near initialization for ‘matrixA’)
+../src/array_23_c_for_win.c:26:12: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |            ^
+../src/array_23_c_for_win.c:26:12: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:14: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |              ^
+../src/array_23_c_for_win.c:26:14: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:11: warning: excess elements in array initializer
+   26 |           {6,5}};
+      |           ^
+../src/array_23_c_for_win.c:26:11: note: (near initialization for ‘matrixA’)
+../src/array_23_c_for_win.c:27:2: error: variable-sized object may not be initialized
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |  ^~~
+../src/array_23_c_for_win.c:27:32: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                                ^
+../src/array_23_c_for_win.c:27:32: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:27:34: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                                  ^
+../src/array_23_c_for_win.c:27:34: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:27:31: warning: excess elements in array initializer
+   27 |  int matrixB[rows][columns]= {{9,4},
+      |                               ^
+../src/array_23_c_for_win.c:27:31: note: (near initialization for ‘matrixB’)
+../src/array_23_c_for_win.c:28:21: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                     ^
+../src/array_23_c_for_win.c:28:21: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:28:23: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                       ^
+../src/array_23_c_for_win.c:28:23: note: (near initialization for ‘matrixB[0]’)
+../src/array_23_c_for_win.c:28:20: warning: excess elements in array initializer
+   28 |                    {2,7}};
+      |                    ^
+../src/array_23_c_for_win.c:28:20: note: (near initialization for ‘matrixB’)
+../src/array_23_c_for_win.c:29:6: warning: variable ‘matrixC’ set but not used [-Wunused-but-set-variable]
+   29 |  int matrixC[rows][columns];
+      |      ^~~~~~~
+make: *** [src/subdir.mk:20: src/array_23_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:23:33 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:30:6: warning: variable ‘matrixC’ set but not used [-Wunused-but-set-variable]
+   30 |  int matrixC[SIZE][SIZE];
+      |      ^~~~~~~
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:24:33 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:24:37 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:24:58 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:25:44 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:29:05 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:29:10 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:29:47 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:26:2: error: variable-sized object may not be initialized
+   26 |  int matrixA[rows][columns] = {{1,3},
+      |  ^~~
+../src/array_23_c_for_win.c:26:33: warning: excess elements in array initializer
+   26 |  int matrixA[rows][columns] = {{1,3},
+      |                                 ^
+../src/array_23_c_for_win.c:26:33: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:35: warning: excess elements in array initializer
+   26 |  int matrixA[rows][columns] = {{1,3},
+      |                                   ^
+../src/array_23_c_for_win.c:26:35: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:26:32: warning: excess elements in array initializer
+   26 |  int matrixA[rows][columns] = {{1,3},
+      |                                ^
+../src/array_23_c_for_win.c:26:32: note: (near initialization for ‘matrixA’)
+../src/array_23_c_for_win.c:27:9: warning: excess elements in array initializer
+   27 |        {6,5}};
+      |         ^
+../src/array_23_c_for_win.c:27:9: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:27:11: warning: excess elements in array initializer
+   27 |        {6,5}};
+      |           ^
+../src/array_23_c_for_win.c:27:11: note: (near initialization for ‘matrixA[0]’)
+../src/array_23_c_for_win.c:27:8: warning: excess elements in array initializer
+   27 |        {6,5}};
+      |        ^
+../src/array_23_c_for_win.c:27:8: note: (near initialization for ‘matrixA’)
+make: *** [src/subdir.mk:20: src/array_23_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:30:10 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:30:28 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:35:12 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+../src/array_23_c_for_win.c: In function ‘main’:
+../src/array_23_c_for_win.c:52:35: error: ‘rows’ undeclared (first use in this function)
+   52 |  for(int currentX = 0; currentX < rows; currentX++){
+      |                                   ^~~~
+../src/array_23_c_for_win.c:52:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_23_c_for_win.c:54:36: error: ‘columns’ undeclared (first use in this function)
+   54 |   for(int currentY = 0; currentY < columns; currentY++){
+      |                                    ^~~~~~~
+../src/array_23_c_for_win.c:30:6: warning: variable ‘matrixC’ set but not used [-Wunused-but-set-variable]
+   30 |  int matrixC[SIZE][SIZE];
+      |      ^~~~~~~
+../src/array_23_c_for_win.c:28:6: warning: variable ‘matrixB’ set but not used [-Wunused-but-set-variable]
+   28 |  int matrixB[SIZE][SIZE]= {{9,4},
+      |      ^~~~~~~
+../src/array_23_c_for_win.c:26:6: warning: variable ‘matrixA’ set but not used [-Wunused-but-set-variable]
+   26 |  int matrixA[SIZE][SIZE] = {{1,3},
+      |      ^~~~~~~
+make: *** [src/subdir.mk:20: src/array_23_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:37:10 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:37:40 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:39:21 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:40:22 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+01:45:02 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
+01:46:20 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+Building file: ../src/array_23_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_23_c_for_win.d" -MT"src/array_23_c_for_win.o" -o "src/array_23_c_for_win.o" "../src/array_23_c_for_win.c"
+Finished building: ../src/array_23_c_for_win.c
+ 
+Building target: array_23_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_23_c_for_win"  ./src/array_23_c_for_win.o   
+Finished building target: array_23_c_for_win
+ 
