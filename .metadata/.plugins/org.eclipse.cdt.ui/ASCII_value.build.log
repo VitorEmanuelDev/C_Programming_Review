@@ -1,7 +1,15 @@
-21:54:46 **** Clean-only build of configuration Debug for project ASCII_value ****
-make clean 
-rm -rf  ./src/ASCII_value.o  ./src/ASCII_value.d  ASCII_value
+02:16:20 **** Build of configuration Debug for project ASCII_value ****
+make all 
+Building file: ../src/ASCII_value.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ASCII_value.d" -MT"src/ASCII_value.o" -o "src/ASCII_value.o" "../src/ASCII_value.c"
+Finished building: ../src/ASCII_value.c
+ 
+Building target: ASCII_value
+Invoking: GCC C Linker
+gcc  -o "ASCII_value"  ./src/ASCII_value.o   
+Finished building target: ASCII_value
  
 
-21:54:47 Build Finished. 0 errors, 0 warnings. (took 906ms)
+02:16:22 Build Finished. 0 errors, 0 warnings. (took 2s.305ms)
 

@@ -1,7 +1,15 @@
-21:55:01 **** Clean-only build of configuration Debug for project if_else ****
-make clean 
-rm -rf  ./src/if_else.o  ./src/if_else.d  if_else
+02:19:13 **** Build of configuration Debug for project if_else ****
+make all 
+Building file: ../src/if_else.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/if_else.d" -MT"src/if_else.o" -o "src/if_else.o" "../src/if_else.c"
+Finished building: ../src/if_else.c
+ 
+Building target: if_else
+Invoking: GCC C Linker
+gcc  -o "if_else"  ./src/if_else.o   
+Finished building target: if_else
  
 
-21:55:02 Build Finished. 0 errors, 0 warnings. (took 668ms)
+02:19:15 Build Finished. 0 errors, 0 warnings. (took 1s.892ms)
 

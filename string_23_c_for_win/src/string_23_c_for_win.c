@@ -12,8 +12,8 @@
 #include <string.h>
 #define SIZE 512
 
-int main(void)
-{
+int main(void){
+
     char string[SIZE];
 
     int size;

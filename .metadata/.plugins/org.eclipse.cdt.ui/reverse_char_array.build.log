@@ -1,7 +1,15 @@
-21:55:10 **** Clean-only build of configuration Debug for project reverse_char_array ****
-make clean 
-rm -rf  ./src/reverse_char_array.o  ./src/reverse_char_array.d  reverse_char_array
+02:19:38 **** Build of configuration Debug for project reverse_char_array ****
+make all 
+Building file: ../src/reverse_char_array.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reverse_char_array.d" -MT"src/reverse_char_array.o" -o "src/reverse_char_array.o" "../src/reverse_char_array.c"
+Finished building: ../src/reverse_char_array.c
+ 
+Building target: reverse_char_array
+Invoking: GCC C Linker
+gcc  -o "reverse_char_array"  ./src/reverse_char_array.o   
+Finished building target: reverse_char_array
  
 
-21:55:10 Build Finished. 0 errors, 0 warnings. (took 679ms)
+02:19:40 Build Finished. 0 errors, 0 warnings. (took 2s.225ms)
 

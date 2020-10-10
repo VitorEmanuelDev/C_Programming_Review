@@ -1,7 +1,15 @@
-21:55:16 **** Clean-only build of configuration Debug for project upper_lower_case ****
-make clean 
-rm -rf  ./src/upper_lower_case.o  ./src/upper_lower_case.d  upper_lower_case
+02:21:11 **** Build of configuration Debug for project upper_lower_case ****
+make all 
+Building file: ../src/upper_lower_case.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/upper_lower_case.d" -MT"src/upper_lower_case.o" -o "src/upper_lower_case.o" "../src/upper_lower_case.c"
+Finished building: ../src/upper_lower_case.c
+ 
+Building target: upper_lower_case
+Invoking: GCC C Linker
+gcc  -o "upper_lower_case"  ./src/upper_lower_case.o   
+Finished building target: upper_lower_case
  
 
-21:55:17 Build Finished. 0 errors, 0 warnings. (took 749ms)
+02:21:13 Build Finished. 0 errors, 0 warnings. (took 1s.983ms)
 
