@@ -3211,7 +3211,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GXX_ABI_VERSION" value="1013">
+                    <entry kind="macro" name="__GXX_ABI_VERSION" value="21">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

@@ -9,6 +9,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #define SIZE 512
 
@@ -16,27 +17,54 @@ int main(void)
 {
     char string[SIZE];
 
-    int size;
     printf("Write a string:");
-    gets(string);
+    fgets(string, SIZE, stdin);
+
+    int size = strlen(string);
+
+    char charString;
 
     char charA;
-	printf("Which character are you looking for?\n");
-	scanf("%c", &charA);
+
+    printf("Pick a character from the string:");
+    scanf("%c", &charA);
+
+    int flag = 0;
+
+    for(int current = 0; string[current] != '\0'; current++){
+
+        charString = string[current];
+
+        if(charA == charString){
+
+            flag++;
+
+        }
+
+    }
+
+    if(flag == 0){
+
+        printf("Invalid character.");
+        exit(0);
+
+    }
 
 	char charB;
-	printf("What's the replacement for character '%c'?\n", charA);
-	scanf("%c", &charB);
 
-    size = strlen(string);
+    printf("Choose a character to replace it:");
+    scanf("%c", &charB);
 
     int current = 0;
 
     while(current < size){
 
-    	if(string[current] == charA){
+        charString = string[current];
 
-			string[current] = charB;
+    	if(charString == charA){
+
+    		string[current] = charA;
+    		break;
 
 		}
 
@@ -44,7 +72,7 @@ int main(void)
 
     }
 
-    string[current] = '\0';
+    string[size] = '\0';
 
     printf("\n");
 

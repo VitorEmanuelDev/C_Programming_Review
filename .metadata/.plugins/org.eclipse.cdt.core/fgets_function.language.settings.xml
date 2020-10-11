@@ -207,7 +207,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DBL_MIN__" value="((double)2.22507385850720138309023271733240406e-308L)">
+                    <entry kind="macro" name="__DBL_MIN__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -339,12 +339,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DECIMAL_BID_FORMAT__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DECIMAL_DIG__" value="21">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -358,12 +352,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__ELF__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FINITE_MATH_ONLY__" value="0">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -544,12 +532,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT32_DECIMAL_DIG__" value="9">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT32_DENORM_MIN__" value="1.40129846432481707092372958328991613e-45F32">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1323,6 +1305,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__LDBL_DECIMAL_DIG__" value="0">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__LDBL_DECIMAL_DIG__" value="21">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1575,6 +1563,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SIZEOF_FLOAT128__" value="1.40129846432481707092372958328991613e-45F32">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__SIZEOF_FLOAT128__" value="16">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1720,6 +1714,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__STDC_IEC_559__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

@@ -1479,12 +1479,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PRAGMA_REDEFINE_EXTNAME" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__PTRDIFF_MAX__" value="0x7fffffffffffffffL">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1516,18 +1510,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SCHAR_WIDTH__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEG_FS" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEG_GS" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2026,6 +2008,24 @@
                     </entry>
                     					
                     <entry kind="macro" name="__code_model_small__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__cpp_constexpr" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__cpp_decltype_auto" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__cpp_runtime_arrays" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

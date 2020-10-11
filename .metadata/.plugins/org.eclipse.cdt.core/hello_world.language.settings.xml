@@ -639,12 +639,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__FLT64X_DIG__" value="18">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__FLT64X_EPSILON__" value="1.08420217248550443400745280086994171e-19F64x">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -664,12 +658,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT64X_HAS_QUIET_NAN__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT64X_MANT_DIG__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1359,7 +1347,19 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__LDBL_HAS_INFINITY__" value="64">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__LDBL_HAS_QUIET_NAN__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__LDBL_HAS_QUIET_NAN__" value="18">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1474,6 +1474,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__PIE__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2086,12 +2092,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__unix" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__unix__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3613,12 +3613,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__LONG_WIDTH__" value="64">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__LP64__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3662,6 +3656,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__PIE__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PRAGMA_REDEFINE_EXTNAME" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3854,12 +3854,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SIZE_TYPE__" value="long unsigned int">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SIZE_WIDTH__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4196,6 +4190,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__amd64" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__amd64__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

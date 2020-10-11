@@ -2479,12 +2479,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DECIMAL_BID_FORMAT__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DECIMAL_DIG__" value="21">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3385,6 +3379,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__INT_FAST32_TYPE__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__INT_FAST32_WIDTH__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -4207,12 +4207,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__code_model_small__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__cplusplus" value="201402L">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -4286,6 +4280,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__cpp_hex_float" value="201603">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__cpp_hex_float" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

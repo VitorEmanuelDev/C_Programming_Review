@@ -207,12 +207,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DBL_MIN__" value="((double)2.22507385850720138309023271733240406e-308L)">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DEC128_EPSILON__" value="1E-33DL">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -807,7 +801,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__FLT_DIG__" value="6">
+                    <entry kind="macro" name="__FLT_DIG__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1617,6 +1611,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SIZEOF_LONG_LONG__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__SIZEOF_LONG__" value="8">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1708,12 +1708,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__STDC_HOSTED__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__STDC_IEC_559_COMPLEX__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2026,6 +2020,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__code_model_small__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__cpp_user_defined_literals" value="((double)2.22507385850720138309023271733240406e-308L)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

@@ -99,12 +99,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__BYTE_ORDER__" value="__ORDER_LITTLE_ENDIAN__">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__CET__" value="3">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -303,6 +297,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__DEC64_MANT_DIG__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__DEC64_MANT_DIG__" value="16">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -484,12 +484,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT32X_HAS_DENORM__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__FLT32X_HAS_INFINITY__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1186,6 +1180,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__INT_FAST32_MAX__" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__INT_FAST32_TYPE__" value="__ORDER_LITTLE_ENDIAN__">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2443,12 +2443,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DEC64_MANT_DIG__" value="16">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DEC64_MAX_EXP__" value="385">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3385,6 +3379,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__INT_FAST32_WIDTH__" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__INT_FAST32_WIDTH__" value="64">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3458,12 +3458,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__INT_LEAST32_WIDTH__" value="32">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__INT_LEAST64_MAX__" value="0x7fffffffffffffffL">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

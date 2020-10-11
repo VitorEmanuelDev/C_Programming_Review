@@ -195,13 +195,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DBL_MIN_10_EXP__" value="(-307)">
+                    <entry kind="macro" name="__DBL_MIN_EXP__" value="(-1021)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DBL_MIN_EXP__" value="(-1021)">
+                    <entry kind="macro" name="__DBL_MIN_EXP__" value="(-307)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
