@@ -1,15 +1,6 @@
-02:21:05 **** Build of configuration Debug for project swap_numbers ****
+15:35:59 **** Build of configuration Debug for project swap_numbers ****
 make all 
-Building file: ../src/swap_numbers.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swap_numbers.d" -MT"src/swap_numbers.o" -o "src/swap_numbers.o" "../src/swap_numbers.c"
-Finished building: ../src/swap_numbers.c
- 
-Building target: swap_numbers
-Invoking: GCC C Linker
-gcc  -o "swap_numbers"  ./src/swap_numbers.o   
-Finished building target: swap_numbers
- 
+make: Nothing to be done for 'all'.
 
-02:21:07 Build Finished. 0 errors, 0 warnings. (took 1s.584ms)
+15:36:00 Build Finished. 0 errors, 0 warnings. (took 674ms)
 

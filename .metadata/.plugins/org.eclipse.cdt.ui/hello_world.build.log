@@ -1,15 +1,6 @@
-02:19:07 **** Build of configuration Debug for project hello_world ****
+15:35:18 **** Build of configuration Debug for project hello_world ****
 make all 
-Building file: ../src/hello_world.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello_world.d" -MT"src/hello_world.o" -o "src/hello_world.o" "../src/hello_world.c"
-Finished building: ../src/hello_world.c
- 
-Building target: hello_world
-Invoking: GCC C Linker
-gcc  -o "hello_world"  ./src/hello_world.o   
-Finished building target: hello_world
- 
+make: Nothing to be done for 'all'.
 
-02:19:09 Build Finished. 0 errors, 0 warnings. (took 2s.537ms)
+15:35:19 Build Finished. 0 errors, 0 warnings. (took 650ms)
 

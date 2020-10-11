@@ -1,15 +1,6 @@
-02:19:01 **** Build of configuration Debug for project find_vowels ****
+15:35:16 **** Build of configuration Debug for project find_vowels ****
 make all 
-Building file: ../src/find_vowels.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/find_vowels.d" -MT"src/find_vowels.o" -o "src/find_vowels.o" "../src/find_vowels.c"
-Finished building: ../src/find_vowels.c
- 
-Building target: find_vowels
-Invoking: GCC C Linker
-gcc  -o "find_vowels"  ./src/find_vowels.o   
-Finished building target: find_vowels
- 
+make: Nothing to be done for 'all'.
 
-02:19:03 Build Finished. 0 errors, 0 warnings. (took 1s.896ms)
+15:35:17 Build Finished. 0 errors, 0 warnings. (took 685ms)
 

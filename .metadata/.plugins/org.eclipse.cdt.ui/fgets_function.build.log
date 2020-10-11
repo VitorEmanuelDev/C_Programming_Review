@@ -1,15 +1,6 @@
-02:18:50 **** Build of configuration Debug for project fgets_function ****
+15:35:12 **** Build of configuration Debug for project fgets_function ****
 make all 
-Building file: ../src/fgets_function.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fgets_function.d" -MT"src/fgets_function.o" -o "src/fgets_function.o" "../src/fgets_function.c"
-Finished building: ../src/fgets_function.c
- 
-Building target: fgets_function
-Invoking: GCC C Linker
-gcc  -o "fgets_function"  ./src/fgets_function.o   
-Finished building target: fgets_function
- 
+make: Nothing to be done for 'all'.
 
-02:18:52 Build Finished. 0 errors, 0 warnings. (took 2s.19ms)
+15:35:13 Build Finished. 0 errors, 0 warnings. (took 677ms)
 

@@ -1,15 +1,6 @@
-02:21:13 **** Build of configuration Debug for project user_input ****
+15:36:03 **** Build of configuration Debug for project user_input ****
 make all 
-Building file: ../src/user_input.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/user_input.d" -MT"src/user_input.o" -o "src/user_input.o" "../src/user_input.c"
-Finished building: ../src/user_input.c
- 
-Building target: user_input
-Invoking: GCC C Linker
-gcc  -o "user_input"  ./src/user_input.o   
-Finished building target: user_input
- 
+make: Nothing to be done for 'all'.
 
-02:21:15 Build Finished. 0 errors, 0 warnings. (took 1s.658ms)
+15:36:03 Build Finished. 0 errors, 0 warnings. (took 623ms)
 

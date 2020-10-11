@@ -1,15 +1,6 @@
-02:18:52 **** Build of configuration Debug for project fibonacci_series ****
+15:35:13 **** Build of configuration Debug for project fibonacci_series ****
 make all 
-Building file: ../src/fibonacci_series.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_series.d" -MT"src/fibonacci_series.o" -o "src/fibonacci_series.o" "../src/fibonacci_series.c"
-Finished building: ../src/fibonacci_series.c
- 
-Building target: fibonacci_series
-Invoking: GCC C Linker
-gcc  -o "fibonacci_series"  ./src/fibonacci_series.o   
-Finished building target: fibonacci_series
- 
+make: Nothing to be done for 'all'.
 
-02:18:54 Build Finished. 0 errors, 0 warnings. (took 1s.957ms)
+15:35:13 Build Finished. 0 errors, 0 warnings. (took 728ms)
 

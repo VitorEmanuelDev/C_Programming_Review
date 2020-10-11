@@ -1,15 +1,6 @@
-02:21:15 **** Build of configuration Debug for project while_loop ****
+15:36:03 **** Build of configuration Debug for project while_loop ****
 make all 
-Building file: ../src/while_loop.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while_loop.d" -MT"src/while_loop.o" -o "src/while_loop.o" "../src/while_loop.c"
-Finished building: ../src/while_loop.c
- 
-Building target: while_loop
-Invoking: GCC C Linker
-gcc  -o "while_loop"  ./src/while_loop.o   
-Finished building target: while_loop
- 
+make: Nothing to be done for 'all'.
 
-02:21:17 Build Finished. 0 errors, 0 warnings. (took 1s.937ms)
+15:36:04 Build Finished. 0 errors, 0 warnings. (took 623ms)
 
