@@ -1,6 +1,6 @@
-15:36:03 **** Build of configuration Debug for project while_loop ****
+18:20:24 **** Incremental Build of configuration Debug for project while_loop ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:36:04 Build Finished. 0 errors, 0 warnings. (took 623ms)
+18:20:25 Build Finished. 0 errors, 0 warnings. (took 772ms)
 

@@ -1,6 +1,6 @@
-15:35:12 **** Build of configuration Debug for project fgets_function ****
+18:19:38 **** Incremental Build of configuration Debug for project fgets_function ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:35:13 Build Finished. 0 errors, 0 warnings. (took 677ms)
+18:19:38 Build Finished. 0 errors, 0 warnings. (took 570ms)
 

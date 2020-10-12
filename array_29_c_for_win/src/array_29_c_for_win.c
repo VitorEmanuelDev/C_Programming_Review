@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : array_28_c_for_win.c
+ Name        : array_29_c_for_win.c
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : program to find sum of main diagonal elements of a matrix
+ Description : program to find sum of minor diagonal elements of a matrix
  ============================================================================
  */
 
@@ -44,7 +44,7 @@ int main(void) {
 
 		for(int currentY = 0; currentY < columns; currentY++){
 
-			if(currentX == currentY){
+			if(currentX + currentY == columns + 1 - 2){
 
 				sum += matrix[currentX][currentY];
 
@@ -54,6 +54,6 @@ int main(void) {
 
 	}
 
-	printf("Sum of main diagonal => %d", sum);
+	printf("Sum of minor diagonal => %d", sum);
 
 }

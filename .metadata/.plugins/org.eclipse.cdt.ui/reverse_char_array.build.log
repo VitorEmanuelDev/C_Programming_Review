@@ -1,6 +1,6 @@
-15:35:29 **** Build of configuration Debug for project reverse_char_array ****
+18:19:53 **** Incremental Build of configuration Debug for project reverse_char_array ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:35:29 Build Finished. 0 errors, 0 warnings. (took 624ms)
+18:19:54 Build Finished. 0 errors, 0 warnings. (took 569ms)
 

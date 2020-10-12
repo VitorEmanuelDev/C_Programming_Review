@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : array_28_c_for_win.c
+ Name        : array_31_c_for_win.c
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : program to find sum of main diagonal elements of a matrix
+ Description : program to interchange diagonals of a matrix
  ============================================================================
  */
 
@@ -15,8 +15,8 @@
 int main(void) {
 
 	int matrix[SIZE][SIZE];/* =   {{7,8,9},
-								{4,5,6},
-								{1,2,3}};*/
+								  {4,5,6},
+								  {1,2,3}};*/
 	int rows;// = 3;
 	int columns;// = 3;
 
@@ -38,22 +38,41 @@ int main(void) {
 
 	}
 
-	int sum = 0;
+	int size;
 
-	for(int currentX = 0; currentX < rows; currentX++){
+	if(columns < rows){
 
-		for(int currentY = 0; currentY < columns; currentY++){
+		size = columns;
 
-			if(currentX == currentY){
+	}else{
 
-				sum += matrix[currentX][currentY];
-
-			}
-
-		}
+		size = rows;
 
 	}
 
-	printf("Sum of main diagonal => %d", sum);
+	for(int currentX = 0; currentX < size; currentX++){
+
+		int currentY = currentX;
+
+		int aux = matrix[currentX][currentY];
+		matrix[currentX][currentY] = matrix[currentX][size - currentY - 1];
+		matrix[currentX][size - currentY - 1] = aux;
+
+	}
+
+	for(int currentX = 0; currentX < rows; currentX++){
+
+		printf("[ ");
+		for(int currentY = 0; currentY < columns; currentY++){
+
+			printf("%d ", matrix[currentX][currentY]);
+
+		}
+
+		printf("]");
+		printf("\n");
+
+	}
+
 
 }

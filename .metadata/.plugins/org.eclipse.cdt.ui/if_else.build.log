@@ -1,6 +1,6 @@
-15:35:20 **** Build of configuration Debug for project if_else ****
+18:19:45 **** Incremental Build of configuration Debug for project if_else ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:35:20 Build Finished. 0 errors, 0 warnings. (took 629ms)
+18:19:45 Build Finished. 0 errors, 0 warnings. (took 570ms)
 

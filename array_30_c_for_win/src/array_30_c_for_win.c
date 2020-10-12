@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : array_28_c_for_win.c
+ Name        : array_30_c_for_win.c
  Author      : vitor emanuel
  Version     :
  Copyright   : 
- Description : program to find sum of main diagonal elements of a matrix
+ Description : program to find sum of each row and column of a matrix
  ============================================================================
  */
 
@@ -38,22 +38,38 @@ int main(void) {
 
 	}
 
-	int sum = 0;
+	int rowSum[SIZE];
+	int columnSum[SIZE];
+
+	int sumRow = 0;
+	int sumColumn = 0;
 
 	for(int currentX = 0; currentX < rows; currentX++){
 
-		for(int currentY = 0; currentY < columns; currentY++){
+		sumColumn = 0;
+		sumRow = 0;
+		int currentY = 0;
 
-			if(currentX == currentY){
+		while(currentY < columns){
 
-				sum += matrix[currentX][currentY];
+			sumRow += matrix[currentX][currentY];
+			sumColumn += matrix[currentY][currentX];
 
-			}
+			currentY++;
 
 		}
 
+		rowSum[currentX] = sumRow;
+		columnSum[currentX] = sumColumn;
+
 	}
 
-	printf("Sum of main diagonal => %d", sum);
+	printf("Sum of each row:\n");
+	for(int current = 0; current < rows; current++)
+		printf("%d ",rowSum[current]);
+
+	printf("\nSum of each column:\n");
+	for(int current = 0; current < columns; current++)
+		printf("%d ", columnSum[current]);
 
 }

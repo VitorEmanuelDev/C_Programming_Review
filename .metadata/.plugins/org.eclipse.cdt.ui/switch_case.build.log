@@ -1,6 +1,6 @@
-15:36:00 **** Build of configuration Debug for project switch_case ****
+18:20:21 **** Incremental Build of configuration Debug for project switch_case ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:36:01 Build Finished. 0 errors, 0 warnings. (took 824ms)
+18:20:22 Build Finished. 0 errors, 0 warnings. (took 572ms)
 

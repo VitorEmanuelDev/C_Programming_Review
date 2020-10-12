@@ -1,6 +1,6 @@
-15:35:25 **** Build of configuration Debug for project nested_for_loop ****
+18:19:49 **** Incremental Build of configuration Debug for project nested_for_loop ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:35:26 Build Finished. 0 errors, 0 warnings. (took 782ms)
+18:19:50 Build Finished. 0 errors, 0 warnings. (took 620ms)
 

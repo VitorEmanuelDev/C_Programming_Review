@@ -1,6 +1,6 @@
-15:35:59 **** Build of configuration Debug for project swap_numbers ****
+18:20:21 **** Incremental Build of configuration Debug for project swap_numbers ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:36:00 Build Finished. 0 errors, 0 warnings. (took 674ms)
+18:20:21 Build Finished. 0 errors, 0 warnings. (took 571ms)
 

@@ -12805,3 +12805,559 @@ Finished building target: array_28_c_for_win
 17:07:56 **** Incremental Build of configuration Debug for project array_28_c_for_win ****
 make all 
 make: Nothing to be done for 'all'.
+17:33:54 **** Build of configuration Debug for project array_29_c_for_win ****
+make all 
+Building file: ../src/array_29_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_29_c_for_win.d" -MT"src/array_29_c_for_win.o" -o "src/array_29_c_for_win.o" "../src/array_29_c_for_win.c"
+Finished building: ../src/array_29_c_for_win.c
+ 
+Building target: array_29_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_29_c_for_win"  ./src/array_29_c_for_win.o   
+Finished building target: array_29_c_for_win
+ 
+17:33:58 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:42 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+Building file: ../src/array_29_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_29_c_for_win.d" -MT"src/array_29_c_for_win.o" -o "src/array_29_c_for_win.o" "../src/array_29_c_for_win.c"
+Finished building: ../src/array_29_c_for_win.c
+ 
+Building target: array_29_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_29_c_for_win"  ./src/array_29_c_for_win.o   
+Finished building target: array_29_c_for_win
+ 
+17:35:56 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+17:51:28 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+Building file: ../src/array_29_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_29_c_for_win.d" -MT"src/array_29_c_for_win.o" -o "src/array_29_c_for_win.o" "../src/array_29_c_for_win.c"
+Finished building: ../src/array_29_c_for_win.c
+ 
+Building target: array_29_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_29_c_for_win"  ./src/array_29_c_for_win.o   
+Finished building target: array_29_c_for_win
+ 
+17:59:31 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+Building file: ../src/array_29_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_29_c_for_win.d" -MT"src/array_29_c_for_win.o" -o "src/array_29_c_for_win.o" "../src/array_29_c_for_win.c"
+Finished building: ../src/array_29_c_for_win.c
+ 
+Building target: array_29_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_29_c_for_win"  ./src/array_29_c_for_win.o   
+Finished building target: array_29_c_for_win
+ 
+18:14:16 **** Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+../src/array_30_c_for_win.c: In function ‘main’:
+../src/array_30_c_for_win.c:55:3: error: ‘matrixSum’ undeclared (first use in this function); did you mean ‘matrix’?
+   55 |   matrixSum = sumRow;
+      |   ^~~~~~~~~
+      |   matrix
+../src/array_30_c_for_win.c:55:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_30_c_for_win.c:45:6: warning: unused variable ‘sumColumns’ [-Wunused-variable]
+   45 |  int sumColumns = 0;
+      |      ^~~~~~~~~~
+../src/array_30_c_for_win.c:42:6: warning: unused variable ‘columnsSum’ [-Wunused-variable]
+   42 |  int columnsSum[columns];
+      |      ^~~~~~~~~~
+../src/array_30_c_for_win.c:41:6: warning: unused variable ‘rowSum’ [-Wunused-variable]
+   41 |  int rowSum[rows];
+      |      ^~~~~~
+make: *** [src/subdir.mk:20: src/array_30_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:14:22 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+../src/array_30_c_for_win.c: In function ‘main’:
+../src/array_30_c_for_win.c:55:3: error: ‘matrixSum’ undeclared (first use in this function); did you mean ‘matrix’?
+   55 |   matrixSum = sumRow;
+      |   ^~~~~~~~~
+      |   matrix
+../src/array_30_c_for_win.c:55:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/array_30_c_for_win.c:45:6: warning: unused variable ‘sumColumns’ [-Wunused-variable]
+   45 |  int sumColumns = 0;
+      |      ^~~~~~~~~~
+../src/array_30_c_for_win.c:42:6: warning: unused variable ‘columnsSum’ [-Wunused-variable]
+   42 |  int columnsSum[columns];
+      |      ^~~~~~~~~~
+../src/array_30_c_for_win.c:41:6: warning: unused variable ‘rowSum’ [-Wunused-variable]
+   41 |  int rowSum[rows];
+      |      ^~~~~~
+make: *** [src/subdir.mk:20: src/array_30_c_for_win.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:14:37 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+../src/array_30_c_for_win.c: In function ‘main’:
+../src/array_30_c_for_win.c:42:6: warning: variable ‘columnSum’ set but not used [-Wunused-but-set-variable]
+   42 |  int columnSum[SIZE];
+      |      ^~~~~~~~~
+../src/array_30_c_for_win.c:41:6: warning: variable ‘rowSum’ set but not used [-Wunused-but-set-variable]
+   41 |  int rowSum[SIZE];
+      |      ^~~~~~
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+18:17:03 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+18:17:06 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:08 **** Incremental Build of configuration Debug for project ASCII_value ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:08 **** Incremental Build of configuration Debug for project addition_subtraction_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:09 **** Incremental Build of configuration Debug for project armstrong_number ****
+make all 
+Building target: armstrong_number
+Invoking: GCC C Linker
+gcc  -o "armstrong_number"  ./src/armstrong_number.o   
+/usr/bin/ld: ./src/armstrong_number.o: in function `main':
+/home/vitor/Desktop/C_WorkSpace/armstrong_number/Debug/../src/armstrong_number.c:31: undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: armstrong_number] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:19:10 **** Incremental Build of configuration Debug for project array_01_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:11 **** Incremental Build of configuration Debug for project array_02_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:12 **** Incremental Build of configuration Debug for project array_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:13 **** Incremental Build of configuration Debug for project array_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:14 **** Incremental Build of configuration Debug for project array_05_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:14 **** Incremental Build of configuration Debug for project array_06_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:15 **** Incremental Build of configuration Debug for project array_07_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:16 **** Incremental Build of configuration Debug for project array_08_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:17 **** Incremental Build of configuration Debug for project array_09_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:17 **** Incremental Build of configuration Debug for project array_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:18 **** Incremental Build of configuration Debug for project array_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:19 **** Incremental Build of configuration Debug for project array_12_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:20 **** Incremental Build of configuration Debug for project array_13_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:20 **** Incremental Build of configuration Debug for project array_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:21 **** Incremental Build of configuration Debug for project array_15_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:22 **** Incremental Build of configuration Debug for project array_16_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:23 **** Incremental Build of configuration Debug for project array_17_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:23 **** Incremental Build of configuration Debug for project array_18_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:24 **** Incremental Build of configuration Debug for project array_19_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:25 **** Incremental Build of configuration Debug for project array_20_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:26 **** Incremental Build of configuration Debug for project array_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:26 **** Incremental Build of configuration Debug for project array_22_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:27 **** Incremental Build of configuration Debug for project array_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:28 **** Incremental Build of configuration Debug for project array_24_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:29 **** Incremental Build of configuration Debug for project array_25_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:29 **** Incremental Build of configuration Debug for project array_26_c_for_win ****
+make all 
+Building file: ../src/array_26_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_26_c_for_win.d" -MT"src/array_26_c_for_win.o" -o "src/array_26_c_for_win.o" "../src/array_26_c_for_win.c"
+Finished building: ../src/array_26_c_for_win.c
+ 
+Building target: array_26_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_26_c_for_win"  ./src/array_26_c_for_win.o   
+Finished building target: array_26_c_for_win
+ 
+18:19:30 **** Incremental Build of configuration Debug for project array_27_c_for_win ****
+make all 
+Building file: ../src/array_27_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_27_c_for_win.d" -MT"src/array_27_c_for_win.o" -o "src/array_27_c_for_win.o" "../src/array_27_c_for_win.c"
+Finished building: ../src/array_27_c_for_win.c
+ 
+Building target: array_27_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_27_c_for_win"  ./src/array_27_c_for_win.o   
+Finished building target: array_27_c_for_win
+ 
+18:19:31 **** Incremental Build of configuration Debug for project array_28_c_for_win ****
+make all 
+Building file: ../src/array_28_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_28_c_for_win.d" -MT"src/array_28_c_for_win.o" -o "src/array_28_c_for_win.o" "../src/array_28_c_for_win.c"
+Finished building: ../src/array_28_c_for_win.c
+ 
+Building target: array_28_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_28_c_for_win"  ./src/array_28_c_for_win.o   
+Finished building target: array_28_c_for_win
+ 
+18:19:32 **** Incremental Build of configuration Debug for project array_29_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:32 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:33 **** Incremental Build of configuration Debug for project array_largest_smallest ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:33 **** Incremental Build of configuration Debug for project array_sum_n_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:34 **** Incremental Build of configuration Debug for project delete_element ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:35 **** Incremental Build of configuration Debug for project do_while_loop ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:35 **** Incremental Build of configuration Debug for project exponential_without_pow ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:36 **** Incremental Build of configuration Debug for project factorial ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:37 **** Incremental Build of configuration Debug for project factors ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:38 **** Incremental Build of configuration Debug for project fgets_function ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:38 **** Incremental Build of configuration Debug for project fibonacci_series ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:39 **** Incremental Build of configuration Debug for project find_average ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:40 **** Incremental Build of configuration Debug for project find_duplicates ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:41 **** Incremental Build of configuration Debug for project find_largest_number ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:41 **** Incremental Build of configuration Debug for project find_vowels ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:42 **** Incremental Build of configuration Debug for project float_or_integer ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:43 **** Incremental Build of configuration Debug for project for_loop ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:43 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:44 **** Incremental Build of configuration Debug for project hexadecimal_to_decimal ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:45 **** Incremental Build of configuration Debug for project if_else ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:45 **** Incremental Build of configuration Debug for project insert_element_1 ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:46 **** Incremental Build of configuration Debug for project insert_element_2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:47 **** Incremental Build of configuration Debug for project largest_smallest_number ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:47 **** Incremental Build of configuration Debug for project matrix_determinant_2x2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:48 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:49 **** Incremental Build of configuration Debug for project multiplication_table ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:49 **** Incremental Build of configuration Debug for project nested_for_loop ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:50 **** Incremental Build of configuration Debug for project odd_or_even ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:51 **** Incremental Build of configuration Debug for project palindrome ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:52 **** Incremental Build of configuration Debug for project prime_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:52 **** Incremental Build of configuration Debug for project reverse_array ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:53 **** Incremental Build of configuration Debug for project reverse_char_array ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:54 **** Incremental Build of configuration Debug for project reverse_string ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:54 **** Incremental Build of configuration Debug for project sort_array ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:55 **** Incremental Build of configuration Debug for project sparse_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:56 **** Incremental Build of configuration Debug for project square_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:56 **** Incremental Build of configuration Debug for project string_01_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:57 **** Incremental Build of configuration Debug for project string_02_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:58 **** Incremental Build of configuration Debug for project string_03_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:58 **** Incremental Build of configuration Debug for project string_04_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:19:59 **** Incremental Build of configuration Debug for project string_05_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:00 **** Incremental Build of configuration Debug for project string_06_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:00 **** Incremental Build of configuration Debug for project string_07_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:01 **** Incremental Build of configuration Debug for project string_08_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:02 **** Incremental Build of configuration Debug for project string_09_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:03 **** Incremental Build of configuration Debug for project string_10_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:03 **** Incremental Build of configuration Debug for project string_11_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:04 **** Incremental Build of configuration Debug for project string_12_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:05 **** Incremental Build of configuration Debug for project string_13_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:06 **** Incremental Build of configuration Debug for project string_14_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:07 **** Incremental Build of configuration Debug for project string_15_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:07 **** Incremental Build of configuration Debug for project string_16_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:08 **** Incremental Build of configuration Debug for project string_17_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:09 **** Incremental Build of configuration Debug for project string_18_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:10 **** Incremental Build of configuration Debug for project string_19_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:10 **** Incremental Build of configuration Debug for project string_20_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:11 **** Incremental Build of configuration Debug for project string_21_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:12 **** Incremental Build of configuration Debug for project string_22_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:12 **** Incremental Build of configuration Debug for project string_23_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:13 **** Incremental Build of configuration Debug for project string_24_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:14 **** Incremental Build of configuration Debug for project string_25_c_for win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:15 **** Incremental Build of configuration Debug for project string_26_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:15 **** Incremental Build of configuration Debug for project string_27_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:16 **** Incremental Build of configuration Debug for project string_28_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:17 **** Incremental Build of configuration Debug for project string_29_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:18 **** Incremental Build of configuration Debug for project string_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:18 **** Incremental Build of configuration Debug for project string_31_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:19 **** Incremental Build of configuration Debug for project sum_digits ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:20 **** Incremental Build of configuration Debug for project sum_n_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:21 **** Incremental Build of configuration Debug for project swap_numbers ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:21 **** Incremental Build of configuration Debug for project switch_case ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:22 **** Incremental Build of configuration Debug for project trace_normal_square_matrix ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:23 **** Incremental Build of configuration Debug for project upper_lower_case ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:23 **** Incremental Build of configuration Debug for project user_input ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:24 **** Incremental Build of configuration Debug for project while_loop ****
+make all 
+make: Nothing to be done for 'all'.
+18:31:01 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+18:31:04 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:31:45 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+18:31:48 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:59 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+18:37:03 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:43 **** Incremental Build of configuration Debug for project array_30_c_for_win ****
+make all 
+Building file: ../src/array_30_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_30_c_for_win.d" -MT"src/array_30_c_for_win.o" -o "src/array_30_c_for_win.o" "../src/array_30_c_for_win.c"
+Finished building: ../src/array_30_c_for_win.c
+ 
+Building target: array_30_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_30_c_for_win"  ./src/array_30_c_for_win.o   
+Finished building target: array_30_c_for_win
+ 
+01:56:15 **** Build of configuration Debug for project array_31_c_for_win ****
+make all 
+Building file: ../src/array_31_c_for_win.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/array_31_c_for_win.d" -MT"src/array_31_c_for_win.o" -o "src/array_31_c_for_win.o" "../src/array_31_c_for_win.c"
+Finished building: ../src/array_31_c_for_win.c
+ 
+Building target: array_31_c_for_win
+Invoking: GCC C Linker
+gcc  -o "array_31_c_for_win"  ./src/array_31_c_for_win.o   
+Finished building target: array_31_c_for_win
+ 
+01:56:21 **** Incremental Build of configuration Debug for project array_31_c_for_win ****
+make all 
+make: Nothing to be done for 'all'.
