@@ -48,14 +48,11 @@ int main(void) {
 
 		sumColumn = 0;
 		sumRow = 0;
-		int currentY = 0;
 
-		while(currentY < columns){
+		for(int currentY = 0; currentY < columns; currentY++){
 
 			sumRow += matrix[currentX][currentY];
 			sumColumn += matrix[currentY][currentX];
-
-			currentY++;
 
 		}
 

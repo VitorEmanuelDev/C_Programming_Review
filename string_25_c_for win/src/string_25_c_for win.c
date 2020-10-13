@@ -20,61 +20,28 @@ int main(void)
     printf("Write a string:");
     fgets(string, SIZE, stdin);
 
-    int size = strlen(string);
-
-    char charString;
-
     char charA;
 
     printf("Pick a character from the string:");
-    scanf("%c", &charA);
+    charA = getchar();
 
-    int flag = 0;
+    getchar();
+
+    char charB;
+
+	printf("Choose a character to replace it:");
+	charB = getchar();
 
     for(int current = 0; string[current] != '\0'; current++){
 
-        charString = string[current];
+        if(charA == string[current]){
 
-        if(charA == charString){
-
-            flag++;
+        	string[current] = charB;
+        	break;
 
         }
 
     }
-
-    if(flag == 0){
-
-        printf("Invalid character.");
-        exit(0);
-
-    }
-
-	char charB;
-
-    printf("Choose a character to replace it:");
-    scanf("%c", &charB);
-
-    int current = 0;
-
-    while(current < size){
-
-        charString = string[current];
-
-    	if(charString == charA){
-
-    		string[current] = charA;
-    		break;
-
-		}
-
-    	current++;
-
-    }
-
-    string[size] = '\0';
-
-    printf("\n");
 
     puts(string);
 

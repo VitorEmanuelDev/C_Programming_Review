@@ -39,7 +39,6 @@ int main(void){
                 if(string[current + position] != substring[position]){
 
                     check++;
-                    printf("\n'%s' doesn't exist within the string", substring);
                     break;
                 }
 
@@ -52,12 +51,18 @@ int main(void){
         if(check == 0){
 
         	printf("\n'%s' starts at index %d on the string.", substring, current);
-            break;
+            exit(0);
 
         }
 
         current++;
 
     }
+
+    if(check == 1){
+
+		printf("\n'%s'doesn't exist on the string.", substring);
+
+	}
 
 }

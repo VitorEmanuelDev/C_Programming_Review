@@ -21,14 +21,13 @@ int main(void){
     printf("Write a string:");
     gets(string);
 
+    int size = strlen(string);
+
     printf("Which word are you looking for?");
     gets(substring);
 
-    int sizeStr = strlen(string);
-    int sizeSubs = strlen(substring);
-
     int check;
-    int current = sizeStr - 1;
+    int current =  size - 1;
 
     while(current >= 0){
 
@@ -62,6 +61,10 @@ int main(void){
 
     }
 
-    printf("\n'%s' doesn't exist within the string", substring);
+    if(check == 1){
+
+		printf("\n'%s'doesn't exist on the string.", substring);
+
+	}
 
 }

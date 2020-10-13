@@ -7,6 +7,7 @@
  Description : program to replace last occurrence of a character with another in a string
  ============================================================================
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,57 +22,28 @@ int main(void)
 
     int size = strlen(string);
 
-    char charString;
-
     char charA;
 
     printf("Pick a character from the string:");
-    scanf("%c", &charA);
+    charA = getchar();
 
-    int flag = 0;
+    getchar();
 
-    for(int current = 0; string[current] != '\0'; current++){
+    char charB;
 
-        charString = string[current];
+	printf("Choose a character to replace it:");
+	charB = getchar();
 
-        if(charA == charString){
+    for(int current = size - 1; current >= 0; current--){
 
-            flag++;
+        if(charA == string[current]){
+
+        	string[current] = charB;
+        	break;
 
         }
 
     }
-
-    if(flag == 0){
-
-        printf("Invalid character.");
-        exit(0);
-
-    }
-
-	char charB;
-
-    printf("Choose a character to replace it:");
-    scanf("%c", &charB);
-
-    int current = size - 1;
-
-    while(current >= 0){
-
-        charString = string[current];
-
-    	if(charString == charA){
-
-    		string[current] = charA;
-    		break;
-
-		}
-
-    	current--;
-
-    }
-
-    printf("\n");
 
     puts(string);
 
