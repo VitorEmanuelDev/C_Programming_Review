@@ -7625,3 +7625,190 @@ org.eclipse.debug.core.DebugException: Terminate failed
 	at java.base/java.lang.Thread.run(Thread.java:834)
 !SUBENTRY 1 org.eclipse.debug.core 4 5010 2020-10-16 21:30:21.955
 !MESSAGE Terminate failed
+!SESSION 2020-10-20 11:16:15.783 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-10-20 11:17:22.487
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.launchbar.ui.controls/org.eclipse.launchbar.ui.controls.internal.LaunchBarControl
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-20 11:18:23.598
+!MESSAGE Indexed 'questao_02.c' (1 sources, 55 headers) in 1,26 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 11:23:22.350
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 12:54:12.318
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-20 12:54:12.795
+!MESSAGE Indexed 'questao_01' (1 sources, 55 headers) in 0,544 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2020-10-20 12:55:17.604
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1510)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:298)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2020-10-20 12:55:17.605
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2020-10-20 12:55:17.605
+!MESSAGE Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2020-10-20 12:55:32.325
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1510)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:298)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2020-10-20 12:55:32.325
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2020-10-20 12:55:32.325
+!MESSAGE Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2020-10-20 12:55:57.662
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1510)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:298)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2020-10-20 12:55:57.663
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2020-10-20 12:55:57.663
+!MESSAGE Resource already exists on disk: '/home/vitor/Desktop/C_WorkSpace/questao_02'.
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 12:59:12.439
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:04:59.414
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:10:59.583
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:14:11.767
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:14:46.732
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-20 13:14:47.101
+!MESSAGE Indexed 'questao_02' (1 sources, 55 headers) in 0,263 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:19:46.841
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-10-20 13:23:45.830
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

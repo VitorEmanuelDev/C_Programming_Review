@@ -1,6 +1,6 @@
-18:19:47 **** Incremental Build of configuration Debug for project largest_smallest_number ****
+13:24:54 **** Incremental Build of configuration Debug for project largest_smallest_number ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:19:47 Build Finished. 0 errors, 0 warnings. (took 571ms)
+13:24:54 Build Finished. 0 errors, 0 warnings. (took 622ms)
 

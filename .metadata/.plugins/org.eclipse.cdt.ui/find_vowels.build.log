@@ -1,6 +1,6 @@
-18:19:41 **** Incremental Build of configuration Debug for project find_vowels ****
+13:24:47 **** Incremental Build of configuration Debug for project find_vowels ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:19:42 Build Finished. 0 errors, 0 warnings. (took 671ms)
+13:24:48 Build Finished. 0 errors, 0 warnings. (took 617ms)
 

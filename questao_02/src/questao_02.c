@@ -1,123 +1,48 @@
-/*
- ============================================================================
- Name        : questao_02.c
- Author      :
- Version     :
- Copyright   : 
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
+#include<stdio.h>
+#define TAM 30
 
-#include <stdio.h>
-#include <stdlib.h>
-#define MAX 512
+struct colonia {
+char nome[TAM];
+int sobrevida;
+int divisoes;
+};
 
-int main(void) {
+int main(void){
 
-	int i, j;
-	int subs = 0;
-	int contagem = 0;
-	float divisor;
-	float parente;
+int i;
+int j;
 
-	char str1[MAX] = "GATTACTGAGTCA";
-	char str2[MAX] = "CATACAGT";
+printf("Cadastre as leveduras do catálogo:\n");
+scanf("%d",&j);
 
-	/*printf("Informe a primeira string: ");
-	scanf("%s", str1);*/
+struct colonia levedura[j];
 
-	/*printf("Informe a segunda string: ");
-	scanf("%s", str2);*/
+for(i=0; i<j; i++){
+	printf("Nome:");
+	scanf("%s",levedura[i].nome);
+	printf("Divisoes:");
+	scanf("%d",&levedura[i].divisoes);
+	printf("Sobrevida:");
+	scanf("%d",&levedura[i].sobrevida);
+}
 
-	int contador1 = 0, contador2 = 0;
+int sobrevidaMax = 0;
+int x=0;
 
-	for(i=0; str1[i]!='\0'; i++){
+for(i=0; i<j; i++){
+	int prodColonia = 1;
+	for(int j=0; j<(levedura[i].sobrevida-1); j++){
+	prodColonia =prodColonia *levedura[i].divisoes;
+}
 
-		if(str1[i] >= 'a' && str1[i] <= 'z'){
+if(prodColonia > sobrevidaMax) {
+	sobrevidaMax = prodColonia;
+	x = i;
+}
 
-			str1[i] -=  32;
-			contador1++;
-
-		}
-
-		if(str2[i] >= 'a' && str2[i] <= 'z'){
-
-			str2[i] -= 32;
-
-			contador2++;
-
-		}
-
-	}
-
-	if(contador1 > contador2){
-
-		divisor = contador2;
-
-	}
-
-	if(contador1 < contador2){
-
-		divisor = contador1;
-
-	}
+}
 
 
-
-
-	for(i=0; str1[i]!= '\0'; i++){
-
-		printf("%c", str1[i]);
-
-	}
-
-	printf("\n");
-
-	for(i=0; str2[i]!= '\0'; i++){
-
-		printf("%c", str2[i]);
-
-	}
-
-	printf("\n");
-
-
-	for(i=0, j=0; i < MAX || j < MAX; i++, j++){
-
-
-		if(str1[i] == str2[j]){
-
-			subs++;
-			contagem = subs;
-			parente = contagem / divisor;
-
-
-			if(parente >= 0.62){
-
-				printf("São parentes %f", parente);
-				exit(0);
-
-			}
-
-		}
-
-
-		if(str1[i] != str2[j]){
-
-			subs = 0;
-
-		}
-
-
-	//printf("%c", str1[i]);
-
-	str1[contador1] = str1[i];
-	contador1++;
-	str2[contador1] = str2[j];
-	contador2++;
-
-	}
-
-	printf("Não são parentes %f", parente);
+	printf("\nMelhor colonia: %s\n", levedura[x].nome);
 
 }

@@ -1,6 +1,6 @@
-18:19:36 **** Incremental Build of configuration Debug for project factorial ****
+13:24:41 **** Incremental Build of configuration Debug for project factorial ****
 make all 
 make: Nothing to be done for 'all'.
 
-18:19:37 Build Finished. 0 errors, 0 warnings. (took 570ms)
+13:24:42 Build Finished. 0 errors, 0 warnings. (took 569ms)
 
