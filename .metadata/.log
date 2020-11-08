@@ -7812,3 +7812,52 @@ java.lang.NullPointerException: null parent found while collapsing trees
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-11-07 22:13:38.765 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-07 23:10:37.932
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.launchbar.ui.controls/org.eclipse.launchbar.ui.controls.internal.LaunchBarControl
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-11-07 23:15:26.346
+!MESSAGE Indexed 'simple_pointer' (1 sources, 55 headers) in 1,68 sec: 973 declarations; 1.808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-11-07 23:20:25.108
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 566 2020-11-07 23:37:48.275
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-08 00:04:28.315
+!MESSAGE No repository found at https://dbeaver.com/update/ee/latest/%20into.
+
+!ENTRY org.eclipse.core.resources 2 566 2020-11-08 00:08:48.406
+!MESSAGE null parent found while collapsing trees
+!STACK 0
+java.lang.NullPointerException: null parent found while collapsing trees
+	at org.eclipse.core.internal.resources.SaveManager.sortTrees(SaveManager.java:1542)
+	at org.eclipse.core.internal.resources.SaveManager.collapseTrees(SaveManager.java:320)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1208)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -611,3 +611,133 @@ make: Nothing to be done for 'all'.
 13:25:44 **** Incremental Build of configuration Debug for project while_loop ****
 make all 
 make: Nothing to be done for 'all'.
+23:32:53 **** Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+../src/simple_pointer.c: In function ‘main’:
+../src/simple_pointer.c:19:43: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   19 |     printf("Address of number variable = %u", &number);
+      |                                          ~^   ~~~~~~~
+      |                                           |   |
+      |                                           |   int *
+      |                                           unsigned int
+      |                                          %ls
+../src/simple_pointer.c:21:42: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   21 |     printf("Stored address in pointer = %u", pointer);
+      |                                         ~^   ~~~~~~~
+      |                                          |   |
+      |                                          |   int *
+      |                                          unsigned int
+      |                                         %ls
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+23:33:05 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+23:33:46 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+../src/simple_pointer.c: In function ‘main’:
+../src/simple_pointer.c:19:43: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   19 |     printf("Address of number variable = %u", &number);
+      |                                          ~^   ~~~~~~~
+      |                                           |   |
+      |                                           |   int *
+      |                                           unsigned int
+      |                                          %ls
+../src/simple_pointer.c:21:44: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   21 |     printf("\nStored address in pointer = %u", pointer);
+      |                                           ~^   ~~~~~~~
+      |                                            |   |
+      |                                            |   int *
+      |                                            unsigned int
+      |                                           %ls
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+23:34:16 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+23:34:22 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+../src/simple_pointer.c: In function ‘main’:
+../src/simple_pointer.c:19:43: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   19 |     printf("Address of number variable = %x", &number);
+      |                                          ~^   ~~~~~~~
+      |                                           |   |
+      |                                           |   int *
+      |                                           unsigned int
+      |                                          %ls
+../src/simple_pointer.c:21:44: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘int *’ [-Wformat=]
+   21 |     printf("\nStored address in pointer = %x", pointer);
+      |                                           ~^   ~~~~~~~
+      |                                            |   |
+      |                                            |   int *
+      |                                            unsigned int
+      |                                           %ls
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+23:35:43 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+00:03:51 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+../src/simple_pointer.c: In function ‘main’:
+../src/simple_pointer.c:21:12: warning: unknown escape sequence: '\A'
+   21 |     printf("\Address of pointer = %p", pointer);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+00:04:12 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+Building file: ../src/simple_pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/simple_pointer.d" -MT"src/simple_pointer.o" -o "src/simple_pointer.o" "../src/simple_pointer.c"
+Finished building: ../src/simple_pointer.c
+ 
+Building target: simple_pointer
+Invoking: GCC C Linker
+gcc  -o "simple_pointer"  ./src/simple_pointer.o   
+Finished building target: simple_pointer
+ 
+00:04:18 **** Incremental Build of configuration Debug for project simple_pointer ****
+make all 
+make: Nothing to be done for 'all'.
